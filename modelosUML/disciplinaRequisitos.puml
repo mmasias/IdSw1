@@ -1,0 +1,65 @@
+' Autor: Prof. Luis Fernandez
+
+hide circle
+hide stereotype
+
+package disciplines <<disciplines>> {
+class Discipline <<disciplines>>
+class RequirementDiscipline as "Requirement\nDiscipline" <<disciplines>>
+}
+
+package activities <<activities>> {
+class Activity  <<activities>>
+class RequirementActivity as "Requirement\nActivity" <<activities>>
+class FindActorUseCases as "Find Actor\nand Use Cases"  <<activities>>
+class PriorizeUseCases as "Priorize\nUse Cases"  <<activities>>
+class DetailUseCase as "Detail\nUse Case"  <<activities>>
+class StructureUseCaseModel as "Structure\nUse Case Model"  <<activities>>
+class PrototypeInterface as "Prototype\nInterface"  <<activities>>
+}
+
+package team <<team>> {
+class Member <<team>>
+class Role <<team>>
+class RequirementRole as "Requirement\nRole" <<team>>
+class SystemsAnalyst as "Systems\nAnalyst" <<team>>
+class UseCaseSpecifier as "Use Case\nSpecifier" <<team>>
+class Architect <<team>>
+class InterfaceDesigner as "Interface\nDesigner" <<team>>
+}
+
+Discipline *--> Activity
+
+Discipline <|-- RequirementDiscipline
+RequirementDiscipline *--> "*" RequirementActivity
+
+Activity <|-- RequirementActivity
+RequirementActivity *--> Member
+
+Member *--> Role
+
+Role <|-- RequirementRole
+
+RequirementActivity <|-- FindActorUseCases
+FindActorUseCases --> SystemsAnalyst
+FindActorUseCases  --> PriorizeUseCases :next
+
+RequirementActivity <|-- PriorizeUseCases
+PriorizeUseCases --> Architect
+PriorizeUseCases  --> DetailUseCase :next
+
+RequirementActivity <|-- DetailUseCase
+DetailUseCase --> UseCaseSpecifier
+DetailUseCase  --> StructureUseCaseModel :next
+DetailUseCase  --> PrototypeInterface :next
+
+RequirementActivity <|-- StructureUseCaseModel
+StructureUseCaseModel --> SystemsAnalyst
+
+RequirementActivity <|-- PrototypeInterface
+PrototypeInterface --> InterfaceDesigner
+
+RequirementRole <|-- SystemsAnalyst
+RequirementRole <|-- UseCaseSpecifier
+RequirementRole <|-- Architect
+RequirementRole <|-- InterfaceDesigner

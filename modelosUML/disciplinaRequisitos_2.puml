@@ -1,0 +1,13 @@
+title Actividades de la disciplina de Requisitos\n
+
+|Analista|
+start
+:Encontrar\nActores y CdU;
+|Arquitecto|
+:Priorizar CdU;
+|Especificador|
+:Detallar CdU;
+| Experto UI |
+:Prototipar UI;
+|Analista|
+:Estructurar\nel modelo de CdU;

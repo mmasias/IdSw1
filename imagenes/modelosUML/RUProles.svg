@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="319px" preserveAspectRatio="none" style="width:1203px;height:319px;background:#222222;" version="1.1" viewBox="0 0 1203 319" width="1203px" zoomAndPan="magnify"><defs/><g><!--MD5=[a3638c1e5b65d287ecad7f06f5c0f212]
+class Role--><g id="elem_Role"><rect codeLine="65" fill="#222222" height="48.4301" id="Role" rx="2.5" ry="2.5" style="stroke:#A9A9A9;stroke-width:3.0;" width="44" x="503.5" y="7"/><text fill="#A9A9A9" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="36" x="507.5" y="29.0351">Role</text><line style="stroke:#A9A9A9;stroke-width:3.0;" x1="504.5" x2="546.5" y1="39.4301" y2="39.4301"/><line style="stroke:#A9A9A9;stroke-width:3.0;" x1="504.5" x2="546.5" y1="47.4301" y2="47.4301"/></g><!--MD5=[58052b94f36aedd73e6eaaae3a0a766d]
+class RequirementRole--><g id="elem_RequirementRole"><rect codeLine="66" fill="#222222" height="68.8603" id="RequirementRole" rx="2.5" ry="2.5" style="stroke:#DC143C;stroke-width:3.0;" width="107" x="228" y="115"/><text fill="#DC143C" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="99" x="232" y="137.0351">Requirement</text><text fill="#DC143C" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="36" x="263.5" y="157.4653">Role</text><line style="stroke:#DC143C;stroke-width:3.0;" x1="229" x2="334" y1="167.8603" y2="167.8603"/><line style="stroke:#DC143C;stroke-width:3.0;" x1="229" x2="334" y1="175.8603" y2="175.8603"/></g><!--MD5=[5d8abf583f43b9bb2b6b88f848a2e130]
+class AnalysisRole--><g id="elem_AnalysisRole"><rect codeLine="67" fill="#222222" height="68.8603" id="AnalysisRole" rx="2.5" ry="2.5" style="stroke:#FFD700;stroke-width:3.0;" width="80" x="485.5" y="115"/><text fill="#FFD700" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="72" x="489.5" y="137.0351">Analysis</text><text fill="#FFD700" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="36" x="507.5" y="157.4653">Role</text><line style="stroke:#FFD700;stroke-width:3.0;" x1="486.5" x2="564.5" y1="167.8603" y2="167.8603"/><line style="stroke:#FFD700;stroke-width:3.0;" x1="486.5" x2="564.5" y1="175.8603" y2="175.8603"/></g><!--MD5=[69dfb372e0f45ff045e7e3cf8dc44d4b]
+class DesignRole--><g id="elem_DesignRole"><rect codeLine="68" fill="#222222" height="68.8603" id="DesignRole" rx="2.5" ry="2.5" style="stroke:#228B22;stroke-width:3.0;" width="62" x="388.5" y="115"/><text fill="#228B22" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="54" x="392.5" y="137.0351">Design</text><text fill="#228B22" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="36" x="401.5" y="157.4653">Role</text><line style="stroke:#228B22;stroke-width:3.0;" x1="389.5" x2="449.5" y1="167.8603" y2="167.8603"/><line style="stroke:#228B22;stroke-width:3.0;" x1="389.5" x2="449.5" y1="175.8603" y2="175.8603"/></g><!--MD5=[05934797c33c9f7fd07eca2e0c350d31]
+class ImplementRole--><g id="elem_ImplementRole"><rect codeLine="69" fill="#222222" height="68.8603" id="ImplementRole" rx="2.5" ry="2.5" style="stroke:#87CEEB;stroke-width:3.0;" width="134" x="600.5" y="115"/><text fill="#87CEEB" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="126" x="604.5" y="137.0351">Implementation</text><text fill="#87CEEB" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="36" x="649.5" y="157.4653">Role</text><line style="stroke:#87CEEB;stroke-width:3.0;" x1="601.5" x2="733.5" y1="167.8603" y2="167.8603"/><line style="stroke:#87CEEB;stroke-width:3.0;" x1="601.5" x2="733.5" y1="175.8603" y2="175.8603"/></g><!--MD5=[2a0bc89d611ee855976ed51def15c34e]
+class TestRole--><g id="elem_TestRole"><rect codeLine="70" fill="#222222" height="68.8603" id="TestRole" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:3.0;" width="44" x="876.5" y="115"/><text fill="#1E90FF" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="36" x="880.5" y="137.0351">Test</text><text fill="#1E90FF" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="36" x="880.5" y="157.4653">Role</text><line style="stroke:#1E90FF;stroke-width:3.0;" x1="877.5" x2="919.5" y1="167.8603" y2="167.8603"/><line style="stroke:#1E90FF;stroke-width:3.0;" x1="877.5" x2="919.5" y1="175.8603" y2="175.8603"/></g><!--MD5=[24bfe9d21f9bf8808d346d1dde81141f]
+class SystemsAnalyst--><g id="elem_SystemsAnalyst"><rect codeLine="72" fill="#222222" height="68.8603" id="SystemsAnalyst" rx="2.5" ry="2.5" style="stroke:#DC143C;stroke-width:3.0;" width="71" x="7" y="244"/><text fill="#DC143C" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="63" x="11" y="266.0351">Systems</text><text fill="#DC143C" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="63" x="11" y="286.4653">Analyst</text><line style="stroke:#DC143C;stroke-width:3.0;" x1="8" x2="77" y1="296.8603" y2="296.8603"/><line style="stroke:#DC143C;stroke-width:3.0;" x1="8" x2="77" y1="304.8603" y2="304.8603"/></g><!--MD5=[0dc51ef3f11ecc01560545ad8ec4cbdc]
+class UseCaseSpecifier--><g id="elem_UseCaseSpecifier"><rect codeLine="73" fill="#222222" height="68.8603" id="UseCaseSpecifier" rx="2.5" ry="2.5" style="stroke:#DC143C;stroke-width:3.0;" width="89" x="113" y="244"/><text fill="#DC143C" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="72" x="121.5" y="266.0351">Use Case</text><text fill="#DC143C" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="81" x="117" y="286.4653">Specifier</text><line style="stroke:#DC143C;stroke-width:3.0;" x1="114" x2="201" y1="296.8603" y2="296.8603"/><line style="stroke:#DC143C;stroke-width:3.0;" x1="114" x2="201" y1="304.8603" y2="304.8603"/></g><!--MD5=[ab8ea1db7e3689933b5f4dc8a53c4454]
+class InterfaceDesigner--><g id="elem_InterfaceDesigner"><rect codeLine="74" fill="#222222" height="68.8603" id="InterfaceDesigner" rx="2.5" ry="2.5" style="stroke:#DC143C;stroke-width:3.0;" width="89" x="237" y="244"/><text fill="#DC143C" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="81" x="241" y="266.0351">Interface</text><text fill="#DC143C" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="72" x="245.5" y="286.4653">Designer</text><line style="stroke:#DC143C;stroke-width:3.0;" x1="238" x2="325" y1="296.8603" y2="296.8603"/><line style="stroke:#DC143C;stroke-width:3.0;" x1="238" x2="325" y1="304.8603" y2="304.8603"/></g><!--MD5=[c5279231f8c23d59b713c07e8a6a931c]
+class UseCaseEngineer--><g id="elem_UseCaseEngineer"><rect codeLine="75" fill="#222222" height="68.8603" id="UseCaseEngineer" rx="2.5" ry="2.5" style="stroke:#FFA500;stroke-width:3.0;" width="80" x="485.5" y="244"/><text fill="#FFA500" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="72" x="489.5" y="266.0351">Use Case</text><text fill="#FFA500" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="72" x="489.5" y="286.4653">Engineer</text><line style="stroke:#FFA500;stroke-width:3.0;" x1="486.5" x2="564.5" y1="296.8603" y2="296.8603"/><line style="stroke:#FFA500;stroke-width:3.0;" x1="486.5" x2="564.5" y1="304.8603" y2="304.8603"/></g><!--MD5=[26dcdd10cf618692568da23f9ea747aa]
+class Architect--><g id="elem_Architect"><rect codeLine="76" fill="#222222" height="48.4301" id="Architect" rx="2.5" ry="2.5" style="stroke:#FFA500;stroke-width:3.0;" width="89" x="361" y="254.5"/><text fill="#FFA500" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="81" x="365" y="276.5351">Architect</text><line style="stroke:#FFA500;stroke-width:3.0;" x1="362" x2="449" y1="286.9301" y2="286.9301"/><line style="stroke:#FFA500;stroke-width:3.0;" x1="362" x2="449" y1="294.9301" y2="294.9301"/></g><!--MD5=[1b943e84c8da8dbc759e1ebee1c7b3a3]
+class ComponentEngineer--><g id="elem_ComponentEngineer"><rect codeLine="77" fill="#222222" height="68.8603" id="ComponentEngineer" rx="2.5" ry="2.5" style="stroke:#FFA500;stroke-width:3.0;" width="89" x="601" y="244"/><text fill="#FFA500" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="81" x="605" y="266.0351">Component</text><text fill="#FFA500" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="72" x="609.5" y="286.4653">Engineer</text><line style="stroke:#FFA500;stroke-width:3.0;" x1="602" x2="689" y1="296.8603" y2="296.8603"/><line style="stroke:#FFA500;stroke-width:3.0;" x1="602" x2="689" y1="304.8603" y2="304.8603"/></g><!--MD5=[86ed9610084a5eeac2bc7ace953fb930]
+class SystemIntegrator--><g id="elem_SystemIntegrator"><rect codeLine="78" fill="#222222" height="68.8603" id="SystemIntegrator" rx="2.5" ry="2.5" style="stroke:#87CEEB;stroke-width:3.0;" width="98" x="725.5" y="244"/><text fill="#87CEEB" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="54" x="747.5" y="266.0351">System</text><text fill="#87CEEB" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="90" x="729.5" y="286.4653">Integrator</text><line style="stroke:#87CEEB;stroke-width:3.0;" x1="726.5" x2="822.5" y1="296.8603" y2="296.8603"/><line style="stroke:#87CEEB;stroke-width:3.0;" x1="726.5" x2="822.5" y1="304.8603" y2="304.8603"/></g><!--MD5=[f9b15f8c0375f840f163a016185afd91]
+class TestEngineer--><g id="elem_TestEngineer"><rect codeLine="79" fill="#222222" height="68.8603" id="TestEngineer" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:3.0;" width="80" x="858.5" y="244"/><text fill="#1E90FF" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="36" x="880.5" y="266.0351">Test</text><text fill="#1E90FF" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="72" x="862.5" y="286.4653">Engineer</text><line style="stroke:#1E90FF;stroke-width:3.0;" x1="859.5" x2="937.5" y1="296.8603" y2="296.8603"/><line style="stroke:#1E90FF;stroke-width:3.0;" x1="859.5" x2="937.5" y1="304.8603" y2="304.8603"/></g><!--MD5=[6cad96e0767780e1965734f6a285892e]
+class SystemTester--><g id="elem_SystemTester"><rect codeLine="80" fill="#222222" height="68.8603" id="SystemTester" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:3.0;" width="80" x="973.5" y="244"/><text fill="#1E90FF" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="54" x="986.5" y="266.0351">System</text><text fill="#1E90FF" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="72" x="977.5" y="286.4653">Engineer</text><line style="stroke:#1E90FF;stroke-width:3.0;" x1="974.5" x2="1052.5" y1="296.8603" y2="296.8603"/><line style="stroke:#1E90FF;stroke-width:3.0;" x1="974.5" x2="1052.5" y1="304.8603" y2="304.8603"/></g><!--MD5=[f4d3c5933f74a46596d71bd12603fb33]
+class IntegrationTester--><g id="elem_IntegrationTester"><rect codeLine="81" fill="#222222" height="68.8603" id="IntegrationTester" rx="2.5" ry="2.5" style="stroke:#1E90FF;stroke-width:3.0;" width="107" x="1089" y="244"/><text fill="#1E90FF" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="99" x="1093" y="266.0351">Integration</text><text fill="#1E90FF" font-family="courier" font-size="15" lengthAdjust="spacing" textLength="54" x="1115.5" y="286.4653">Tester</text><line style="stroke:#1E90FF;stroke-width:3.0;" x1="1090" x2="1195" y1="296.8603" y2="296.8603"/><line style="stroke:#1E90FF;stroke-width:3.0;" x1="1090" x2="1195" y1="304.8603" y2="304.8603"/></g><!--MD5=[7714d4f050d81935d21a4820b99f06c2]
+reverse link Role to RequirementRole--><g id="link_Role_RequirementRole"><path codeLine="83" d="M485.34,51.18 C444.41,70.72 380.68,101.15 335.39,122.77 " fill="none" id="Role-backto-RequirementRole" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="482.35,44.84,503.42,42.54,488.38,57.48,482.35,44.84" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[3035c17c3f5d7e8be6eb63b7d52dd96a]
+reverse link Role to AnalysisRole--><g id="link_Role_AnalysisRole"><path codeLine="84" d="M525.5,75.47 C525.5,88.52 525.5,102.63 525.5,114.94 " fill="none" id="Role-backto-AnalysisRole" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="518.5,75.02,525.5,55.02,532.5,75.02,518.5,75.02" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[b39eae4fcad34c095efde16e86ce83a5]
+reverse link Role to DesignRole--><g id="link_Role_DesignRole"><path codeLine="85" d="M491.09,69.82 C477.86,84.35 462.87,100.83 450.04,114.94 " fill="none" id="Role-backto-DesignRole" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="485.92,65.1,504.56,55.02,496.28,74.52,485.92,65.1" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[8bf532d0463c3d8f8040ece514b80ea0]
+reverse link Role to ImplementRole--><g id="link_Role_ImplementRole"><path codeLine="86" d="M563.21,62.94 C582.75,78.97 606.64,98.57 626.62,114.96 " fill="none" id="Role-backto-ImplementRole" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="558.71,68.3,547.69,50.2,567.59,57.48,558.71,68.3" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[100aceb530aea3551d4e9158515929e1]
+reverse link Role to TestRole--><g id="link_Role_TestRole"><path codeLine="87" d="M567.02,44.97 C646.09,69.66 815.77,122.66 876.4,141.6 " fill="none" id="Role-backto-TestRole" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="564.72,51.58,547.72,38.94,568.89,38.22,564.72,51.58" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[9147be6b0ad95521cfe75b7dd157c75f]
+reverse link RequirementRole to SystemsAnalyst--><g id="link_RequirementRole_SystemsAnalyst"><path codeLine="89" d="M209.83,184.49 C174.91,201.56 132.57,223.04 95.5,244 C89.82,247.22 83.88,250.76 78.13,254.31 " fill="none" id="RequirementRole-backto-SystemsAnalyst" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="206.81,178.17,227.86,175.74,212.92,190.77,206.81,178.17" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[3401f865d7d9c452c8ffc0e4406f987e]
+reverse link RequirementRole to UseCaseSpecifier--><g id="link_RequirementRole_UseCaseSpecifier"><path codeLine="90" d="M234.49,198.65 C219.85,213.64 204.03,229.85 190.56,243.64 " fill="none" id="RequirementRole-backto-UseCaseSpecifier" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="229.62,193.62,248.6,184.2,239.63,203.4,229.62,193.62" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[a7a68908c1a77ff2af53e2a64bef9690]
+reverse link RequirementRole to Architect--><g id="link_RequirementRole_Architect"><path codeLine="91" d="M328.52,198.66 C347.21,217.8 367.84,238.93 383.03,254.49 " fill="none" id="RequirementRole-backto-Architect" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="323.37,203.4,314.4,184.2,333.38,193.62,323.37,203.4" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[b396863c7fb928ee6292126d2aaca0ca]
+reverse link RequirementRole to InterfaceDesigner--><g id="link_RequirementRole_InterfaceDesigner"><path codeLine="92" d="M281.5,204.32 C281.5,217.65 281.5,231.57 281.5,243.64 " fill="none" id="RequirementRole-backto-InterfaceDesigner" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="274.5,204.2,281.5,184.2,288.5,204.2,274.5,204.2" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[380e364d95db61c6a55d500d6df54ecf]
+reverse link AnalysisRole to Architect--><g id="link_AnalysisRole_Architect"><path codeLine="94" d="M479.73,198.94 C461.71,218.01 441.87,239 427.24,254.49 " fill="none" id="AnalysisRole-backto-Architect" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="474.83,193.93,493.66,184.2,485.01,203.54,474.83,193.93" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[744cffd2eb4007db2659fc198ab699dd]
+reverse link AnalysisRole to UseCaseEngineer--><g id="link_AnalysisRole_UseCaseEngineer"><path codeLine="95" d="M525.5,204.32 C525.5,217.65 525.5,231.57 525.5,243.64 " fill="none" id="AnalysisRole-backto-UseCaseEngineer" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="518.5,204.2,525.5,184.2,532.5,204.2,518.5,204.2" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[bcf724067f7bc33410dc7f3db37dcb7f]
+reverse link AnalysisRole to ComponentEngineer--><g id="link_AnalysisRole_ComponentEngineer"><path codeLine="96" d="M571.44,199.12 C585.48,213.98 600.61,229.99 613.51,243.64 " fill="none" id="AnalysisRole-backto-ComponentEngineer" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="565.99,203.54,557.34,184.2,576.17,193.93,565.99,203.54" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[ce8c13ade495cb6631b913e22afc442a]
+reverse link ImplementRole to Architect--><g id="link_ImplementRole_Architect"><path codeLine="98" d="M581.82,189.23 C546.23,205.66 504.65,225.3 467.5,244 C460.94,247.3 454.05,250.89 447.35,254.46 " fill="none" id="ImplementRole-backto-Architect" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="579.27,182.7,600.37,180.71,585.12,195.42,579.27,182.7" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[7d7be88a1536ac99bc7f28cf061b6b54]
+reverse link ImplementRole to SystemIntegrator--><g id="link_ImplementRole_SystemIntegrator"><path codeLine="99" d="M708.86,199.59 C721.27,214.32 734.59,230.13 745.97,243.64 " fill="none" id="ImplementRole-backto-SystemIntegrator" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="703.43,204.01,695.89,184.2,714.13,194.99,703.43,204.01" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[208f2ef89f6ff668e0379fe1cb32d78b]
+reverse link ImplementRole to ComponentEngineer--><g id="link_ImplementRole_ComponentEngineer"><path codeLine="100" d="M658.18,204.32 C655.87,217.65 653.46,231.57 651.37,243.64 " fill="none" id="ImplementRole-backto-ComponentEngineer" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="651.35,202.71,661.66,184.2,665.15,205.1,651.35,202.71" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[06bf1f747c937b97ce16ad45b0557504]
+reverse link TestRole to TestEngineer--><g id="link_TestRole_TestEngineer"><path codeLine="102" d="M898.5,204.32 C898.5,217.65 898.5,231.57 898.5,243.64 " fill="none" id="TestRole-backto-TestEngineer" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="891.5,204.2,898.5,184.2,905.5,204.2,891.5,204.2" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[105021fe5f3e980029a9984a9ae19b06]
+reverse link TestRole to SystemTester--><g id="link_TestRole_SystemTester"><path codeLine="103" d="M934.2,189.93 C949.89,207.25 968.11,227.38 983.13,243.97 " fill="none" id="TestRole-backto-SystemTester" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="928.91,194.51,920.67,174.99,939.29,185.11,928.91,194.51" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[4dd9320f0f7c3d08006a822dfbf589ad]
+reverse link TestRole to IntegrationTester--><g id="link_TestRole_IntegrationTester"><path codeLine="104" d="M938.38,171.26 C979.3,192.56 1043.22,225.82 1088.61,249.45 " fill="none" id="TestRole-backto-IntegrationTester" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="935.09,177.44,920.58,161.99,941.56,165.02,935.09,177.44" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[8a7ba0dede54a41400e9e3aea2dfcc9d]
+reverse link TestRole to ComponentEngineer--><g id="link_TestRole_ComponentEngineer"><path codeLine="105" d="M858.11,169.69 C819.29,188.28 759.08,217.46 707.5,244 C701.84,246.91 695.93,250.02 690.09,253.13 " fill="none" id="TestRole-backto-ComponentEngineer" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="855.23,163.31,876.3,161.01,861.26,175.94,855.23,163.31" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[3f343d796a583ae9094a0d1e77767f3b]
+reverse link DesignRole to Architect--><g id="link_DesignRole_Architect"><path codeLine="107" d="M413.56,204.37 C411.63,221.91 409.58,240.46 408.04,254.49 " fill="none" id="DesignRole-backto-Architect" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="406.64,203.31,415.79,184.2,420.55,204.85,406.64,203.31" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[953cdd4b1f2861a9e76cea839c13c1c3]
+reverse link DesignRole to UseCaseEngineer--><g id="link_DesignRole_UseCaseEngineer"><path codeLine="108" d="M460.47,199.59 C472.76,214.32 485.97,230.13 497.24,243.64 " fill="none" id="DesignRole-backto-UseCaseEngineer" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="455.07,204.04,447.63,184.2,465.82,195.07,455.07,204.04" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[befe61113ddcd4e25c3732548f6f289e]
+reverse link DesignRole to ComponentEngineer--><g id="link_DesignRole_ComponentEngineer"><path codeLine="109" d="M467.24,183.84 C467.33,183.89 467.41,183.95 467.5,184 C516.79,213.89 531.49,217.13 582.5,244 C588.42,247.12 594.64,250.41 600.78,253.67 " fill="none" id="DesignRole-backto-ComponentEngineer" style="stroke:#A9A9A9;stroke-width:2.0;"/><polygon fill="none" points="463.6,189.82,450.62,173.07,471.21,178.07,463.6,189.82" style="stroke:#A9A9A9;stroke-width:2.0;"/></g><!--MD5=[896c461bc71c5eec80248d36a94fd11a]
+@startuml
+' Autor: Prof. Luis Fernandez
+
+skinparam backgroundColor #222222
+
+skinparam default {
+    FontSize 20
+    FontName courier
+    FontStyle normal
+    FontColor #white
+}
+
+skinparam shadowing false
+skinparam padding 1
+
+skinparam arrow {
+    Thickness 2
+    Color #DarkGrey
+    FontSize 20
+    FontName courier
+    FontStyle normal
+    FontColor #DarkGrey
+}
+
+skinparam class {
+    BorderThickness 3
+    BorderColor #DarkGrey
+    BackgroundColor #222222
+    FontSize 20
+    FontName courier
+    FontStyle bold
+    FontColor #DarkGrey
+}
+
+skinparam classAttribute {
+    FontSize 15
+    FontName courier
+    FontStyle normal
+    FontColor<<requirement>> #DC143C
+    FontColor<<analysis>> #FFD700
+    FontColor<<design>> #228B22
+    FontColor<<implementation>> #87ceeb
+    FontColor<<test>> #1E90FF
+    FontColor<<several>> #ffa500
+}
+
+hide circle
+hide stereotype
+
+skinparam class {
+    BorderColor<<requirement>> #DC143C
+    BorderColor<<analysis>> #FFD700
+    BorderColor<<design>> #228B22
+    BorderColor<<implementation>> #87ceeb
+    BorderColor<<test>> #1E90FF
+    BorderColor<<several>> #ffa500
+    FontColor<<requirement>> #DC143C
+    FontColor<<analysis>> #FFD700
+    FontColor<<design>> #228B22
+    FontColor<<implementation>> #87ceeb
+    FontColor<<test>> #1E90FF
+    FontColor<<several>> #ffa500
+}
+
+
+class Role
+class RequirementRole as "Requirement\nRole" <<requirement>>
+class AnalysisRole as "Analysis\nRole" <<analysis>>
+class DesignRole as "Design\nRole" <<design>>
+class ImplementRole as "Implementation\nRole" <<implementation>>
+class TestRole as "Test\nRole" <<test>>
+
+class SystemsAnalyst as "Systems\nAnalyst" <<requirement>>
+class UseCaseSpecifier as "Use Case\nSpecifier" <<requirement>>
+class InterfaceDesigner as "Interface\nDesigner" <<requirement>>
+class UseCaseEngineer as "Use Case\nEngineer" <<several>>
+class Architect <<several>>
+class ComponentEngineer as "Component\nEngineer" <<several>>
+class SystemIntegrator as "System\nIntegrator" <<implementation>>
+class TestEngineer as "Test\nEngineer" <<test>>
+class SystemTester as "System\nEngineer" <<test>>
+class IntegrationTester as "Integration\nTester" <<test>>
+
+Role <|- - RequirementRole
+Role <|- - AnalysisRole
+Role <|- - DesignRole
+Role <|- - ImplementRole
+Role <|- - TestRole
+
+RequirementRole <|- - SystemsAnalyst
+RequirementRole <|- - UseCaseSpecifier
+RequirementRole <|- - Architect
+RequirementRole <|- - InterfaceDesigner
+
+AnalysisRole <|- - Architect
+AnalysisRole <|- - UseCaseEngineer
+AnalysisRole <|- - ComponentEngineer
+
+ImplementRole <|- - Architect
+ImplementRole <|- - SystemIntegrator
+ImplementRole <|- - ComponentEngineer
+
+TestRole <|- - TestEngineer
+TestRole <|- - SystemTester
+TestRole <|- - IntegrationTester
+TestRole <|- - ComponentEngineer
+
+DesignRole <|- - Architect
+DesignRole <|- - UseCaseEngineer
+DesignRole <|- - ComponentEngineer
+@enduml
+
+@startuml
+
+skinparam backgroundColor #222222
+
+skinparam default {
+    FontSize 20
+    FontName courier
+    FontStyle normal
+    FontColor #white
+}
+
+skinparam shadowing false
+skinparam padding 1
+
+skinparam arrow {
+    Thickness 2
+    Color #DarkGrey
+    FontSize 20
+    FontName courier
+    FontStyle normal
+    FontColor #DarkGrey
+}
+
+skinparam class {
+    BorderThickness 3
+    BorderColor #DarkGrey
+    BackgroundColor #222222
+    FontSize 20
+    FontName courier
+    FontStyle bold
+    FontColor #DarkGrey
+}
+
+skinparam classAttribute {
+    FontSize 15
+    FontName courier
+    FontStyle normal
+    FontColor<<requirement>> #DC143C
+    FontColor<<analysis>> #FFD700
+    FontColor<<design>> #228B22
+    FontColor<<implementation>> #87ceeb
+    FontColor<<test>> #1E90FF
+    FontColor<<several>> #ffa500
+}
+
+hide circle
+hide stereotype
+
+skinparam class {
+    BorderColor<<requirement>> #DC143C
+    BorderColor<<analysis>> #FFD700
+    BorderColor<<design>> #228B22
+    BorderColor<<implementation>> #87ceeb
+    BorderColor<<test>> #1E90FF
+    BorderColor<<several>> #ffa500
+    FontColor<<requirement>> #DC143C
+    FontColor<<analysis>> #FFD700
+    FontColor<<design>> #228B22
+    FontColor<<implementation>> #87ceeb
+    FontColor<<test>> #1E90FF
+    FontColor<<several>> #ffa500
+}
+
+
+class Role
+class RequirementRole as "Requirement\nRole" <<requirement>>
+class AnalysisRole as "Analysis\nRole" <<analysis>>
+class DesignRole as "Design\nRole" <<design>>
+class ImplementRole as "Implementation\nRole" <<implementation>>
+class TestRole as "Test\nRole" <<test>>
+
+class SystemsAnalyst as "Systems\nAnalyst" <<requirement>>
+class UseCaseSpecifier as "Use Case\nSpecifier" <<requirement>>
+class InterfaceDesigner as "Interface\nDesigner" <<requirement>>
+class UseCaseEngineer as "Use Case\nEngineer" <<several>>
+class Architect <<several>>
+class ComponentEngineer as "Component\nEngineer" <<several>>
+class SystemIntegrator as "System\nIntegrator" <<implementation>>
+class TestEngineer as "Test\nEngineer" <<test>>
+class SystemTester as "System\nEngineer" <<test>>
+class IntegrationTester as "Integration\nTester" <<test>>
+
+Role <|- - RequirementRole
+Role <|- - AnalysisRole
+Role <|- - DesignRole
+Role <|- - ImplementRole
+Role <|- - TestRole
+
+RequirementRole <|- - SystemsAnalyst
+RequirementRole <|- - UseCaseSpecifier
+RequirementRole <|- - Architect
+RequirementRole <|- - InterfaceDesigner
+
+AnalysisRole <|- - Architect
+AnalysisRole <|- - UseCaseEngineer
+AnalysisRole <|- - ComponentEngineer
+
+ImplementRole <|- - Architect
+ImplementRole <|- - SystemIntegrator
+ImplementRole <|- - ComponentEngineer
+
+TestRole <|- - TestEngineer
+TestRole <|- - SystemTester
+TestRole <|- - IntegrationTester
+TestRole <|- - ComponentEngineer
+
+DesignRole <|- - Architect
+DesignRole <|- - UseCaseEngineer
+DesignRole <|- - ComponentEngineer
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

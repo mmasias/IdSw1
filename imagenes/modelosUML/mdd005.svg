@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="483px" preserveAspectRatio="none" style="width:719px;height:483px;background:#FFFFFF;" version="1.1" viewBox="0 0 719 483" width="719px" zoomAndPan="magnify"><defs/><g><g id="elem_LineaDeVenta"><rect fill="#F1F1F1" height="50.1358" style="stroke:#181818;stroke-width:0.5;" width="106" x="247" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="254" y="23.9659">LineaDeVenta</text><line style="stroke:#181818;stroke-width:0.5;" x1="248" x2="352" y1="30.0679" y2="30.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="253" y="49.0339">cantidad</text></g><g id="elem_Artículo"><rect fill="#F1F1F1" height="39.0679" style="stroke:#181818;stroke-width:0.5;" width="66" x="496" y="12.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="503" y="29.4659">Artículo</text><line style="stroke:#181818;stroke-width:0.5;" x1="497" x2="561" y1="35.5679" y2="35.5679"/></g><g id="elem_Venta"><rect fill="#F1F1F1" height="69.2038" style="stroke:#181818;stroke-width:0.5;" width="52" x="274" y="216"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="281" y="232.9659">Venta</text><line style="stroke:#181818;stroke-width:0.5;" x1="275" x2="325" y1="239.0679" y2="239.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="280" y="258.0339">fecha</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="280" y="277.1018">hora</text></g><g id="elem_Tienda"><rect fill="#F1F1F1" height="69.2038" style="stroke:#181818;stroke-width:0.5;" width="74" x="492" y="216"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="506" y="232.9659">Tienda</text><line style="stroke:#181818;stroke-width:0.5;" x1="493" x2="565" y1="239.0679" y2="239.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="498" y="258.0339">direccion</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="498" y="277.1018">nombre</text></g><g id="elem_Registro"><rect fill="#F1F1F1" height="39.0679" style="stroke:#181818;stroke-width:0.5;" width="70" x="417" y="431.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="424" y="448.4659">Registro</text><line style="stroke:#181818;stroke-width:0.5;" x1="418" x2="486" y1="454.5679" y2="454.5679"/></g><g id="elem_Pago"><rect fill="#F1F1F1" height="50.1358" style="stroke:#181818;stroke-width:0.5;" width="76" x="158" y="426"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="179.5" y="442.9659">Pago</text><line style="stroke:#181818;stroke-width:0.5;" x1="159" x2="233" y1="449.0679" y2="449.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="164" y="468.0339">cantidadº</text></g><g id="elem_N1"><path d="M6,18 L6,45.706 A0,0 0 0 0 6,45.706 L212,45.706 A0,0 0 0 0 212,45.706 L212,36 L246.92,32 L212,28 L212,28 L202,18 L6,18 A0,0 0 0 0 6,18 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M202,18 L202,28 L212,28 L202,18 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="185" x="12" y="36.897">Concepto u objeto del dominio</text></g><path d="M601,231.5 L601,241.353 L560,252.6019 L601,249.353 L601,259.206 A0,0 0 0 0 601,259.206 L677,259.206 A0,0 0 0 0 677,259.206 L677,241.5 L667,231.5 L601,231.5 A0,0 0 0 0 601,231.5 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M667,231.5 L667,241.5 L677,241.5 L667,231.5 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="607" y="250.397">atributos</text><!--MD5=[26536c9673f51b59a07b2f22f6e6659f]
+link LineaDeVenta to Artículo--><g id="link_LineaDeVenta_Artículo"><path codeLine="19" d="M353.11,32 C397.11,32 458.28,32 495.67,32 " fill="none" id="LineaDeVenta-Artículo" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="371.5" y="24.897">Registra-venta-de</text></g><!--MD5=[c258085e66a804f1784746f52cbea59f]
+link LineaDeVenta to Venta--><g id="link_LineaDeVenta_Venta"><path codeLine="20" d="M300,57.41 C300,96.23 300,172.1 300,215.98 " fill="none" id="LineaDeVenta-Venta" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="301" y="141.897">Contenida-en</text></g><!--MD5=[fbac1ad84d3508feba7366e3461262c8]
+link Artículo to Tienda--><g id="link_Artículo_Tienda"><path codeLine="21" d="M529,51.83 C529,88.46 529,169.72 529,215.83 " fill="none" id="Artículo-Tienda" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="93" x="530" y="141.897">Almacenado-en</text><path d="M629,123 L629,150 L712,150 L712,133 L702,123 L629,123 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M702,123 L702,133 L712,133 L702,123 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="62" x="635" y="141.897">asociación</text></g><!--MD5=[c3aabf98de35b5b54bb4200d471c4828]
+link Tienda to Registro--><g id="link_Tienda_Registro"><path codeLine="26" d="M515.94,285.17 C499.59,327.32 472.17,398.01 459.2,431.43 " fill="none" id="Tienda-Registro" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46" x="492" y="360.897">Alberga</text></g><!--MD5=[41230d5c72f2692da68248adf875dbdc]
+link Venta to Registro--><g id="link_Venta_Registro"><path codeLine="27" d="M325.78,285.17 C358.06,327.32 412.19,398.01 437.78,431.43 " fill="none" id="Venta-Registro" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="82" x="387" y="360.897">Capturada-en</text></g><!--MD5=[58c5516ed32717c4305563c9d24a765f]
+link Venta to Pago--><g id="link_Venta_Pago"><path codeLine="28" d="M273.68,277.4 C256.92,295.26 236.01,320.32 223,346 C210.02,371.63 202.89,404.06 199.26,425.83 " fill="none" id="Venta-Pago" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="224" y="360.897">Pagado-mediante</text></g><!--MD5=[899fa286dd9f046a56344b6e3715ca14]
+@startuml
+
+Object LineaDeVenta {
+cantidad
+}
+Object Artículo
+Object Venta {
+fecha
+hora
+}
+Object Tienda {
+direccion
+nombre
+}
+Object Registro
+Object Pago {
+cantidadº
+}
+
+LineaDeVenta -r- - Artículo: Registra-venta-de
+LineaDeVenta -d- - Venta: Contenida-en
+Artículo -d- - Tienda: Almacenado-en
+note right on link
+asociación
+end note
+
+Tienda -d- - Registro: Alberga
+Venta -r- - Registro: Capturada-en
+Venta -d- - Pago: Pagado-mediante
+
+note "Concepto u objeto del dominio" as N1
+
+N1 -r- - LineaDeVenta
+
+note right of Tienda::direccion 
+atributos
+end note
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

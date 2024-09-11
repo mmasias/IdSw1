@@ -1,0 +1,12 @@
+@startuml
+
+Object LineaDeVenta
+Object Artículo
+Object Venta
+Object Tienda
+Object Registro
+Object Pago
+
+
+@enduml
+

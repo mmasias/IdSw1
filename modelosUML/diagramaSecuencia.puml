@@ -1,0 +1,11 @@
+Code --> VirtualMachine : int i=0
+activate Code
+activate VirtualMachine
+loop i<t.length && t[i]!=k
+    Code --> VirtualMachine : i++
+end
+alt t[i]==k
+    Code --> VirtualMachine : A
+else i==t.length && t[i]!=k
+    Code --> VirtualMachine : B
+end

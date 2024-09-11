@@ -1,0 +1,7 @@
+
+[*] --> NoEncontrado : int i=0
+
+NoEncontrado --> NoEncontrado : (i<t.length && t[i]!=k) / i++
+
+NoEncontrado --> [*] : (t[i]==k) / A()
+NoEncontrado --> [*] : (i==t.length && t[i]!=k) / B()

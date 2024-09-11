@@ -1,0 +1,165 @@
+' Autor: Prof. Luis Fernandez
+
+skinparam backgroundColor #222222
+
+skinparam default {
+    FontSize 20
+    FontName courier
+    FontStyle normal
+    FontColor #white
+}
+
+skinparam shadowing false
+skinparam padding 1
+skinparam arrow {
+    Thickness 2
+    Color #DarkGrey
+    FontSize 20
+    FontName courier
+    FontStyle normal
+    FontColor #DarkGrey
+}
+
+skinparam class {
+    BorderThickness 3
+    BorderColor #DarkGrey
+    BorderColor<<phases>> #DC143C
+    BorderColor<<activities>> #228B22
+    BorderColor<<disciplines>> #1E90FF
+    BorderColor<<iteration>> #ffa500
+    BorderColor<<team>> #a9a9a9
+    BackgroundColor #222222
+    FontSize 20
+    FontName courier
+    FontStyle bold
+    FontColor<<phases>> #DC143C
+    FontColor<<activities>> #228B22
+    FontColor<<disciplines>> #1E90FF
+    FontColor<<iteration>> #ffa500
+    FontColor<<team>> #a9a9a9
+    FontColor #DarkGrey
+}
+
+skinparam classAttribute {
+    FontSize 15
+    FontName courier
+    FontStyle normal
+    FontColor<<phases>> #DC143C
+    FontColor<<activities>> #228B22
+    FontColor<<disciplines>> #1E90FF
+    FontColor<<iteration>> #ffa500
+    FontColor<<team>> #a9a9a9
+    FontColor #DarkGrey
+}
+
+hide circle
+hide stereotype
+
+skinparam package {
+    BorderThickness 3
+    BorderColor<<phases>> #DC143C
+    BorderColor<<activities>> #228B22
+    BorderColor<<disciplines>> #1E90FF
+    BorderColor<<iteration>> #ffa500
+    BorderColor<<team>> #a9a9a9
+    BackgroundColor #222222
+    FontSize 20
+    FontName courier
+    FontStyle bold
+    FontColor<<phases>> #DC143C
+    FontColor<<activities>> #228B22
+    FontColor<<disciplines>> #1E90FF
+    FontColor<<iteration>> #ffa500
+    FontColor<<team>> #a9a9a9
+}
+
+
+package phases <<phases>> {
+class Phase <<phases>>
+class Inception as "Inception\nPhase" <<phases>>
+class Elaboration as "Elaboration\nPhase" <<phases>>
+class Construction as "Construction\nPhase" <<phases>>
+class Transition as "Transition\nPhase" <<phases>>
+}
+
+class Iteration <<iteration>>
+
+package disciplines <<disciplines>> {
+class Discipline <<disciplines>>
+class RequirementDiscipline as "Requirement\nDiscipline" <<disciplines>>
+class AnalysisDiscipline as "Analysis\nDiscipline"  <<disciplines>>
+class DesignDiscipline as "Design\nDiscipline" <<disciplines>>
+class ImplementationDiscipline as "Implementation\nDiscipline" <<disciplines>>
+class TestDiscipline as "Test\nDiscipline" <<disciplines>>
+}
+
+package activities <<activities>> {
+class Activity <<activities>>
+class RequirementActivity as "Requirement\nActivity" <<activities>>
+class AnalysisActivity as "Analysis\nActivity" <<activities>>
+class DesignActivity as "Design\nActivity" <<activities>>
+class ImplementationActivity as "Implementation\nActivity" <<activities>>
+class TestActivity as "Test\nActivity" <<activities>>
+}
+
+package team <<team>> {
+class Member  <<team>>
+class Role  <<team>>
+class RequirementRole as "Requirement\nRole" <<team>>
+class AnalysisRole as "Analysis\nRole"  <<team>>
+class DesignRole as "Design\nRole" <<team>>
+class ImplementRole as "Implement\nRole" <<team>>
+class TestRole as "Test\nRole" <<team>>
+}
+
+Phase *--> Iteration
+Phase <|-- Inception
+Inception --> Elaboration : next
+Phase <|-- Elaboration
+Elaboration  --> Construction :next
+Phase <|-- Construction
+Construction  -->  Transition :next
+Phase <|-- Transition
+
+Iteration *--> Discipline
+Iteration --> Iteration :next
+
+Discipline *--> Activity
+Discipline <|-- RequirementDiscipline
+RequirementDiscipline *--> "*" RequirementActivity
+RequirementDiscipline --> AnalysisDiscipline :next
+Discipline <|-- AnalysisDiscipline
+AnalysisDiscipline *--> "*" AnalysisActivity
+AnalysisDiscipline --> DesignDiscipline :next
+Discipline <|-- DesignDiscipline
+DesignDiscipline *--> "*" DesignActivity
+DesignDiscipline --> ImplementationDiscipline :next
+Discipline <|-- ImplementationDiscipline
+ImplementationDiscipline *--> "*" ImplementationActivity
+ImplementationDiscipline --> TestDiscipline :next
+Discipline <|-- TestDiscipline
+TestDiscipline *--> "*" TestActivity
+
+Activity <|-- RequirementActivity
+RequirementActivity --> AnalysisActivity :next
+Activity <|-- AnalysisActivity
+AnalysisActivity --> DesignActivity :next
+Activity <|-- DesignActivity
+DesignActivity --> ImplementationActivity :next
+Activity <|-- ImplementationActivity
+ImplementationActivity --> TestActivity :next
+Activity <|-- TestActivity
+
+Activity --> Member
+Member *--> Role
+Role <|-- RequirementRole
+Role <|-- AnalysisRole
+Role <|-- DesignRole
+Role <|-- ImplementRole
+Role <|-- TestRole
+
+RequirementActivity --> "*" RequirementRole
+AnalysisActivity --> "*" AnalysisRole
+DesignActivity --> "*" DesignRole
+ImplementationActivity --> "*" ImplementRole
+TestActivity --> "*" TestRole

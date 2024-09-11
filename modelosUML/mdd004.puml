@@ -1,0 +1,27 @@
+@startuml
+
+Object LineaDeVenta {
+cantidad
+}
+Object Artículo
+Object Venta {
+fecha
+hora
+}
+Object Tienda {
+direccion
+nombre
+}
+Object Registro
+Object Pago {
+cantidadº
+}
+
+LineaDeVenta -r-- Artículo: Registra-venta-de
+LineaDeVenta -d-- Venta: Contenida-en
+Artículo -d-- Tienda: Almacenado-en
+Tienda -d-- Registro: Alberga
+Venta -r-- Registro: Capturada-en
+Venta -d-- Pago: Pagado-mediante
+
+@enduml

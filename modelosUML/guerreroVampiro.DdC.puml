@@ -1,0 +1,19 @@
+[*] --> Inicio
+
+Inicio -d-> JuegoCerrado : Login
+JuegoCerrado --r-> JuegoEnCurso: CrearJuego
+JuegoCerrado --r-> JuegoEnCurso: IniciarJuego
+JuegoEnCurso ---> JuegoEnCurso: GrabarJuego
+
+state Turno <<choice>>
+
+JuegoEnCurso --> Turno: Atacar
+Turno --> JuegoEnCurso
+
+Turno --> JuegoCerrado: FinalizarJuego
+
+JuegoEnCurso ---> Final: Logout
+JuegoCerrado ---> Final: Logout
+Final ---> JuegoCerrado: Login
+
+Final --> [*]

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="465px" preserveAspectRatio="none" style="width:480px;height:465px;background:#FFFFFF;" version="1.1" viewBox="0 0 480 465" width="480px" zoomAndPan="magnify"><defs/><g><g id="elem_LineaDeVenta"><rect fill="#F1F1F1" height="50.1358" style="stroke:#181818;stroke-width:0.5;" width="106" x="96" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="103" y="23.9659">LineaDeVenta</text><line style="stroke:#181818;stroke-width:0.5;" x1="97" x2="201" y1="30.0679" y2="30.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="102" y="49.0339">cantidad</text></g><g id="elem_Artículo"><rect fill="#F1F1F1" height="39.0679" style="stroke:#181818;stroke-width:0.5;" width="66" x="345" y="12.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="352" y="29.4659">Artículo</text><line style="stroke:#181818;stroke-width:0.5;" x1="346" x2="410" y1="35.5679" y2="35.5679"/></g><g id="elem_Venta"><rect fill="#F1F1F1" height="69.2038" style="stroke:#181818;stroke-width:0.5;" width="52" x="123" y="198"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="130" y="214.9659">Venta</text><line style="stroke:#181818;stroke-width:0.5;" x1="124" x2="174" y1="221.0679" y2="221.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="129" y="240.0339">fecha</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="129" y="259.1018">hora</text></g><g id="elem_Tienda"><rect fill="#F1F1F1" height="69.2038" style="stroke:#181818;stroke-width:0.5;" width="74" x="341" y="198"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="355" y="214.9659">Tienda</text><line style="stroke:#181818;stroke-width:0.5;" x1="342" x2="414" y1="221.0679" y2="221.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="347" y="240.0339">direccion</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="347" y="259.1018">nombre</text></g><g id="elem_Registro"><rect fill="#F1F1F1" height="39.0679" style="stroke:#181818;stroke-width:0.5;" width="70" x="266" y="413.5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="273" y="430.4659">Registro</text><line style="stroke:#181818;stroke-width:0.5;" x1="267" x2="335" y1="436.5679" y2="436.5679"/></g><g id="elem_Pago"><rect fill="#F1F1F1" height="50.1358" style="stroke:#181818;stroke-width:0.5;" width="76" x="7" y="408"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="28.5" y="424.9659">Pago</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="82" y1="431.0679" y2="431.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="13" y="450.0339">cantidadº</text></g><!--MD5=[26536c9673f51b59a07b2f22f6e6659f]
+link LineaDeVenta to Artículo--><g id="link_LineaDeVenta_Artículo"><path codeLine="19" d="M202.11,32 C246.11,32 307.28,32 344.67,32 " fill="none" id="LineaDeVenta-Artículo" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="220.5" y="24.897">Registra-venta-de</text></g><!--MD5=[c258085e66a804f1784746f52cbea59f]
+link LineaDeVenta to Venta--><g id="link_LineaDeVenta_Venta"><path codeLine="20" d="M149,57.34 C149,92.54 149,157.79 149,197.66 " fill="none" id="LineaDeVenta-Venta" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="81" x="150" y="132.897">Contenida-en</text></g><!--MD5=[fbac1ad84d3508feba7366e3461262c8]
+link Artículo to Tienda--><g id="link_Artículo_Tienda"><path codeLine="21" d="M378,51.67 C378,85.16 378,155.86 378,197.94 " fill="none" id="Artículo-Tienda" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="93" x="379" y="132.897">Almacenado-en</text></g><!--MD5=[c3aabf98de35b5b54bb4200d471c4828]
+link Tienda to Registro--><g id="link_Tienda_Registro"><path codeLine="22" d="M364.94,267.17 C348.59,309.32 321.17,380.01 308.2,413.43 " fill="none" id="Tienda-Registro" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46" x="341" y="342.897">Alberga</text></g><!--MD5=[41230d5c72f2692da68248adf875dbdc]
+link Venta to Registro--><g id="link_Venta_Registro"><path codeLine="23" d="M174.78,267.17 C207.06,309.32 261.19,380.01 286.78,413.43 " fill="none" id="Venta-Registro" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="82" x="236" y="342.897">Capturada-en</text></g><!--MD5=[58c5516ed32717c4305563c9d24a765f]
+link Venta to Pago--><g id="link_Venta_Pago"><path codeLine="24" d="M122.68,259.4 C105.92,277.26 85.01,302.32 72,328 C59.02,353.63 51.89,386.06 48.26,407.83 " fill="none" id="Venta-Pago" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="73" y="342.897">Pagado-mediante</text></g><!--MD5=[43c8adbeb3e0cc200cb6a210103c0682]
+@startuml
+
+Object LineaDeVenta {
+cantidad
+}
+Object Artículo
+Object Venta {
+fecha
+hora
+}
+Object Tienda {
+direccion
+nombre
+}
+Object Registro
+Object Pago {
+cantidadº
+}
+
+LineaDeVenta -r- - Artículo: Registra-venta-de
+LineaDeVenta -d- - Venta: Contenida-en
+Artículo -d- - Tienda: Almacenado-en
+Tienda -d- - Registro: Alberga
+Venta -r- - Registro: Capturada-en
+Venta -d- - Pago: Pagado-mediante
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

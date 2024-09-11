@@ -1,0 +1,109 @@
+' Autor: Prof. Luis Fernandez
+
+skinparam backgroundColor #222222
+
+skinparam default {
+    FontSize 20
+    FontName courier
+    FontStyle normal
+    FontColor #white
+}
+
+skinparam shadowing false
+skinparam padding 1
+
+skinparam arrow {
+    Thickness 2
+    Color #DarkGrey
+    FontSize 20
+    FontName courier
+    FontStyle normal
+    FontColor #DarkGrey
+}
+
+skinparam class {
+    BorderThickness 3
+    BorderColor #DarkGrey
+    BackgroundColor #222222
+    FontSize 20
+    FontName courier
+    FontStyle bold
+    FontColor #DarkGrey
+}
+
+skinparam classAttribute {
+    FontSize 15
+    FontName courier
+    FontStyle normal
+    FontColor<<requirement>> #DC143C
+    FontColor<<analysis>> #FFD700
+    FontColor<<design>> #228B22
+    FontColor<<implementation>> #87ceeb
+    FontColor<<test>> #1E90FF
+    FontColor<<several>> #ffa500
+}
+
+hide circle
+hide stereotype
+
+skinparam class {
+    BorderColor<<requirement>> #DC143C
+    BorderColor<<analysis>> #FFD700
+    BorderColor<<design>> #228B22
+    BorderColor<<implementation>> #87ceeb
+    BorderColor<<test>> #1E90FF
+    BorderColor<<several>> #ffa500
+    FontColor<<requirement>> #DC143C
+    FontColor<<analysis>> #FFD700
+    FontColor<<design>> #228B22
+    FontColor<<implementation>> #87ceeb
+    FontColor<<test>> #1E90FF
+    FontColor<<several>> #ffa500
+}
+
+
+class Role
+class RequirementRole as "Requirement\nRole" <<requirement>>
+class AnalysisRole as "Analysis\nRole" <<analysis>>
+class DesignRole as "Design\nRole" <<design>>
+class ImplementRole as "Implementation\nRole" <<implementation>>
+class TestRole as "Test\nRole" <<test>>
+
+class SystemsAnalyst as "Systems\nAnalyst" <<requirement>>
+class UseCaseSpecifier as "Use Case\nSpecifier" <<requirement>>
+class InterfaceDesigner as "Interface\nDesigner" <<requirement>>
+class UseCaseEngineer as "Use Case\nEngineer" <<several>>
+class Architect <<several>>
+class ComponentEngineer as "Component\nEngineer" <<several>>
+class SystemIntegrator as "System\nIntegrator" <<implementation>>
+class TestEngineer as "Test\nEngineer" <<test>>
+class SystemTester as "System\nEngineer" <<test>>
+class IntegrationTester as "Integration\nTester" <<test>>
+
+Role <|-- RequirementRole
+Role <|-- AnalysisRole
+Role <|-- DesignRole
+Role <|-- ImplementRole
+Role <|-- TestRole
+
+RequirementRole <|-- SystemsAnalyst
+RequirementRole <|-- UseCaseSpecifier
+RequirementRole <|-- Architect
+RequirementRole <|-- InterfaceDesigner
+
+AnalysisRole <|-- Architect
+AnalysisRole <|-- UseCaseEngineer
+AnalysisRole <|-- ComponentEngineer
+
+ImplementRole <|-- Architect
+ImplementRole <|-- SystemIntegrator
+ImplementRole <|-- ComponentEngineer
+
+TestRole <|-- TestEngineer
+TestRole <|-- SystemTester
+TestRole <|-- IntegrationTester
+TestRole <|-- ComponentEngineer
+
+DesignRole <|-- Architect
+DesignRole <|-- UseCaseEngineer
+DesignRole <|-- ComponentEngineer

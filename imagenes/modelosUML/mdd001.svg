@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="151px" preserveAspectRatio="none" style="width:307px;height:151px;background:#FFFFFF;" version="1.1" viewBox="0 0 307 151" width="307px" zoomAndPan="magnify"><defs/><g><g id="elem_LineaDeVenta"><rect fill="#F1F1F1" height="39.0679" style="stroke:#181818;stroke-width:0.5;" width="106" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="14" y="23.9659">LineaDeVenta</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="112" y1="30.0679" y2="30.0679"/></g><g id="elem_Artículo"><rect fill="#F1F1F1" height="39.0679" style="stroke:#181818;stroke-width:0.5;" width="66" x="148" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="155" y="23.9659">Artículo</text><line style="stroke:#181818;stroke-width:0.5;" x1="149" x2="213" y1="30.0679" y2="30.0679"/></g><g id="elem_Venta"><rect fill="#F1F1F1" height="39.0679" style="stroke:#181818;stroke-width:0.5;" width="52" x="249" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="38" x="256" y="23.9659">Venta</text><line style="stroke:#181818;stroke-width:0.5;" x1="250" x2="300" y1="30.0679" y2="30.0679"/></g><g id="elem_Tienda"><rect fill="#F1F1F1" height="39.0679" style="stroke:#181818;stroke-width:0.5;" width="60" x="30" y="106"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="37" y="122.9659">Tienda</text><line style="stroke:#181818;stroke-width:0.5;" x1="31" x2="89" y1="129.0679" y2="129.0679"/></g><g id="elem_Registro"><rect fill="#F1F1F1" height="39.0679" style="stroke:#181818;stroke-width:0.5;" width="70" x="125" y="106"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="132" y="122.9659">Registro</text><line style="stroke:#181818;stroke-width:0.5;" x1="126" x2="194" y1="129.0679" y2="129.0679"/></g><g id="elem_Pago"><rect fill="#F1F1F1" height="39.0679" style="stroke:#181818;stroke-width:0.5;" width="47" x="230.5" y="106"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="237.5" y="122.9659">Pago</text><line style="stroke:#181818;stroke-width:0.5;" x1="231.5" x2="276.5" y1="129.0679" y2="129.0679"/></g><!--MD5=[3be4bc3e69449574d34ee6fe7bab6fd3]
+@startuml
+
+Object LineaDeVenta
+Object Artículo
+Object Venta
+Object Tienda
+Object Registro
+Object Pago
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

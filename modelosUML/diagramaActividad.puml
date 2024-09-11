@@ -1,0 +1,15 @@
+start
+
+:int i=0;
+
+while (i<=t.length && t[i]!=k)
+    :i++;
+endwhile
+
+if (t[i]==k) then (YES)
+    :A();
+else (NO)
+    :B();
+endif
+
+stop

@@ -1,0 +1,32 @@
+hide circle
+hide stereotype
+hide empty members
+
+Batalla *-l- Guerrero
+Batalla *-r- Vampiro
+Personaje <|-- Guerrero
+Personaje <|-- Vampiro
+Guerrero *-- Arma
+Guerrero *-- Poción
+Vampiro *-- Ataque
+
+class Batalla {
+    turno
+}
+
+class Arma {
+    daño
+    porcentajeExito
+}
+
+class Poción {
+    poderCurativo
+}
+
+class Ataque {
+
+}
+
+class Personaje {
+    energia
+}

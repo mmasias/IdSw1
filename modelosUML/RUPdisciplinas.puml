@@ -1,0 +1,92 @@
+' Autor: Prof. Luis Fernandez
+
+skinparam ActivityBarColor #White
+skinparam titleBackgroundColor #222222
+skinparam shadowing false
+skinparam backgroundColor #222222
+skinparam padding 3
+skinparam StateStartColor #White
+skinparam StateEndColor #White
+hide stereotype
+skinparam state {
+    fontColor #White
+    fontColor<<a>> #DC143C
+    fontColor<<b>> #FFD700
+    fontColor<<c>> #228B22
+    fontColor<<d>> #87ceeb
+    fontColor<<e>> #1E90FF
+    fontStyle bold
+    arrowColor #White
+    backgroundColor #222222
+    borderColor #White
+    borderColor<<a>> #DC143C
+    borderColor<<b>> #FFD700
+    borderColor<<c>> #228B22
+    borderColor<<d>> #87ceeb
+    borderColor<<e>> #1E90FF
+    circleCharacterFontName #White
+    fontSize 20
+    DiamondBackgroundColor #White
+    DiamondBorderColor #White
+}
+
+[*] --> Encontrar
+state "Encontrar Actores\n y Casos de Uso" as Encontrar <<a>>
+state "Priorizar \nCasos de Uso" as Priorizar <<a>>
+state "Especificar\n de  Caso de Uso" as Especificar <<a>>
+state "Prototipar la\n Interfaz de Usuario" as Prototipar <<a>>
+state "Estructurar \nla Especificación \nde Casos de Uso" as Estructurar <<a>>
+state "Análisis de la\n Arquitectura" as Analisis <<b>>
+state "Análisis de\n Caso de Uso" as AnalisisCasoUso <<b>>
+state "Análisis \nde Clase" as AnalisisClase <<b>>
+state "Análisis \nde Paquete" as AnalisisPaquete <<b>>
+state "Diseño de la\n Arquitectura" as DiseñoArquitectura <<c>>
+state "Diseño de\n Caso de Uso" as DiseñoCasoUso <<c>>
+state "Diseño \nde Clase" as DiseñoClase <<c>>
+state "Diseñar\n Subsistema" as DiseñarSubsistema <<c>>
+state "Implementar\n la Arquitectura" as ImplementarArquitectura <<d>>
+state "Integrar\n Sistemas" as IntegrarSistemas <<d>>
+state "Implementar \nSubsistema" as ImplementarSubsistema <<d>>
+state "Implementar\n Clase" as ImplementarClase <<d>>
+state "Implementar\n Prueba Unitaria" as ImplementarPruebaUnitaria <<d>>
+state "Planificar\n Pruebas" as PlanificarPruebas <<e>>
+state "Diseñar \npruebas" as DiseñarPruebas <<e>>
+state "Implementar\n Pruebas" as ImplementarPruebas <<e>>
+state "Realizar Pruebas\n de Integración" as RealizarPruebasIntegracion <<e>>
+state "Realizar \nPruebas de Sistemas" as RealizarPruebasSistemas <<e>>
+state "Evaluar\n Pruebas" as EvaluarPruebas <<e>>
+
+Encontrar --> Priorizar
+Priorizar --> Especificar
+Especificar --> Prototipar
+Especificar --> Estructurar
+Priorizar --> Analisis
+Analisis --> AnalisisCasoUso
+Prototipar --> AnalisisCasoUso
+Estructurar --> AnalisisCasoUso
+Estructurar --> PlanificarPruebas
+Analisis --> DiseñoArquitectura
+DiseñoArquitectura --> DiseñoCasoUso
+AnalisisCasoUso --> DiseñoCasoUso
+AnalisisCasoUso --> AnalisisClase
+DiseñoCasoUso --> DiseñoClase
+AnalisisClase --> DiseñoClase
+AnalisisClase --> AnalisisPaquete
+DiseñoArquitectura --> ImplementarArquitectura
+ImplementarArquitectura --> IntegrarSistemas
+DiseñoClase --> DiseñarSubsistema
+DiseñoClase --> IntegrarSistemas
+AnalisisPaquete --> DiseñarSubsistema
+PlanificarPruebas --> DiseñarPruebas
+DiseñarSubsistema --> IntegrarSistemas
+IntegrarSistemas -->ImplementarSubsistema
+ImplementarSubsistema --> ImplementarClase
+ImplementarClase --> ImplementarPruebaUnitaria
+ImplementarPruebaUnitaria --> RealizarPruebasIntegracion
+ImplementarPruebaUnitaria --> RealizarPruebasSistemas
+DiseñarPruebas --> ImplementarPruebas
+ImplementarPruebas --> RealizarPruebasSistemas
+ImplementarPruebas --> RealizarPruebasIntegracion
+RealizarPruebasIntegracion --> EvaluarPruebas
+RealizarPruebasSistemas --> EvaluarPruebas
+EvaluarPruebas   --> [*]

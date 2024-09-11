@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="300px" preserveAspectRatio="none" style="width:385px;height:300px;background:#FFFFFF;" version="1.1" viewBox="0 0 385 300" width="385px" zoomAndPan="magnify"><defs/><g><!--MD5=[b073f7cef310c2a69878a3c345b948fe]
+class Batalla--><g id="elem_Batalla"><rect codeLine="13" fill="#F1F1F1" height="50.1973" id="Batalla" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="49" x="235.5" y="117"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="238.5" y="135.1318">Batalla</text><line style="stroke:#181818;stroke-width:0.5;" x1="236.5" x2="283.5" y1="143.0986" y2="143.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="33" x="241.5" y="160.2305">turno</text></g><!--MD5=[9ff09514c7b69d84c52abde76a04c842]
+class Guerrero--><g id="elem_Guerrero"><rect fill="#F1F1F1" height="26.0986" id="Guerrero" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="64" x="136" y="129"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="139" y="147.1318">Guerrero</text></g><!--MD5=[37b789258b34cfb148f33692f2c81702]
+class Vampiro--><g id="elem_Vampiro"><rect fill="#F1F1F1" height="26.0986" id="Vampiro" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="59" x="319.5" y="129"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="53" x="322.5" y="147.1318">Vampiro</text></g><!--MD5=[92cee0884bd92c8c692cfc68b7dbbeb3]
+class Personaje--><g id="elem_Personaje"><rect codeLine="30" fill="#F1F1F1" height="50.1973" id="Personaje" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="70" x="223" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="226" y="25.1318">Personaje</text><line style="stroke:#181818;stroke-width:0.5;" x1="224" x2="292" y1="33.0986" y2="33.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="229" y="50.2305">energia</text></g><!--MD5=[b1982db06aa5c1dbc98a1613a34a95b2]
+class Arma--><g id="elem_Arma"><rect codeLine="17" fill="#F1F1F1" height="66.2959" id="Arma" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="110" x="7" y="227"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="45" y="245.1318">Arma</text><line style="stroke:#181818;stroke-width:0.5;" x1="8" x2="116" y1="253.0986" y2="253.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="13" y="270.2305">daño</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="13" y="286.3291">porcentajeExito</text></g><!--MD5=[9e645b06c1c7d72a079a07e84ecf08cb]
+class Poción--><g id="elem_Poción"><rect codeLine="22" fill="#F1F1F1" height="50.1973" id="Poción" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="102" x="152" y="235"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="181.5" y="253.1318">Poción</text><line style="stroke:#181818;stroke-width:0.5;" x1="153" x2="253" y1="261.0986" y2="261.0986"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="158" y="278.2305">poderCurativo</text></g><!--MD5=[789fb70e4bd73845e4cd38fdf86ee459]
+class Ataque--><g id="elem_Ataque"><rect codeLine="26" fill="#F1F1F1" height="26.0986" id="Ataque" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="51" x="323.5" y="247"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="326.5" y="265.1318">Ataque</text></g><!--MD5=[dee401d61a982fe27a55234465f7a932]
+link Guerrero to Batalla--><g id="link_Guerrero_Batalla"><path codeLine="5" d="M200.34,142 C207.63,142 214.91,142 222.19,142 " fill="none" id="Guerrero-to-Batalla" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="235.3,142,229.3,138,223.3,142,229.3,146,235.3,142" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7e04ae8087e3618b15678f6fd46f4ee0]
+reverse link Batalla to Vampiro--><g id="link_Batalla_Vampiro"><path codeLine="6" d="M297.69,142 C304.91,142 312.13,142 319.35,142 " fill="none" id="Batalla-backto-Vampiro" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="284.68,142,290.68,146,296.68,142,290.68,138,284.68,142" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[412e55e6245272be2e00fdb7900530e5]
+reverse link Personaje to Guerrero--><g id="link_Personaje_Guerrero"><path codeLine="7" d="M224.91,72.7 C208.33,92.6 189.42,115.3 178.11,128.87 " fill="none" id="Personaje-backto-Guerrero" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="219.62,68.12,237.8,57.24,230.38,77.08,219.62,68.12" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b627d12572d74ddd02851ec29ba6fdf5]
+reverse link Personaje to Vampiro--><g id="link_Personaje_Vampiro"><path codeLine="8" d="M291.45,72.7 C308.22,92.6 327.34,115.3 338.78,128.87 " fill="none" id="Personaje-backto-Vampiro" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="285.96,77.04,278.42,57.24,296.66,68.02,285.96,77.04" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3379a6030865668983be542a4b3c1edf]
+reverse link Guerrero to Arma--><g id="link_Guerrero_Arma"><path codeLine="9" d="M147.7,165.21 C131.83,182.58 109.54,206.98 91.67,226.53 " fill="none" id="Guerrero-backto-Arma" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="156.66,155.41,149.6598,157.1414,148.5656,164.269,155.5658,162.5376,156.66,155.41" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d3aa6db13f173d04df585d6f55b0951a]
+reverse link Guerrero to Poción--><g id="link_Guerrero_Poción"><path codeLine="10" d="M175.52,167.92 C181.46,187.62 189.72,214.99 195.63,234.57 " fill="none" id="Guerrero-backto-Poción" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="171.75,155.41,169.6457,162.3072,175.203,166.9025,177.3073,160.0052,171.75,155.41" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[f99cd3d1e7241cd34dfb86c5c024299f]
+reverse link Vampiro to Ataque--><g id="link_Vampiro_Ataque"><path codeLine="11" d="M349,168.49 C349,192.73 349,228.15 349,246.68 " fill="none" id="Vampiro-backto-Ataque" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="349,155.41,345,161.41,349,167.41,353,161.41,349,155.41" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4a27f7897a951cace73f1138456c5b37]
+@startuml
+hide circle
+hide stereotype
+hide empty members
+
+Batalla *-l- Guerrero
+Batalla *-r- Vampiro
+Personaje <|- - Guerrero
+Personaje <|- - Vampiro
+Guerrero *- - Arma
+Guerrero *- - Poción
+Vampiro *- - Ataque
+
+class Batalla {
+    turno
+}
+
+class Arma {
+    daño
+    porcentajeExito
+}
+
+class Poción {
+    poderCurativo
+}
+
+class Ataque {
+
+}
+
+class Personaje {
+    energia
+}
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

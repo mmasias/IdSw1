@@ -1,0 +1,18 @@
+@startuml
+
+Object LineaDeVenta
+Object Artículo
+Object Venta
+Object Tienda
+Object Registro
+Object Pago
+
+LineaDeVenta -r-- Artículo
+LineaDeVenta -d-- Venta
+Artículo -d-- Tienda
+Tienda -d-- Registro
+Venta -r-- Registro
+Venta -d-- Pago
+
+@enduml
+

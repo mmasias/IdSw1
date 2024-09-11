@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1074px" preserveAspectRatio="none" style="width:870px;height:1074px;background:#FFFFFF;" version="1.1" viewBox="0 0 870 1074" width="870px" zoomAndPan="magnify"><defs/><g><!--MD5=[4585ba0a384317c1af892c5a55e62d26]
+cluster disciplines--><g id="cluster_disciplines"><path d="M8.5,6.602 L81.5,6.602 A3.75,3.75 0 0 1 84,9.102 L91,31.6699 L129.5,31.6699 A2.5,2.5 0 0 1 132,34.1699 L132,242.602 A2.5,2.5 0 0 1 129.5,245.102 L8.5,245.102 A2.5,2.5 0 0 1 6,242.602 L6,9.102 A2.5,2.5 0 0 1 8.5,6.602 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="91" y1="31.6699" y2="31.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="72" x="10" y="23.5679">disciplines</text></g><!--MD5=[5aa7a8dd712ac3f9bb1b36d5ed373eb6]
+cluster activities--><g id="cluster_activities"><path d="M158.5,136.602 L221.5,136.602 A3.75,3.75 0 0 1 224,139.102 L231,161.6699 L437.5,161.6699 A2.5,2.5 0 0 1 440,164.1699 L440,938.102 A2.5,2.5 0 0 1 437.5,940.602 L158.5,940.602 A2.5,2.5 0 0 1 156,938.102 L156,139.102 A2.5,2.5 0 0 1 158.5,136.602 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="156" x2="231" y1="161.6699" y2="161.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="62" x="160" y="153.5679">activities</text></g><!--MD5=[82ba7110cad6f01aaae4c63a22677c59]
+cluster team--><g id="cluster_team"><path d="M466.5,546.102 L503.5,546.102 A3.75,3.75 0 0 1 506,548.602 L513,571.1699 L860.5,571.1699 A2.5,2.5 0 0 1 863,573.6699 L863,1065.102 A2.5,2.5 0 0 1 860.5,1067.602 L466.5,1067.602 A2.5,2.5 0 0 1 464,1065.102 L464,548.602 A2.5,2.5 0 0 1 466.5,546.102 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="464" x2="513" y1="571.1699" y2="571.1699"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="36" x="468" y="563.0679">team</text></g><!--MD5=[50f890dac0319a4ea1662df214807bad]
+class Discipline--><g id="elem_Discipline"><rect codeLine="7" fill="#F1F1F1" height="45.0679" id="Discipline" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="72" x="39" y="44.602"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="42" y="64.5679">Discipline</text><line style="stroke:#181818;stroke-width:0.5;" x1="40" x2="110" y1="73.6699" y2="73.6699"/><line style="stroke:#181818;stroke-width:0.5;" x1="40" x2="110" y1="81.6699" y2="81.6699"/></g><!--MD5=[85426d8ec316e582366d718e510e865e]
+class RequirementDiscipline--><g id="elem_RequirementDiscipline"><rect codeLine="8" fill="#F1F1F1" height="64.1358" id="RequirementDiscipline" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="94" x="22" y="165.102"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="25" y="185.0679">Requirement</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="36" y="204.1358">Discipline</text><line style="stroke:#181818;stroke-width:0.5;" x1="23" x2="115" y1="213.2378" y2="213.2378"/><line style="stroke:#181818;stroke-width:0.5;" x1="23" x2="115" y1="221.2378" y2="221.2378"/></g><!--MD5=[c881b25adf3665c6568c9693d41a70f3]
+class Activity--><g id="elem_Activity"><rect codeLine="12" fill="#F1F1F1" height="45.0679" id="Activity" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="54" x="247" y="174.602"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="250" y="194.5679">Activity</text><line style="stroke:#181818;stroke-width:0.5;" x1="248" x2="300" y1="203.6699" y2="203.6699"/><line style="stroke:#181818;stroke-width:0.5;" x1="248" x2="300" y1="211.6699" y2="211.6699"/></g><!--MD5=[b64896a6d5134126ce5b75a28f8f314d]
+class RequirementActivity--><g id="elem_RequirementActivity"><rect codeLine="13" fill="#F1F1F1" height="64.1358" id="RequirementActivity" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="94" x="278" y="292.102"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="281" y="312.0679">Requirement</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="301" y="331.1358">Activity</text><line style="stroke:#181818;stroke-width:0.5;" x1="279" x2="371" y1="340.2378" y2="340.2378"/><line style="stroke:#181818;stroke-width:0.5;" x1="279" x2="371" y1="348.2378" y2="348.2378"/></g><!--MD5=[b8a813934b3c207233dae12d157862d6]
+class FindActorUseCases--><g id="elem_FindActorUseCases"><rect codeLine="14" fill="#F1F1F1" height="64.1358" id="FindActorUseCases" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="104" x="209" y="417.102"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="227" y="437.0679">Find Actor</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="212" y="456.1358">and Use Cases</text><line style="stroke:#181818;stroke-width:0.5;" x1="210" x2="312" y1="465.2378" y2="465.2378"/><line style="stroke:#181818;stroke-width:0.5;" x1="210" x2="312" y1="473.2378" y2="473.2378"/></g><!--MD5=[9310a2ecc7ad889203b5a7d241a0db63]
+class PriorizeUseCases--><g id="elem_PriorizeUseCases"><rect codeLine="15" fill="#F1F1F1" height="64.1358" id="PriorizeUseCases" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="74" x="313" y="574.602"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="324.5" y="594.5679">Priorize</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="316" y="613.6358">Use Cases</text><line style="stroke:#181818;stroke-width:0.5;" x1="314" x2="386" y1="622.7378" y2="622.7378"/><line style="stroke:#181818;stroke-width:0.5;" x1="314" x2="386" y1="630.7378" y2="630.7378"/></g><!--MD5=[f1fbc3c98a659f45d30883fff7c8b294]
+class DetailUseCase--><g id="elem_DetailUseCase"><rect codeLine="16" fill="#F1F1F1" height="64.1358" id="DetailUseCase" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="67" x="243.5" y="717.602"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="257.5" y="737.5679">Detail</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="246.5" y="756.6358">Use Case</text><line style="stroke:#181818;stroke-width:0.5;" x1="244.5" x2="309.5" y1="765.7378" y2="765.7378"/><line style="stroke:#181818;stroke-width:0.5;" x1="244.5" x2="309.5" y1="773.7378" y2="773.7378"/></g><!--MD5=[82704cf435b71e73f6b4d259e0741185]
+class StructureUseCaseModel--><g id="elem_StructureUseCaseModel"><rect codeLine="17" fill="#F1F1F1" height="64.1358" id="StructureUseCaseModel" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="113" x="205.5" y="860.602"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="230.5" y="880.5679">Structure</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="208.5" y="899.6358">Use Case Model</text><line style="stroke:#181818;stroke-width:0.5;" x1="206.5" x2="317.5" y1="908.7378" y2="908.7378"/><line style="stroke:#181818;stroke-width:0.5;" x1="206.5" x2="317.5" y1="916.7378" y2="916.7378"/></g><!--MD5=[1a7ab4f2fa46a68b0bf91f5b20540654]
+class PrototypeInterface--><g id="elem_PrototypeInterface"><rect codeLine="18" fill="#F1F1F1" height="64.1358" id="PrototypeInterface" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="70" x="354" y="860.602"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="357" y="880.5679">Prototype</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="358.5" y="899.6358">Interface</text><line style="stroke:#181818;stroke-width:0.5;" x1="355" x2="423" y1="908.7378" y2="908.7378"/><line style="stroke:#181818;stroke-width:0.5;" x1="355" x2="423" y1="916.7378" y2="916.7378"/></g><!--MD5=[f58fd777f29c17413488bea9e7cfcca3]
+class Member--><g id="elem_Member"><rect codeLine="22" fill="#F1F1F1" height="45.0679" id="Member" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="63" x="491.5" y="584.102"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="494.5" y="604.0679">Member</text><line style="stroke:#181818;stroke-width:0.5;" x1="492.5" x2="553.5" y1="613.1699" y2="613.1699"/><line style="stroke:#181818;stroke-width:0.5;" x1="492.5" x2="553.5" y1="621.1699" y2="621.1699"/></g><!--MD5=[a3638c1e5b65d287ecad7f06f5c0f212]
+class Role--><g id="elem_Role"><rect codeLine="23" fill="#F1F1F1" height="45.0679" id="Role" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="35" x="581.5" y="727.102"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="584.5" y="747.0679">Role</text><line style="stroke:#181818;stroke-width:0.5;" x1="582.5" x2="615.5" y1="756.1699" y2="756.1699"/><line style="stroke:#181818;stroke-width:0.5;" x1="582.5" x2="615.5" y1="764.1699" y2="764.1699"/></g><!--MD5=[58052b94f36aedd73e6eaaae3a0a766d]
+class RequirementRole--><g id="elem_RequirementRole"><rect codeLine="24" fill="#F1F1F1" height="64.1358" id="RequirementRole" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="94" x="563" y="860.602"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="566" y="880.5679">Requirement</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="595.5" y="899.6358">Role</text><line style="stroke:#181818;stroke-width:0.5;" x1="564" x2="656" y1="908.7378" y2="908.7378"/><line style="stroke:#181818;stroke-width:0.5;" x1="564" x2="656" y1="916.7378" y2="916.7378"/></g><!--MD5=[24bfe9d21f9bf8808d346d1dde81141f]
+class SystemsAnalyst--><g id="elem_SystemsAnalyst"><rect codeLine="25" fill="#F1F1F1" height="64.1358" id="SystemsAnalyst" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="61" x="480.5" y="987.602"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="483.5" y="1007.5679">Systems</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="486.5" y="1026.6358">Analyst</text><line style="stroke:#181818;stroke-width:0.5;" x1="481.5" x2="540.5" y1="1035.7378" y2="1035.7378"/><line style="stroke:#181818;stroke-width:0.5;" x1="481.5" x2="540.5" y1="1043.7378" y2="1043.7378"/></g><!--MD5=[0dc51ef3f11ecc01560545ad8ec4cbdc]
+class UseCaseSpecifier--><g id="elem_UseCaseSpecifier"><rect codeLine="26" fill="#F1F1F1" height="64.1358" id="UseCaseSpecifier" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="67" x="576.5" y="987.602"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="579.5" y="1007.5679">Use Case</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="580.5" y="1026.6358">Specifier</text><line style="stroke:#181818;stroke-width:0.5;" x1="577.5" x2="642.5" y1="1035.7378" y2="1035.7378"/><line style="stroke:#181818;stroke-width:0.5;" x1="577.5" x2="642.5" y1="1043.7378" y2="1043.7378"/></g><!--MD5=[26dcdd10cf618692568da23f9ea747aa]
+class Architect--><g id="elem_Architect"><rect codeLine="27" fill="#F1F1F1" height="45.0679" id="Architect" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="66" x="781" y="997.102"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="784" y="1017.0679">Architect</text><line style="stroke:#181818;stroke-width:0.5;" x1="782" x2="846" y1="1026.1699" y2="1026.1699"/><line style="stroke:#181818;stroke-width:0.5;" x1="782" x2="846" y1="1034.1699" y2="1034.1699"/></g><!--MD5=[ab8ea1db7e3689933b5f4dc8a53c4454]
+class InterfaceDesigner--><g id="elem_InterfaceDesigner"><rect codeLine="28" fill="#F1F1F1" height="64.1358" id="InterfaceDesigner" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="67" x="678.5" y="987.602"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="681.5" y="1007.5679">Interface</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="61" x="681.5" y="1026.6358">Designer</text><line style="stroke:#181818;stroke-width:0.5;" x1="679.5" x2="744.5" y1="1035.7378" y2="1035.7378"/><line style="stroke:#181818;stroke-width:0.5;" x1="679.5" x2="744.5" y1="1043.7378" y2="1043.7378"/></g><!--MD5=[3a599c99ac3da18a6eb5b3e61d964b69]
+link Discipline to Activity--><g id="link_Discipline_Activity"><path codeLine="31" d="M118.8529,96.3031 C118.8529,96.3031 202.64,150.202 235.75,171.502 " fill="none" id="Discipline-Activity" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="246.8,178.612,241.3941,170.3794,242.5946,175.9074,237.0667,177.1079,246.8,178.612" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="242.5946" x2="235.87" y1="175.9074" y2="171.577"/><polygon fill="#181818" points="108.76,89.812,111.6427,96.4218,118.8529,96.3031,115.9701,89.6932,108.76,89.812" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4ca22716c197b853b8cde82637519b25]
+reverse link Discipline to RequirementDiscipline--><g id="link_Discipline_RequirementDiscipline"><path codeLine="33" d="M73.04,109.822 C72.21,127.662 71.25,148.142 70.47,164.662 " fill="none" id="Discipline-backto-RequirementDiscipline" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="66.05,109.462,73.98,89.812,80.04,110.122,66.05,109.462" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4dc6d8c0173dd7f3629eac60a19ca5ae]
+link RequirementDiscipline to RequirementActivity--><g id="link_RequirementDiscipline_RequirementActivity"><path codeLine="34" d="M125.2881,235.6164 C125.2881,235.6164 146.19,248.022 156,253.102 C191.38,271.442 232.67,288.612 265.59,301.362 " fill="none" id="RequirementDiscipline-RequirementActivity" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="277.76,306.032,270.7892,299.0744,273.0916,304.2415,267.9245,306.5439,277.76,306.032" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="273.0916" x2="265.62" y1="304.2415" y2="301.382"/><polygon fill="#181818" points="115.09,229.292,118.0809,235.8536,125.2881,235.6164,122.2972,229.0548,115.09,229.292" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="262.9904" y="298.9041">*</text></g><!--MD5=[6f5ff10f648075ee3aeb8f04f697f463]
+reverse link Activity to RequirementActivity--><g id="link_Activity_RequirementActivity"><path codeLine="36" d="M290.51,238.572 C297.55,255.812 305.63,275.632 312.2,291.742 " fill="none" id="Activity-backto-RequirementActivity" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="283.96,241.042,282.88,219.872,296.92,235.752,283.96,241.042" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[6c04338ee920e45b3ed54438342f719b]
+link RequirementActivity to Member--><g id="link_RequirementActivity_Member"><path codeLine="37" d="M382.7592,349.0746 C382.7592,349.0746 418.84,371.182 432,386.102 C480.08,440.612 505.08,524.062 516,570.792 " fill="none" id="RequirementActivity-Member" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="518.89,583.772,520.8481,574.1197,517.8083,578.8904,513.0376,575.8505,518.89,583.772" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="517.8083" x2="516.065" y1="578.8904" y2="571.087"/><polygon fill="#181818" points="372.09,343.582,375.5937,349.8847,382.7592,349.0746,379.2555,342.7719,372.09,343.582" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1fe6c6edf860a10191716d2a37adce82]
+link Member to Role--><g id="link_Member_Role"><path codeLine="39" d="M540.3961,639.8893 C540.3961,639.8893 568.98,692.912 581.11,715.412 " fill="none" id="Member-Role" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="587.4,727.082,586.6484,717.2618,585.0266,722.6812,579.6072,721.0594,587.4,727.082" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="585.0266" x2="581.235" y1="722.6812" y2="715.642"/><polygon fill="#181818" points="534.71,629.322,534.0306,636.501,540.3961,639.8893,541.0755,632.7103,534.71,629.322" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7714d4f050d81935d21a4820b99f06c2]
+reverse link Role to RequirementRole--><g id="link_Role_RequirementRole"><path codeLine="41" d="M602.25,792.272 C603.95,814.102 606,840.382 607.57,860.432 " fill="none" id="Role-backto-RequirementRole" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="595.27,792.812,600.69,772.322,609.23,791.722,595.27,792.812" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[c3c1f037dcca166f7d82c6bfa771f7a1]
+reverse link RequirementActivity to FindActorUseCases--><g id="link_RequirementActivity_FindActorUseCases"><path codeLine="43" d="M299.4,374.292 C291.89,388.732 283.89,404.112 277.14,417.072 " fill="none" id="RequirementActivity-backto-FindActorUseCases" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="293.41,370.652,308.85,356.142,305.83,377.112,293.41,370.652" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[61ed74a4ef4be239144f95c7b09c4098]
+link FindActorUseCases to SystemsAnalyst--><g id="link_FindActorUseCases_SystemsAnalyst"><path codeLine="44" d="M208.94,469.252 C155.78,492.562 81,537.462 81,605.602 C81,605.602 81,605.602 81,893.602 C81,975.502 372.27,1007.262 475.36,1015.942 " fill="none" id="FindActorUseCases-to-SystemsAnalyst" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="480.42,1016.362,471.7821,1011.6304,475.4372,1015.9479,471.1197,1019.603,480.42,1016.362" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b3c4cdd19ff9b61fdcd7f623270abaa3]
+link FindActorUseCases to PriorizeUseCases--><g id="link_FindActorUseCases_PriorizeUseCases"><path codeLine="45" d="M278.8,481.192 C293.47,506.832 314.29,543.212 329.63,570.012 " fill="none" id="FindActorUseCases-to-PriorizeUseCases" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="332.23,574.562,331.2308,564.7639,329.7462,570.2225,324.2877,568.738,332.23,574.562" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="27" x="306" y="525.999">next</text></g><!--MD5=[537b4f21b8a725b9ab02fb945b808a05]
+reverse link RequirementActivity to PriorizeUseCases--><g id="link_RequirementActivity_PriorizeUseCases"><path codeLine="47" d="M354.28,374.552 C355.75,378.382 357.02,382.252 358,386.102 C374.56,451.532 364.4,531.412 356.55,574.492 " fill="none" id="RequirementActivity-backto-PriorizeUseCases" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="347.8,377.242,345.62,356.162,360.47,371.282,347.8,377.242" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7b0101230fbb7a0db784cb92d085a348]
+link PriorizeUseCases to Architect--><g id="link_PriorizeUseCases_Architect"><path codeLine="48" d="M363.8,638.852 C398.18,715.302 488.98,908.452 546,948.602 C626.12,1005.012 671.36,952.902 763,987.602 C768.04,989.512 773.15,991.932 778.07,994.562 " fill="none" id="PriorizeUseCases-to-Architect" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="782.54,997.042,776.6043,989.1828,778.1659,994.6198,772.7288,996.1814,782.54,997.042" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3edd156ff640df10c27349abecae43d6]
+link PriorizeUseCases to DetailUseCase--><g id="link_PriorizeUseCases_DetailUseCase"><path codeLine="49" d="M333.8,638.892 C322.46,660.802 307.28,690.112 295.47,712.922 " fill="none" id="PriorizeUseCases-to-DetailUseCase" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="293.16,717.402,300.8498,711.2484,295.4587,712.9617,293.7454,707.5705,293.16,717.402" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="27" x="318" y="683.499">next</text></g><!--MD5=[9a15e95d5ee90b9ca5cb17d104c05a58]
+reverse link RequirementActivity to DetailUseCase--><g id="link_RequirementActivity_DetailUseCase"><path codeLine="51" d="M328.94,376.482 C329.8,389.712 330.57,403.932 331,417.102 C331.93,445.532 334.68,452.892 331,481.102 C328.09,503.442 333.2,513.472 318,530.102 C310.98,537.782 302.35,529.862 296,538.102 C255.82,590.292 262.65,672.782 270.31,717.422 " fill="none" id="RequirementActivity-backto-DetailUseCase" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="321.94,376.602,327.53,356.162,335.9,375.632,321.94,376.602" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d45fc63f5fc39e1779c94224b5f5d61b]
+link DetailUseCase to UseCaseSpecifier--><g id="link_DetailUseCase_UseCaseSpecifier"><path codeLine="52" d="M243.7,781.722 C202.66,823.782 143.49,899.172 188,948.602 C243.47,1010.212 480.45,961.092 559,987.602 C563.33,989.062 567.67,990.942 571.91,993.042 " fill="none" id="DetailUseCase-to-UseCaseSpecifier" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="576.45,995.412,570.2964,987.7222,572.0097,993.1133,566.6186,994.8266,576.45,995.412" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7dc22e656d8ebf71bebcc1f1124557e2]
+link DetailUseCase to StructureUseCaseModel--><g id="link_DetailUseCase_StructureUseCaseModel"><path codeLine="53" d="M273.67,781.892 C271.36,803.622 268.27,832.622 265.86,855.352 " fill="none" id="DetailUseCase-to-StructureUseCaseModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="265.32,860.402,270.2491,851.8753,265.8486,855.43,262.294,851.0295,265.32,860.402" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="27" x="271" y="826.499">next</text></g><!--MD5=[231b01727b66538ec52bf06cbcd1e8e5]
+link DetailUseCase to PrototypeInterface--><g id="link_DetailUseCase_PrototypeInterface"><path codeLine="54" d="M301.86,781.892 C319.33,803.892 342.73,833.352 360.89,856.212 " fill="none" id="DetailUseCase-to-PrototypeInterface" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="364.21,860.402,361.7367,850.8687,361.097,856.4893,355.4764,855.8496,364.21,860.402" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="27" x="340" y="826.499">next</text></g><!--MD5=[5f750b12947189d7466f1b7a5f057424]
+reverse link RequirementActivity to StructureUseCaseModel--><g id="link_RequirementActivity_StructureUseCaseModel"><path codeLine="56" d="M260.04,353.192 C233.94,368.112 206.62,389.222 192,417.102 C112.84,568.112 205.08,781.092 245.19,860.322 " fill="none" id="RequirementActivity-backto-StructureUseCaseModel" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="256.79,347.002,277.74,343.852,263.33,359.382,256.79,347.002" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[abaf5e62cb04ff3ae6975dd1edf0ef35]
+link StructureUseCaseModel to SystemsAnalyst--><g id="link_StructureUseCaseModel_SystemsAnalyst"><path codeLine="57" d="M300.46,924.652 C311.84,933.042 324.58,941.692 337,948.602 C382.56,973.942 439.2,994.972 475.24,1007.162 " fill="none" id="StructureUseCaseModel-to-SystemsAnalyst" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="480.4,1008.902,473.1508,1002.235,475.6623,1007.3037,470.5936,1009.8153,480.4,1008.902" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3b2457aa7099591f8ccda7a94b712584]
+reverse link RequirementActivity to PrototypeInterface--><g id="link_RequirementActivity_PrototypeInterface"><path codeLine="59" d="M384.06,369.972 C404.78,390.952 423,417.962 423,448.102 C423,448.102 423,448.102 423,750.602 C423,789.252 410.78,832.252 400.99,860.482 " fill="none" id="RequirementActivity-backto-PrototypeInterface" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="379.03,374.852,369.13,356.122,388.55,364.592,379.03,374.852" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1c9e3c17cadd8c0830db3313a045d15a]
+link PrototypeInterface to InterfaceDesigner--><g id="link_PrototypeInterface_InterfaceDesigner"><path codeLine="60" d="M424.34,919.822 C436.82,929.002 450.98,939.322 464,948.602 C469.72,952.682 470.48,954.972 477,957.602 C553.84,988.612 583.28,958.892 661,987.602 C665.28,989.182 669.6,991.142 673.82,993.292 " fill="none" id="PrototypeInterface-to-InterfaceDesigner" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="678.35,995.702,672.2755,987.9495,673.9335,993.3579,668.5251,995.0159,678.35,995.702" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[9147be6b0ad95521cfe75b7dd157c75f]
+reverse link RequirementRole to SystemsAnalyst--><g id="link_RequirementRole_SystemsAnalyst"><path codeLine="62" d="M572.5,940.952 C560.21,956.472 546.86,973.322 535.75,987.342 " fill="none" id="RequirementRole-backto-SystemsAnalyst" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="567.37,936.152,585.27,924.822,578.34,944.842,567.37,936.152" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3401f865d7d9c452c8ffc0e4406f987e]
+reverse link RequirementRole to UseCaseSpecifier--><g id="link_RequirementRole_UseCaseSpecifier"><path codeLine="63" d="M610,944.942 C610,959.322 610,974.512 610,987.342 " fill="none" id="RequirementRole-backto-UseCaseSpecifier" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="603,944.822,610,924.822,617,944.822,603,944.822" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[a7a68908c1a77ff2af53e2a64bef9690]
+reverse link RequirementRole to Architect--><g id="link_RequirementRole_Architect"><path codeLine="64" d="M674.29,932.992 C709.68,954.682 752.11,980.682 780.86,998.292 " fill="none" id="RequirementRole-backto-Architect" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="670.45,938.852,657.06,922.432,677.77,926.922,670.45,938.852" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[b396863c7fb928ee6292126d2aaca0ca]
+reverse link RequirementRole to InterfaceDesigner--><g id="link_RequirementRole_InterfaceDesigner"><path codeLine="65" d="M648.23,940.452 C661.01,956.112 674.93,973.172 686.5,987.342 " fill="none" id="RequirementRole-backto-InterfaceDesigner" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="642.7,944.742,635.48,924.822,653.54,935.892,642.7,944.742" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[72a44169e518fada3bbe3a24cf0637f5]
+@startuml
+' Autor: Prof. Luis Fernandez
+
+hide circle
+hide stereotype
+
+package disciplines <<disciplines>> {
+class Discipline <<disciplines>>
+class RequirementDiscipline as "Requirement\nDiscipline" <<disciplines>>
+}
+
+package activities <<activities>> {
+class Activity  <<activities>>
+class RequirementActivity as "Requirement\nActivity" <<activities>>
+class FindActorUseCases as "Find Actor\nand Use Cases"  <<activities>>
+class PriorizeUseCases as "Priorize\nUse Cases"  <<activities>>
+class DetailUseCase as "Detail\nUse Case"  <<activities>>
+class StructureUseCaseModel as "Structure\nUse Case Model"  <<activities>>
+class PrototypeInterface as "Prototype\nInterface"  <<activities>>
+}
+
+package team <<team>> {
+class Member <<team>>
+class Role <<team>>
+class RequirementRole as "Requirement\nRole" <<team>>
+class SystemsAnalyst as "Systems\nAnalyst" <<team>>
+class UseCaseSpecifier as "Use Case\nSpecifier" <<team>>
+class Architect <<team>>
+class InterfaceDesigner as "Interface\nDesigner" <<team>>
+}
+
+Discipline *- -> Activity
+
+Discipline <|- - RequirementDiscipline
+RequirementDiscipline *- -> "*" RequirementActivity
+
+Activity <|- - RequirementActivity
+RequirementActivity *- -> Member
+
+Member *- -> Role
+
+Role <|- - RequirementRole
+
+RequirementActivity <|- - FindActorUseCases
+FindActorUseCases - -> SystemsAnalyst
+FindActorUseCases  - -> PriorizeUseCases :next
+
+RequirementActivity <|- - PriorizeUseCases
+PriorizeUseCases - -> Architect
+PriorizeUseCases  - -> DetailUseCase :next
+
+RequirementActivity <|- - DetailUseCase
+DetailUseCase - -> UseCaseSpecifier
+DetailUseCase  - -> StructureUseCaseModel :next
+DetailUseCase  - -> PrototypeInterface :next
+
+RequirementActivity <|- - StructureUseCaseModel
+StructureUseCaseModel - -> SystemsAnalyst
+
+RequirementActivity <|- - PrototypeInterface
+PrototypeInterface - -> InterfaceDesigner
+
+RequirementRole <|- - SystemsAnalyst
+RequirementRole <|- - UseCaseSpecifier
+RequirementRole <|- - Architect
+RequirementRole <|- - InterfaceDesigner
+@enduml
+
+@startuml
+
+hide circle
+hide stereotype
+
+package disciplines <<disciplines>> {
+class Discipline <<disciplines>>
+class RequirementDiscipline as "Requirement\nDiscipline" <<disciplines>>
+}
+
+package activities <<activities>> {
+class Activity  <<activities>>
+class RequirementActivity as "Requirement\nActivity" <<activities>>
+class FindActorUseCases as "Find Actor\nand Use Cases"  <<activities>>
+class PriorizeUseCases as "Priorize\nUse Cases"  <<activities>>
+class DetailUseCase as "Detail\nUse Case"  <<activities>>
+class StructureUseCaseModel as "Structure\nUse Case Model"  <<activities>>
+class PrototypeInterface as "Prototype\nInterface"  <<activities>>
+}
+
+package team <<team>> {
+class Member <<team>>
+class Role <<team>>
+class RequirementRole as "Requirement\nRole" <<team>>
+class SystemsAnalyst as "Systems\nAnalyst" <<team>>
+class UseCaseSpecifier as "Use Case\nSpecifier" <<team>>
+class Architect <<team>>
+class InterfaceDesigner as "Interface\nDesigner" <<team>>
+}
+
+Discipline *- -> Activity
+
+Discipline <|- - RequirementDiscipline
+RequirementDiscipline *- -> "*" RequirementActivity
+
+Activity <|- - RequirementActivity
+RequirementActivity *- -> Member
+
+Member *- -> Role
+
+Role <|- - RequirementRole
+
+RequirementActivity <|- - FindActorUseCases
+FindActorUseCases - -> SystemsAnalyst
+FindActorUseCases  - -> PriorizeUseCases :next
+
+RequirementActivity <|- - PriorizeUseCases
+PriorizeUseCases - -> Architect
+PriorizeUseCases  - -> DetailUseCase :next
+
+RequirementActivity <|- - DetailUseCase
+DetailUseCase - -> UseCaseSpecifier
+DetailUseCase  - -> StructureUseCaseModel :next
+DetailUseCase  - -> PrototypeInterface :next
+
+RequirementActivity <|- - StructureUseCaseModel
+StructureUseCaseModel - -> SystemsAnalyst
+
+RequirementActivity <|- - PrototypeInterface
+PrototypeInterface - -> InterfaceDesigner
+
+RequirementRole <|- - SystemsAnalyst
+RequirementRole <|- - UseCaseSpecifier
+RequirementRole <|- - Architect
+RequirementRole <|- - InterfaceDesigner
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

@@ -1,7 +1,18 @@
 # Temario
 
+<div align=right>
+
+***[#2think...](2think.md)***
+
+</div>
+
 * [x] [Acerca de la Ingeniería del Software](contenidos/acercaDe.md)
-* [ ] Elementos fundamentales en la producción de software
+* [ ] [Elementos fundamentales en la producción de software](https://github.com/mmasias/PRG1/blob/main/temario/00000-introduccion.md)
+  * [ ] Software
+  * [ ] Características
+  * [ ] Crisis del software
+  * [ ] Problemas del software
+  * [ ] Objetivos de la ingeniería de software
 * [ ] [RUP como proceso de desarrollo de software](rup.md)
 * [ ] [Disciplina de Requisitos](disciplinaDeRequisitos.md)
   * [x] [Modelo del dominio](contenidos/MdD.md)

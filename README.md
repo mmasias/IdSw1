@@ -3,7 +3,13 @@
 ## [Temario](/temario/README.md)
 
 * [Acerca de la ingeniería del software](temario/contenidos/acercaDe.md)
+  * Patrones / Conocimiento / Complejidad
 * Elementos fundamentales en la producción de software
+  * Software
+  * Crisis del software
+  * Características
+  * Problemas del software
+  * Objetivos de la ingeniería de software
 * [RUP como proceso de desarrollo de software](temario/rup.md)
 * [Disciplina de requisitos](temario/disciplinaDeRequisitos.md)
   * [Modelo del dominio](temario/contenidos/MdD.md)

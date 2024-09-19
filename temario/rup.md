@@ -12,18 +12,32 @@ RUP es un proceso de desarrollo software basado en componentes
 
 |||
 |-|-|
-Basado en componentes|El sistema es construido por componentes de software interconectados y bien definidos vía sus interfaces
+Basado en componentes|El sistema es construido por [componentes](componentes.md) de software interconectados y bien definidos vía sus interfaces
 Dirigido por Casos de Uso|
 Centrado en la arquitectura|
 Iterativo e incremental|
 
+### Componente
+
+Pieza de software pequeñas y manejables.
+
+- Reutilización.
+- Gestión de la complejidad.
+- Modularidad, que facilita
+  - Mantenimiento
+  - Actualización
+  - Escalabilidad..
+- Desarrollo iterativo.
+- Encapsulación.
+- Interfaces bien definidas.
+
 ### Dirigido por casos de uso
 
-* Usados como un artefacto primordial para establecer el comportamiento deseado del sistema y para comunicar este comportamiento entre los implicados en el sistema.
-* Forma sistemática e intuitiva para capturar los requisitos funcionales, adecuadamente representados para los usuarios, clientes y desarrolladores
-* Primera entrada para el análisis, diseño, implementación y pruebas del sistema, incluyendo la creación, verificación y validación de la arquitectura del sistema.
-* Facilitan el mantenimiento de la aplicación gracias a la trazabilidad y ortogonalidad con las clases.
-* Facilitan la planificación de actividades de los roles.
+- Usados como un artefacto primordial para establecer el comportamiento deseado del sistema y para comunicar este comportamiento entre los implicados en el sistema.
+- Forma sistemática e intuitiva para capturar los requisitos funcionales, adecuadamente representados para los usuarios, clientes y desarrolladores
+- Primera entrada para el análisis, diseño, implementación y pruebas del sistema, incluyendo la creación, verificación y validación de la arquitectura del sistema.
+- Facilitan el mantenimiento de la aplicación gracias a la trazabilidad y ortogonalidad con las clases.
+- Facilitan la planificación de actividades de los roles.
 
 ### Centrado en la arquitectura
 
@@ -31,10 +45,10 @@ La arquitectura del sistema es usada como un artefacto primordial para la concep
 
 Esta clave incluye:
 
-* Disciplina de Análisis
-* Disciplina de Diseño
-* Disciplina de Implementación
-* Disciplina de Pruebas
+- Disciplina de Análisis
+- Disciplina de Diseño
+- Disciplina de Implementación
+- Disciplina de Pruebas
 
 ### Iterativo e incremental
 
@@ -44,10 +58,10 @@ El proceso involucra un flujo de entregas ejecutables|El proceso involucra la in
 
 Esto incluye:
 
-* Disciplina de Gestión del Proyecto
-* Disciplina de Entorno
-* Disciplina de Configuración y Gestión de Cambios
-* Disciplina de Despliegue
+- Disciplina de Gestión del Proyecto
+- Disciplina de Entorno
+- Disciplina de Configuración y Gestión de Cambios
+- Disciplina de Despliegue
 
 ## ¿Para qué?
 

@@ -109,5 +109,7 @@ Procesos / Dinámica / "Vídeos"
 
 ### Ejemplos en contexto
 
-- [Fútbol](https://github.com/mmasias/futbol)
+- [Fútbol](https://github.com/puntoReflex/.github/tree/futbol/IdSw1/ModeloDelDominio/retos%26proyectos/futbol/docs/domainModel)
 - [GoogleWave](https://github.com/mmasias/googleWave)
+- [Un viejo conocido](https://github.com/puntoReflex/.github/tree/viajeMarco/IdSw1/ModeloDelDominio/retos%26proyectos/viajeMarco/docs/domainModel)
+- [Otro viejo conocido](https://github.com/puntoReflex/pyCCCF/blob/main/mdd.md)

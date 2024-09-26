@@ -1,0 +1,98 @@
+@startuml
+
+hide circle
+hide empty members
+
+class Jugador {
+  nombre
+  salud
+  resistencia
+  usarObjeto(Objeto)
+  interactuar(Personaje)
+  explorar(Ubicacion)
+}
+
+class Personaje {
+  nombre
+  dialogo
+  darMision()
+}
+
+class Enemigo {
+  tipo
+  fuerza
+  dropeable
+  atacar(Jugador)
+}
+
+class Objeto {
+  nombre
+  descripcion
+  efecto
+}
+
+class Arma {
+  daño
+  durabilidad
+}
+
+class Armadura {
+  defensa
+  resistenciaElemental
+}
+
+class Ingrediente {
+  efectoCocina
+}
+
+class Ubicacion {
+  nombre
+  clima
+  peligrosidad
+}
+
+class Mision {
+  titulo
+  descripcion
+  recompensa
+  completar()
+}
+
+class BestiaDivina {
+  nombre
+  region
+  jefeFinal
+  liberar()
+}
+
+class Reliquia {
+  nombre
+  poderEspecial
+  activar()
+}
+
+class SistemaCocina {
+  cocinar(ListaIngredientes)
+}
+
+Jugador -- Objeto: posee >
+Jugador -- Mision: realiza >
+Jugador -- Reliquia: controla >
+
+Personaje <|-- Enemigo
+
+Objeto <|-- Arma
+Objeto <|-- Armadura
+Objeto <|-- Ingrediente
+
+Ubicacion -- Personaje: contiene >
+Ubicacion -- Enemigo: habita >
+Ubicacion -- Objeto: contiene >
+
+BestiaDivina -- Enemigo: tiene jefe >
+BestiaDivina -- Ubicacion: situada en >
+
+Jugador -- SistemaCocina: usa >
+SistemaCocina -- Ingrediente: utiliza >
+
+@enduml

@@ -1,0 +1,98 @@
+@startuml
+
+hide circle
+hide empty members
+
+class Jugador {
+  -nombre: String
+  -salud: int
+  -resistencia: int
+  +usarObjeto(Objeto)
+  +interactuar(Personaje)
+  +explorar(Ubicacion)
+}
+
+class Personaje {
+  -nombre: String
+  -dialogo: String
+  +darMision()
+}
+
+class Enemigo {
+  -tipo: String
+  -fuerza: int
+  -dropeable: Objeto
+  +atacar(Jugador)
+}
+
+class Objeto {
+  -nombre: String
+  -descripcion: String
+  -efecto: String
+}
+
+class Arma {
+  -daño: int
+  -durabilidad: int
+}
+
+class Armadura {
+  -defensa: int
+  -resistenciaElemental: String
+}
+
+class Ingrediente {
+  -efectoCocina: String
+}
+
+class Ubicacion {
+  -nombre: String
+  -clima: String
+  -peligrosidad: int
+}
+
+class Mision {
+  -titulo: String
+  -descripcion: String
+  -recompensa: Objeto
+  +completar()
+}
+
+class BestiaDivina {
+  -nombre: String
+  -region: String
+  -jefeFinal: Enemigo
+  +liberar()
+}
+
+class Reliquia {
+  -nombre: String
+  -poderEspecial: String
+  +activar()
+}
+
+class SistemaCocina {
+  +cocinar(List<Ingrediente>): Objeto
+}
+
+Jugador "1" -- "0..*" Objeto: posee >
+Jugador "1" -- "0..*" Mision: realiza >
+Jugador "1" -- "0..*" Reliquia: controla >
+
+Personaje <|-- Enemigo
+
+Objeto <|-- Arma
+Objeto <|-- Armadura
+Objeto <|-- Ingrediente
+
+Ubicacion "1" -- "0..*" Personaje: contiene >
+Ubicacion "1" -- "0..*" Enemigo: habita >
+Ubicacion "1" -- "0..*" Objeto: contiene >
+
+BestiaDivina "1" -- "1" Enemigo: tiene jefe >
+BestiaDivina "1" -- "1" Ubicacion: situada en >
+
+Jugador "1" -- "1" SistemaCocina: usa >
+SistemaCocina "1" -- "0..*" Ingrediente: utiliza >
+
+@enduml

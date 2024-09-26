@@ -1,0 +1,26 @@
+@startuml
+
+hide circle
+hide empty members
+
+Jugador -- Arma
+Jugador -- Armadura
+Jugador -- Ingrediente
+Jugador -- Mision
+Jugador -- Reliquia
+
+Ubicacion -- Arma
+Ubicacion -- Armadura
+Ubicacion -- Ingrediente
+
+Ubicacion -- Personaje
+Ubicacion -- Enemigo
+Ubicacion -- Objeto
+
+BestiaDivina -- Enemigo
+BestiaDivina -- Ubicacion
+
+Jugador --  SistemaCocina
+SistemaCocina -- Ingrediente
+
+@enduml

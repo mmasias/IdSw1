@@ -1,0 +1,19 @@
+@startuml
+
+hide circle
+hide empty members
+
+class Jugador
+class Arma 
+class Armadura 
+class Personaje
+class Enemigo
+class Objeto 
+class Ingrediente 
+class Ubicacion 
+class Mision 
+class BestiaDivina 
+class Reliquia 
+class SistemaCocina 
+
+@enduml

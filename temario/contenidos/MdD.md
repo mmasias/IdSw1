@@ -1,11 +1,5 @@
 # Modelo del dominio
 
-<div align=center>
-
-![](/imagenes/modelosUML/mdd005.svg)
-
-</div>
-
 ## ¿Por qué?
 
 |||
@@ -106,6 +100,7 @@ Procesos / Dinámica / "Vídeos"
 
 |Paso|Ejemplo|
 |-|:-:|
+|0. Escuchar al cliente (o investigar!!!)|[](mddFiribicundio.md)
 |1. Listar las clases conceptuales candidatas.|Línea de venta, artículo, venta, tienda, registro, pago
 |2. Representarlas en el modelo de dominio de partida.|![](/imagenes/modelosUML/mdd001.svg)
 |3. Añadir las asociaciones necesarias para registrar las relaciones.|![](/imagenes/modelosUML/mdd002.svg)

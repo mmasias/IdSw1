@@ -19,3 +19,8 @@
     * [x] Estructurar el modelo de casos de uso
 
 > Extra: [Links a diapositivas](https://drive.google.com/drive/folders/1m_wsaMgdAHJ5gYKcpwJtU1IeDWRtLsAj?usp=sharing)
+
+## Lecturas recomendadas
+
+- [Guía acerca de los aspectos ***no técnicos*** para la gestión de un proyecto de software libre](https://tldp.org/HOWTO/Software-Proj-Mgmt-HOWTO/index.html)
+  

@@ -1,0 +1,50 @@
+@startuml
+!theme plain
+skinparam backgroundColor transparent
+
+skinparam activityBackgroundColor<<Etapa>> LightGray
+skinparam activityBackgroundColor<<Artefacto>> LightBlue
+
+(*) --> "Inicio del Proyecto" <<Etapa>>
+--> "Exploración Inicial" <<Etapa>>
+--> "Diagrama de Clases Base" <<Artefacto>>
+--> "Elaboración y Estructuración" <<Etapa>>
+
+"Exploración Inicial" --> "Inicio del Glosario" <<Artefacto>>
+"Inicio del Glosario" --> "Elaboración y Estructuración"
+
+"Elaboración y Estructuración" --> "Diagrama de Clases Básico" <<Artefacto>>
+"Elaboración y Estructuración" --> "Glosario Expandido" <<Artefacto>>
+
+"Diagrama de Clases Básico" --> "Refinamiento y Detalle" <<Etapa>>
+"Glosario Expandido" --> "Refinamiento y Detalle"
+
+"Refinamiento y Detalle" --> "Diagrama de Clases Detallado" <<Artefacto>>
+"Refinamiento y Detalle" --> "Diagramas de Objetos" <<Artefacto>>
+"Refinamiento y Detalle" --> "Diagramas de Estados" <<Artefacto>>
+"Refinamiento y Detalle" --> "Glosario Refinado" <<Artefacto>>
+
+"Diagrama de Clases Detallado" --> "Profundización y Extensión" <<Etapa>>
+"Diagramas de Objetos" --> "Profundización y Extensión"
+"Diagramas de Estados" --> "Profundización y Extensión"
+"Glosario Refinado" --> "Profundización y Extensión"
+
+"Profundización y Extensión" --> "Diagrama de Clases Extendido" <<Artefacto>>
+"Profundización y Extensión" --> "Diagramas de Colaboración" <<Artefacto>>
+"Profundización y Extensión" --> "Glosario Final" <<Artefacto>>
+
+"Diagrama de Clases Extendido" --> "Integración y Validación" <<Etapa>>
+"Diagramas de Colaboración" --> "Integración y Validación"
+"Glosario Final" --> "Integración y Validación"
+
+"Integración y Validación" --> "Modelo del Dominio Completo" <<Artefacto>>
+--> "Documentación y Comunicación" <<Etapa>>
+--> (*)
+
+legend right
+  |Color| Significado |
+  |<back:LightGray>   </back>| Etapa del Proceso |
+  |<back:LightBlue>   </back>| Artefacto |
+endlegend
+
+@enduml

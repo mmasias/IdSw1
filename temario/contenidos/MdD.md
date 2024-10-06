@@ -96,6 +96,10 @@ Procesos / Dinámica / "Vídeos"
 ||[Diagrama de estado](https://plantuml.com/es/state-diagram)|Representación visual de los distintos estados en los que puede encontrarse un sistema o un objeto, así como de las transiciones entre esos estados.
 ||[Diagrama de secuencia](https://plantuml.com/es/sequence-diagram)|Mensajes entre participantes
 
+### Propuesta
+
+Una propuesta personal de [construcción](MdD.propuestaHOWTO.md) del MdD.
+
 ### Ejemplo
 
 |Paso|Ejemplo|

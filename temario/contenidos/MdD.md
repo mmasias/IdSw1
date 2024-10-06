@@ -96,9 +96,6 @@ Procesos / Dinámica / "Vídeos"
 ||[Diagrama de estado](https://plantuml.com/es/state-diagram)|Representación visual de los distintos estados en los que puede encontrarse un sistema o un objeto, así como de las transiciones entre esos estados.
 ||[Diagrama de secuencia](https://plantuml.com/es/sequence-diagram)|Mensajes entre participantes
 
-### Propuesta
-
-Una propuesta personal de [construcción](MdD.propuestaHOWTO.md) del MdD.
 
 ### Ejemplo
 
@@ -117,3 +114,8 @@ Una propuesta personal de [construcción](MdD.propuestaHOWTO.md) del MdD.
 - [GoogleWave](https://github.com/mmasias/googleWave)
 - [Un viejo conocido](https://github.com/puntoReflex/.github/tree/viajeMarco/IdSw1/ModeloDelDominio/retos%26proyectos/viajeMarco/docs/domainModel)
 - [Otro viejo conocido](https://github.com/puntoReflex/pyCCCF/blob/main/mdd.md)
+
+## Propuesta
+
+- Una propuesta personal de [construcción](MdD.propuestaHOWTO.md) del MdD.
+- Dicha propuesta [se ha seguido aquí](https://github.com/mmasias/hdC/blob/main/docs/UMLdocs/mdd.md) para construir el MdD de una hoja de cálculo.

@@ -1,4 +1,4 @@
-# Enfoque de Construcción del Modelo del Dominio
+# Propuesta de construcción del Modelo del Dominio
 
 ## ¿Por qué?
 

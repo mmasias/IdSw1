@@ -35,9 +35,9 @@ Base para pruebas|Los casos de uso pueden ser utilizados como base para pruebas 
 
 |Datos de entrada||Datos de salida|
 |-|-|:-:|
-|**Modelo del dominio**||**Modelo**
-|**Requisitos suplementarios**|Requisitos no funcionales que especifican propiedades del sistema tales como restricciones de entorno e implementación, rendimiento, plataforma, mantenibilidad, extensibilidad y confiabilidad (-ilidades).|**de**
-|**Lista de características**|Muchas buenas ideas que podrían convertirse en requisitos reales (contrato). Cada característica tiene un nombre corto y una breve explicación o definición, justo con la información suficiente para ser posible hablar sobre la característica durante la planificación del producto.|**casos de uso**
+|**Modelo del dominio**|||
+|**Requisitos suplementarios**|Requisitos no funcionales que especifican propiedades del sistema tales como restricciones de entorno e implementación, rendimiento, plataforma, mantenibilidad, extensibilidad y confiabilidad (-ilidades).|**Modelo<br>de<br>Casos de Uso**|
+|**Lista de características**|Muchas buenas ideas que podrían convertirse en requisitos reales (contrato). Cada característica tiene un nombre corto y una breve explicación o definición, justo con la información suficiente para ser posible hablar sobre la característica durante la planificación del producto.||
 
 </div>
 

@@ -34,13 +34,19 @@ Disciplina de Requisitos es el flujo de trabajo (realización de casos de uso qu
 
 ## ¿Cómo?
 
+- Encontrar actores y casos de uso
+- Priorizar casos de uso
+- Detallar casos de uso
+- Prototipar casos de uso
+- Estructurar el modelo de casos de uso
+
 <div align=center>
+
+![](/imagenes/modelosUML/disciplinaRequisitos_2.svg)
 
 ||
 |-:|
 ![](/imagenes/modelosUML/disciplinaRequisitos.svg)
 *Autor: Prof. Luis Fernández*
-![](/imagenes/modelosUML/disciplinaRequisitos_2.svg)
 
 </div>
-

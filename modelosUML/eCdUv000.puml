@@ -1,0 +1,20 @@
+@startuml
+
+left to right direction
+
+actor Player
+usecase Login
+usecase CreateGame
+usecase OpenGame
+usecase PlacePiece
+usecase SaveGame
+usecase Logout
+
+Player --> Login
+Player --> CreateGame
+Player --> OpenGame
+Player --> PlacePiece
+Player --> SaveGame
+Player --> Logout
+
+@enduml

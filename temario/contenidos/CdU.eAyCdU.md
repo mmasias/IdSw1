@@ -24,10 +24,10 @@ Encontrar Actores y Casos de Uso
 
 |||
 |-|-|
-Identificación de Requisitos Funcionales|Permite determinar qué debe hacer el sistema desde la perspectiva de los usuarios. Los actores y casos de uso exponen las funcionalidades requeridas en un lenguaje comprensible para todos los involucrados.
-Comunicación Clara|Facilita la comunicación entre desarrolladores y stakeholders. Los casos de uso proporcionan un lenguaje común para discutir las necesidades y capacidades del sistema.
+Identificación de requisitos funcionales|Permite determinar qué debe hacer el sistema desde la perspectiva de los usuarios. Los actores y casos de uso exponen las funcionalidades requeridas en un lenguaje comprensible para todos los involucrados.
+Comunicación clara|Facilita la comunicación entre desarrolladores y stakeholders. Los casos de uso proporcionan un lenguaje común para discutir las necesidades y capacidades del sistema.
 Priorización|Ayuda a identificar y priorizar las características del sistema basándose en la importancia de los casos de uso para los actores.
-Base para Pruebas|Los casos de uso pueden ser utilizados como base para pruebas de aceptación, asegurando que el sistema cumple con las expectativas y necesidades del usuario.
+Base para pruebas|Los casos de uso pueden ser utilizados como base para pruebas de aceptación, asegurando que el sistema cumple con las expectativas y necesidades del usuario.
 
 ## ¿Cómo?
 
@@ -35,9 +35,9 @@ Base para Pruebas|Los casos de uso pueden ser utilizados como base para pruebas 
 
 |Datos de entrada||Datos de salida|
 |-|-|:-:|
-Modelo del dominio||Modelo
-Requisitos suplementarios||de
-Lista de características||casos de uso
+|**Modelo del dominio**||**Modelo**
+|**Requisitos suplementarios**|Requisitos no funcionales que especifican propiedades del sistema tales como restricciones de entorno e implementación, rendimiento, plataforma, mantenibilidad, extensibilidad y confiabilidad (-ilidades).|**de**
+|**Lista de características**|Muchas buenas ideas que podrían convertirse en requisitos reales (contrato). Cada característica tiene un nombre corto y una breve explicación o definición, justo con la información suficiente para ser posible hablar sobre la característica durante la planificación del producto.|**casos de uso**
 
 </div>
 
@@ -54,6 +54,7 @@ Un actor especifica un rol que adopta una entidad externa cuando interactúa con
 * ¿Quién o qué usa el sistema?
 * ¿Quién obtiene y provee información al sistema?
 * ¿Qué roles juegan en la interacción?
+* Si se necesita modelar cosas que suceden en el sistema en un punto específico del tiempo pero no parecen ser lanzados por ningún actor, se introduce un actor Tiempo (p.e. sistema automático de backup)
 
 ### Los Casos de Uso
 

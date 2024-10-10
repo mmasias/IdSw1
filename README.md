@@ -16,7 +16,7 @@
     * [x] [Priorizar casos de uso](temario/contenidos/CdU.PCdU.md)
     * [x] [Detallar casos de uso](temario/contenidos/Cdu.dCdU.md)
     * [x] [Prototipar casos de uso](temario/contenidos/CdU.ICdU.md)
-    * [x] Estructurar el modelo de casos de uso
+    * [x] [Estructurar el modelo de casos de uso](temario/contenidos/eCdU.md)
 
 > Extra: [Links a diapositivas](https://drive.google.com/drive/folders/1m_wsaMgdAHJ5gYKcpwJtU1IeDWRtLsAj?usp=sharing)
 

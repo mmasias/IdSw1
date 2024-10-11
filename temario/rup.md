@@ -1,5 +1,13 @@
 # RUP: Proceso Unificado de Desarrollo
 
+<div align=center>
+
+|MDD / Requisitos / Análisis|Diseño / Desarrollo / Pruebas|
+|-:|:-|
+|Hacer lo correcto|Hacerlo correcto|
+
+</div>
+
 ## ¿Por qué?
 
 En el mundo del desarrollo de software, la complejidad y la necesidad de adaptarse a cambios constantes son retos habituales. Para abordar estos desafíos, es esencial contar con un **marco de trabajo estructurado** que guíe a los equipos a través del proceso de desarrollo, minimizando los riesgos y maximizando la eficiencia y calidad del producto final. 
@@ -62,6 +70,17 @@ Esto incluye:
 - Disciplina de Entorno
 - Disciplina de Configuración y Gestión de Cambios
 - Disciplina de Despliegue
+
+#### Conviene tener en cuenta
+
+|||
+|-|-|
+El resultado de cada iteración es un sistema ejecutable, pero incompleto; no está preparado para ser puesto en producción. El sistema podría no estar listo para su puesta en producción hasta después de muchas iteraciones; por ejemplo, 10 ó 15.|La salida de una iteración no es un prototipo experimental o desechable, y el desarrollo iterativo no es prototipado. Más bien, la salida es un subconjunto con calidad de producción del sistema final.
+
+Aunque, en general, cada iteración aborda nuevos requisitos y amplía el sistema incrementalmente, una iteración podría, ocasionalmente, volver sobre el software que ya existe y mejorarlo; por ejemplo, una iteración podría centrarse en mejorar el rendimiento de un subsistema, en lugar de extenderlo con nuevas características.
+
+Tener retroalimentación en una etapa temprana vale su peso en oro; más que las especulaciones sobre los requisitos y diseños correctos, la retroalimentación, a partir de la construcción y prueba realista de algo, aporta un conocimiento práctico y crucial, y una oportunidad de modificar o adaptar la comprensión de los requisitos o el diseño. Los usuarios finales tienen la oportunidad de ver rápidamente una parte del sistema y decir: _“Sí, esto es lo que pedí, pero ahora que lo pruebo, lo que realmente quiero es algo un poco distinto”_. Este proceso de _“sí... pero”_ no es un signo de fallo; sino, ciclos estructurados frecuentes y tempranos de _“sí... peros”_, son un modo habilidoso de hacer progresar y descubrir qué es lo que tiene un valor real para el personal involucrado. 
+
 
 ## ¿Para qué?
 
@@ -215,3 +234,19 @@ Disciplina de Pruebas
 ![](/images/modelosUML/RUPdisciplinas.svg)
 
 </div>
+
+## No se entendió este proceso unificado cuando...
+
+Aquí presentamos algunos signos que indican que no se ha entendido lo que significa
+adoptar el proceso unificado y el desarrollo iterativo con la idea de agilidad que se pretende.
+
+- Se piensa que inicio = requisitos, elaboración = diseño, y construcción = implementación (esto es, imponiendo un ciclo de vida en espiral sobre el UP).
+- Se piensa que el objetivo de la elaboración es definir modelos de manera completa y cuidadosa, los cuales se traducen a código durante la construcción.
+- Se intenta definir la mayoría de los requisitos antes de comenzar el diseño o la implementación.
+- Se intenta definir la mayoría del diseño antes de comenzar a implementar; se intenta definir completamente y acordar una arquitectura antes de programar y probar iterativamente.
+- Se dedica mucho tiempo a realizar trabajo sobre los requisitos y el diseño antes de comenzar a programar.
+- Se cree que una iteración adecuada es de cuatro meses de duración, en lugar de cuatro semanas (excluyendo proyectos de cientos de desarrolladores).
+- Se piensa que realizar los diagramas UML y las actividades de diseño constituyen el momento para definir diseños y modelos de manera completa y precisa con gran detalle, y se cree que programar es una simple traducción mecánica de éstos en código.
+- Se piensa que adoptar el UP significa hacer muchas de las actividades posibles y crear muchos documentos, y se piensa o experimenta el UP como un proceso formal y exigente con muchos pasos que seguir.
+- Se intenta planificar un proyecto en detalle desde el principio hasta el final; intenta predecir, de manera especulativa, todas las iteraciones y lo que debería ocurrir en cada una de ellas.
+- Se quieren planes y estimaciones creíbles para los proyectos antes de que termine la fase de elaboración.

@@ -164,6 +164,7 @@ Pruebas.|
 |![](/imagenes/porOrganizar/developmentIterative.png)
 |:-:
 |Desarrollo iterativo
+|![](/imagenes/porOrganizar/desarrolloIterativo.gif)
 
 </div>
 

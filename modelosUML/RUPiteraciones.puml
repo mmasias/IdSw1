@@ -1,78 +1,7 @@
 ' Autor: Prof. Luis Fernandez
 
-skinparam backgroundColor #222222
-
-skinparam default {
-    FontSize 20
-    FontName courier
-    FontStyle normal
-    FontColor #white
-}
-
-skinparam shadowing false
-skinparam padding 1
-skinparam arrow {
-    Thickness 2
-    Color #DarkGrey
-    FontSize 20
-    FontName courier
-    FontStyle normal
-    FontColor #DarkGrey
-}
-
-skinparam class {
-    BorderThickness 3
-    BorderColor #DarkGrey
-    BorderColor<<phases>> #DC143C
-    BorderColor<<activities>> #228B22
-    BorderColor<<disciplines>> #1E90FF
-    BorderColor<<iteration>> #ffa500
-    BorderColor<<team>> #a9a9a9
-    BackgroundColor #222222
-    FontSize 20
-    FontName courier
-    FontStyle bold
-    FontColor<<phases>> #DC143C
-    FontColor<<activities>> #228B22
-    FontColor<<disciplines>> #1E90FF
-    FontColor<<iteration>> #ffa500
-    FontColor<<team>> #a9a9a9
-    FontColor #DarkGrey
-}
-
-skinparam classAttribute {
-    FontSize 15
-    FontName courier
-    FontStyle normal
-    FontColor<<phases>> #DC143C
-    FontColor<<activities>> #228B22
-    FontColor<<disciplines>> #1E90FF
-    FontColor<<iteration>> #ffa500
-    FontColor<<team>> #a9a9a9
-    FontColor #DarkGrey
-}
-
 hide circle
 hide stereotype
-
-skinparam package {
-    BorderThickness 3
-    BorderColor<<phases>> #DC143C
-    BorderColor<<activities>> #228B22
-    BorderColor<<disciplines>> #1E90FF
-    BorderColor<<iteration>> #ffa500
-    BorderColor<<team>> #a9a9a9
-    BackgroundColor #222222
-    FontSize 20
-    FontName courier
-    FontStyle bold
-    FontColor<<phases>> #DC143C
-    FontColor<<activities>> #228B22
-    FontColor<<disciplines>> #1E90FF
-    FontColor<<iteration>> #ffa500
-    FontColor<<team>> #a9a9a9
-}
-
 
 package phases <<phases>> {
 class Phase <<phases>>

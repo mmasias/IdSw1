@@ -1,34 +1,6 @@
 ' Autor: Prof. Luis Fernandez
 
-skinparam ActivityBarColor #White
-skinparam titleBackgroundColor #222222
-skinparam shadowing false
-skinparam backgroundColor #222222
-skinparam padding 3
-skinparam StateStartColor #White
-skinparam StateEndColor #White
 hide stereotype
-skinparam state {
-    fontColor #White
-    fontColor<<a>> #DC143C
-    fontColor<<b>> #FFD700
-    fontColor<<c>> #228B22
-    fontColor<<d>> #87ceeb
-    fontColor<<e>> #1E90FF
-    fontStyle bold
-    arrowColor #White
-    backgroundColor #222222
-    borderColor #White
-    borderColor<<a>> #DC143C
-    borderColor<<b>> #FFD700
-    borderColor<<c>> #228B22
-    borderColor<<d>> #87ceeb
-    borderColor<<e>> #1E90FF
-    circleCharacterFontName #White
-    fontSize 20
-    DiamondBackgroundColor #White
-    DiamondBorderColor #White
-}
 
 [*] --> Encontrar
 state "Encontrar Actores\n y Casos de Uso" as Encontrar <<a>>

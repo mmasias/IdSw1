@@ -113,7 +113,7 @@ Pruebas.|
 
 <div align=center>
 
-![](/imagenes/modelosUML/RUProles.svg)
+![](/images/modelosUML/RUProles.svg)
 
 </div>
 
@@ -161,16 +161,19 @@ Pruebas.|
 **Duración**|10|30|50|10|
 **Esfuerzo**|5|20|65|10
 
+|![](/imagenes/porOrganizar/developmentIterative.png)
+|:-:
+|Desarrollo iterativo
+
 </div>
 
 ### Iteraciones
 
 <div align=center>
 
-![](/imagenes/modelosUML/RUPiteraciones.svg)
+![](/images/modelosUML/RUPiteraciones.svg)
 
 </div>
-
 
 ### Actividades
 
@@ -208,6 +211,6 @@ Disciplina de Pruebas
 ||23. Realizar Pruebas de Sistemas
 ||24. Evaluar Pruebas
 
-![](/imagenes/modelosUML/RUPdisciplinas.svg)
+![](/images/modelosUML/RUPdisciplinas.svg)
 
 </div>

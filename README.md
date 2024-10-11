@@ -23,4 +23,4 @@
 ## Lecturas recomendadas
 
 - [Guía acerca de los aspectos ***no técnicos*** para la gestión de un proyecto de software libre](https://tldp.org/HOWTO/Software-Proj-Mgmt-HOWTO/index.html)
-  
+- [Sobre el dibujo de diagramas](https://github.com/mmasias/IdSw1/blob/main/documentos/Sobre_el_dibujo_de_diagramas.pdf)

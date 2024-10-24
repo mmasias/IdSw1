@@ -18,7 +18,7 @@
     * [x] [Prototipar casos de uso](temario/contenidos/CdU.ICdU.md)
     * [x] [Estructurar el modelo de casos de uso](temario/contenidos/eCdU.md)
 
-> Extra: [Links a diapositivas](https://drive.google.com/drive/folders/1m_wsaMgdAHJ5gYKcpwJtU1IeDWRtLsAj?usp=sharing)
+> Extra: [Links a diapositivas](https://drive.google.com/drive/folders/1m_wsaMgdAHJ5gYKcpwJtU1IeDWRtLsAj?usp=sharing) / [Ejercicio (en construcción)](https://github.com/mmasias/mmasias/blob/main/UNEATLANTICO/idsw1/sgt/README.md)
 
 ## Lecturas recomendadas
 

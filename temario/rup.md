@@ -250,3 +250,5 @@ adoptar el proceso unificado y el desarrollo iterativo con la idea de agilidad q
 - Se piensa que adoptar el UP significa hacer muchas de las actividades posibles y crear muchos documentos, y se piensa o experimenta el UP como un proceso formal y exigente con muchos pasos que seguir.
 - Se intenta planificar un proyecto en detalle desde el principio hasta el final; intenta predecir, de manera especulativa, todas las iteraciones y lo que debería ocurrir en cada una de ellas.
 - Se quieren planes y estimaciones creíbles para los proyectos antes de que termine la fase de elaboración.
+
+[2DO](https://forms.gle/BNJ73QJecR85vFu59)

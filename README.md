@@ -18,7 +18,18 @@
     * [x] [Prototipar casos de uso](temario/contenidos/CdU.ICdU.md)
     * [x] [Estructurar el modelo de casos de uso](temario/contenidos/eCdU.md)
 
-> Extra: [Links a diapositivas](https://drive.google.com/drive/folders/1m_wsaMgdAHJ5gYKcpwJtU1IeDWRtLsAj?usp=sharing) / [Ejercicio (en construcción)](https://github.com/mmasias/mmasias/blob/main/UNEATLANTICO/idsw1/sgt/README.md)
+> Extra: [Links a diapositivas](https://drive.google.com/drive/folders/1m_wsaMgdAHJ5gYKcpwJtU1IeDWRtLsAj?usp=sharing) /
+
+## Proceso de creación
+
+||[Gestión de tareas](https://github.com/mmasias/mmasias/blob/main/UNEATLANTICO/idsw1/sgt/README.md)|[Visual Studio Code](https://github.com/mmasias/mmasias/blob/main/UNEATLANTICO/idsw1/vscode/README.md)|[AppTest](https://github.com/mmasias/mmasias/blob/main/UNEATLANTICO/idsw1/test/README.md)|
+|-|:-:|:-:|:-:|
+MdD          |✅|🔲|✅
+DdR - EAyCdU |✅|✅|✅
+DdR - PrioCdU|🔲|🔲|🔲
+DdR - DCdU   |🔲|🔲|✅
+DdR - ProtCdU|🔲|🔲|🔲
+DdR - ECdU   |🔲|✅|✅
 
 ## Lecturas recomendadas
 

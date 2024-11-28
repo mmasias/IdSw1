@@ -1,0 +1,26 @@
+@startuml
+left to right direction
+
+actor "Personal administrativo" as admin
+
+package "Sistema Hospitalario" {
+    usecase "Registrar nuevo paciente" as UC1
+    usecase "Buscar paciente" as UC2
+    usecase "Actualizar datos de paciente" as UC3
+    usecase "Eliminar registro de paciente" as UC4
+    usecase "Registrar cita médica" as UC5
+    usecase "Consultar cita" as UC6
+    usecase "Modificar cita" as UC7
+    usecase "Cancelar cita" as UC8
+}
+
+admin --> UC1
+admin --> UC2
+admin --> UC3
+admin --> UC4
+admin --> UC5
+admin --> UC6
+admin --> UC7
+admin --> UC8
+
+@enduml

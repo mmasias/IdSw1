@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+
+actor "Enfermera" as enfermera
+
+package "Sistema Hospitalario" {
+    usecase "Buscar paciente" as UC2
+    usecase "Consultar historia clínica" as UC10
+    usecase "Consultar estado de hospitalización" as UC17
+    usecase "Actualizar datos de hospitalización" as UC18
+}
+
+enfermera --> UC2
+enfermera --> UC10
+enfermera --> UC17
+enfermera --> UC18
+
+@enduml

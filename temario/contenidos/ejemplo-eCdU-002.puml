@@ -1,0 +1,45 @@
+@startuml
+left to right direction
+
+package "Sistema Hospitalario" {
+    package "Administración de Pacientes" {
+        usecase "Crear paciente" as UC1
+        usecase "Buscar paciente" as UC2
+        usecase "Actualizar paciente" as UC3
+        usecase "Eliminar paciente" as UC4
+    }
+
+    package "Gestión de Citas" {
+        usecase "Crear cita" as UC5
+        usecase "Consultar cita" as UC6
+        usecase "Modificar cita" as UC7
+        usecase "Eliminar cita" as UC8
+    }
+
+    package "Historias Clínicas" {
+        usecase "Crear historia clínica" as UC9
+        usecase "Consultar historia clínica" as UC10
+        usecase "Actualizar historia clínica" as UC11
+    }
+
+    package "Prescripciones" {
+        usecase "Crear prescripción" as UC12
+        usecase "Consultar prescripción" as UC13
+        usecase "Actualizar prescripción" as UC14
+        usecase "Eliminar prescripción" as UC15
+    }
+
+    package "Hospitalizaciones" {
+        usecase "Crear hospitalización" as UC16
+        usecase "Consultar hospitalización" as UC17
+        usecase "Actualizar hospitalización" as UC18
+        usecase "Finalizar hospitalización" as UC19
+    }
+}
+
+
+UC5 ..> UC2 : <<include>>
+UC9 ..> UC2 : <<include>>
+UC16 ..> UC2 : <<include>>
+
+@enduml

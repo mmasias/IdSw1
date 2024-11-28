@@ -1,0 +1,30 @@
+hide empty members
+hide circle
+
+class Paciente{}
+
+Paciente  -->  HistoriaClinica : tiene
+Paciente  -->  Cita : agenda
+Paciente  -->  Hospitalizacion : tiene
+   
+Medico  -->  Cita : atiende
+Medico  -->  Turno : asignado
+Medico  -->  Especialidad : tiene
+   
+HistoriaClinica  -->  Consulta : contiene
+HistoriaClinica  -->  SignosVitales : registra
+   
+Consulta  -->  Prescripcion : genera
+Consulta  -->  OrdenExamen : solicita
+   
+Prescripcion  -->  Medicamento : incluye
+   
+Hospitalizacion  -->  Cama : ocupa
+Hospitalizacion  -->  SignosVitales : registra
+Hospitalizacion  --> Cirugia : puede_requerir
+   
+Cirugia  -->  SalaOperaciones : utiliza
+Cirugia  -->  Medico : realizada_por
+   
+Factura  -l->  Paciente : corresponde
+Factura  -->  Pago : recibe

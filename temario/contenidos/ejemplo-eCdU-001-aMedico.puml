@@ -1,0 +1,30 @@
+@startuml
+left to right direction
+
+actor "Médico" as medico
+
+package "Sistema Hospitalario" {
+    usecase "Registrar historia clínica" as UC9
+    usecase "Consultar historia clínica" as UC10
+    usecase "Actualizar historia clínica" as UC11
+    usecase "Crear prescripción médica" as UC12
+    usecase "Consultar prescripción" as UC13
+    usecase "Modificar prescripción" as UC14
+    usecase "Cancelar prescripción" as UC15
+    usecase "Registrar ingreso hospitalario" as UC16
+    usecase "Registrar alta hospitalaria" as UC19
+}
+
+medico --> UC9
+medico --> UC10
+medico --> UC11
+medico --> UC12
+medico --> UC13
+medico --> UC14
+medico --> UC15
+medico --> UC16
+medico --> UC19
+
+
+
+@enduml

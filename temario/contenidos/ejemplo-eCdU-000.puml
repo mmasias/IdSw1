@@ -1,0 +1,26 @@
+@startuml
+left to right direction
+
+package "Sistema Hospitalario" {
+    usecase "Registrar nuevo paciente" as UC1
+    usecase "Buscar paciente" as UC2
+    usecase "Actualizar datos de paciente" as UC3
+    usecase "Eliminar registro de paciente" as UC4
+    usecase "Registrar cita médica" as UC5
+    usecase "Consultar cita" as UC6
+    usecase "Modificar cita" as UC7
+    usecase "Cancelar cita" as UC8
+    usecase "Registrar historia clínica" as UC9
+    usecase "Consultar historia clínica" as UC10
+    usecase "Actualizar historia clínica" as UC11
+    usecase "Crear prescripción médica" as UC12
+    usecase "Consultar prescripción" as UC13
+    usecase "Modificar prescripción" as UC14
+    usecase "Cancelar prescripción" as UC15
+    usecase "Registrar ingreso hospitalario" as UC16
+    usecase "Consultar estado de hospitalización" as UC17
+    usecase "Actualizar datos de hospitalización" as UC18
+    usecase "Registrar alta hospitalaria" as UC19
+}
+
+@enduml

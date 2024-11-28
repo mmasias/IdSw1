@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+
+actor "Paciente" as paciente
+
+package "Sistema Hospitalario" {
+    usecase "Consultar cita" as UC6
+    usecase "Consultar historia clínica" as UC10
+    usecase "Consultar prescripción" as UC13
+    usecase "Consultar estado de hospitalización" as UC17
+}
+
+paciente --> UC6
+paciente --> UC10
+paciente --> UC13
+paciente --> UC17
+
+@enduml

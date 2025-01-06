@@ -33,14 +33,14 @@
 |Validación con cliente|Evidencia extensa de validación con el cliente y ajustes basados en feedback|Buena evidencia de validación y algunos ajustes|Evidencia básica de validación|Poca o ninguna evidencia de validación|
 |Gestión de riesgos|Identificación y manejo proactivo de riesgos en casos de uso críticos|Identificación de riesgos principales y su manejo|Identificación básica de riesgos|Riesgos no identificados o ignorados|
 
-## Notas Adicionales
+## Notas adicionales
 
 - La calificación final se obtiene ponderando las tres secciones según los porcentajes indicados
 - Se requiere un mínimo de 5 en cada sección para aprobar
 - Se valora especialmente la consistencia entre casos de uso y modelo de dominio
 - Los detalles prematuros de implementación o UI penalizan la calificación
 
-## Factores de Ajuste
+## Factores de ajuste
 
 - (+1) Excelente trazabilidad entre casos de uso y modelo de dominio
 - (+1) Documentación excepcionalmente clara y profesional

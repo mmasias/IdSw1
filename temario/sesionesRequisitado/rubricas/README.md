@@ -17,14 +17,13 @@ La evaluación de la actividad se divide en dos componentes principales, cada un
 
 </div>
 
-1. **Aprobación**
+1. Aprobación
    - Es necesario aprobar (≥5) cada componente de manera independiente
    - No se compensan las notas entre componentes si alguno está suspenso
-1. **Factores de Ajuste**
+1. Factores de ajuste
    - Se aplican primero a cada componente individual
    - Pueden modificar la nota de cada parte en ±1 punto
    - Se aplican antes de la ponderación final
-
 
 ## Observaciones adicionales
 
@@ -32,3 +31,15 @@ La evaluación de la actividad se divide en dos componentes principales, cada un
 - Los factores de ajuste se aplican de manera justificada y documentada
 - La evaluación considera tanto aspectos técnicos como de proceso
 - Se valora especialmente la consistencia entre ambos componentes
+
+---
+
+<div align=right>
+
+***Para este documento:***
+
+|*H*|*IA*|
+|-|-|
+|*70*|*30*|
+
+</div>

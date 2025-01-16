@@ -52,7 +52,7 @@ Diagramas de secuencia
 |-|-|
 introduce|permite introducir
 solicita introducir|permite solicitar
-||presenta / muestra / visualiza
+|solicita|presenta / muestra / visualiza
 
 </div>
 

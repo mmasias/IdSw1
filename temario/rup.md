@@ -1,13 +1,5 @@
 # RUP: Proceso Unificado de Desarrollo
 
-<div align=center>
-
-|MDD / Requisitos / Análisis|Diseño / Desarrollo / Pruebas|
-|-:|:-|
-|Hacer lo correcto|Hacerlo correcto|
-
-</div>
-
 ## ¿Por qué?
 
 En el mundo del desarrollo de software, la complejidad y la necesidad de adaptarse a cambios constantes son retos habituales. Para abordar estos desafíos, es esencial contar con un **marco de trabajo estructurado** que guíe a los equipos a través del proceso de desarrollo, minimizando los riesgos y maximizando la eficiencia y calidad del producto final. 
@@ -92,6 +84,14 @@ Gestionar riesgos|Mediante la entrega iterativa, los riesgos se identifican y re
 Mejorar la calidad del software|Al enfocarse en la arquitectura y permitir revisiones constantes, se asegura la calidad y robustez del software.
 Facilitar la adaptación a cambios|La naturaleza iterativa permite incorporar cambios en los requisitos o en la tecnología de manera más flexible y controlada.
 Claridad en el proceso|Proporciona una guía clara para cada etapa del desarrollo, definiendo qué debe realizarse, por quién y cuándo.
+
+<div align=center>
+
+|MDD / Requisitos / Análisis|Diseño / Desarrollo / Pruebas|
+|-:|:-|
+|Hacer lo correcto|Hacerlo correcto|
+
+</div>
 
 ## ¿Cómo?
 

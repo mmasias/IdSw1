@@ -12,6 +12,14 @@
 
 </div>
 
+## Las fases
+
+<div align=center>
+
+![](/images/modelosUML/RUPfases.svg)
+
+</div>
+
 ## Disciplinas y actividades
 
 <div align=center>

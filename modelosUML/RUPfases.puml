@@ -1,0 +1,61 @@
+@startuml RUPfases
+
+hide circle
+hide stereotype
+hide empty members
+
+class Inicio {
+  +Delimitar ámbito del sistema
+  +Demostrar viabilidad
+  +Describir arquitectura candidata
+  +Identificar riesgos críticos
+}
+
+class Elaboracion {
+  +Identificar riesgos significativos
+  +Crear línea base arquitectónica
+  +Especificar niveles de calidad
+  +Capturar ~80% casos de uso
+  +Preparar oferta detallada
+}
+
+class Construccion {
+  +Extender casos de uso completos
+  +Completar análisis, diseño, implementación
+  +Mantener integridad arquitectónica
+  +Monitorizar y mitigar riesgos
+}
+
+class Transicion {
+  +Preparar despliegue
+  +Asesorar actualización entorno
+  +Elaborar manuales y documentos
+  +Ajustar para entorno real
+  +Corregir defectos beta
+}
+
+Inicio -r-> Elaboracion : siguiente
+Elaboracion -r-> Construccion : siguiente
+Construccion -r-> Transicion : siguiente
+
+note bottom of Inicio
+**10% duración, 5% esfuerzo**
+Idea inicial → fundamento sólido
+end note
+
+note bottom of Elaboracion
+**30% duración, 20% esfuerzo**
+Definir arquitectura
+end note
+
+note bottom of Construccion
+**50% duración, 65% esfuerzo**
+Software a completitud
+end note
+
+note bottom of Transicion
+**10% duración, 10% esfuerzo**
+En manos de usuarios
+end note
+
+@enduml

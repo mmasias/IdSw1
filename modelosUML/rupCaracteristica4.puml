@@ -1,0 +1,44 @@
+@startuml rupCaracteristica4
+
+hide circle
+hide stereotype
+hide empty members
+
+class Iteracion1 {
+  +flujo de entregas ejecutables
+}
+class Iteracion2 {
+  +flujo de entregas ejecutables
+}
+class IteracionN {
+  +flujo de entregas ejecutables
+}
+class EntregaEjecutable {
+  +sistema ejecutable
+  +incompleto inicialmente
+  +calidad de producción
+}
+class SistemaFinal {
+  +listo para producción
+}
+
+Iteracion1 -d-> EntregaEjecutable : produce
+Iteracion2 -r-> EntregaEjecutable : incrementa
+IteracionN -r-> EntregaEjecutable : incrementa
+Iteracion2 -[hidden]d- IteracionN
+EntregaEjecutable --> EntregaEjecutable : evoluciona
+EntregaEjecutable -d-> SistemaFinal : converge
+
+note bottom of EntregaEjecutable
+Iterativo: flujo de entregas ejecutables
+Incremental: integración continua
+que aumenta funcionalidad
+end note
+
+note top of Iteracion1
+Retroalimentación temprana
+"Sí... pero" estructurado
+Gestión de riesgos progresiva
+end note
+
+@enduml

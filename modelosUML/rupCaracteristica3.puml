@@ -1,0 +1,33 @@
+@startuml rupCaracteristica3
+
+hide circle
+hide stereotype
+hide empty members
+
+class Arquitectura {
+  +artefacto primordial
+  +conceptualización
+  +construcción
+  +gestión
+  +evolución
+}
+class DisciplinaAnalisis
+class DisciplinaDiseño
+class DisciplinaImplementacion
+class DisciplinaPruebas
+class Sistema
+
+Arquitectura --> DisciplinaAnalisis : incluye
+Arquitectura --> DisciplinaDiseño : incluye
+Arquitectura --> DisciplinaImplementacion : incluye
+Arquitectura --> DisciplinaPruebas : incluye
+Arquitectura --> Sistema : define
+
+note right of Arquitectura
+Usada como artefacto primordial
+para la conceptualización,
+construcción, gestión y
+evolución del sistema
+end note
+
+@enduml

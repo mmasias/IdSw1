@@ -1,0 +1,37 @@
+@startuml rupCaracteristica2
+
+allow_mixing
+
+hide circle
+hide stereotype
+hide empty members
+
+actor Usuario
+class CasoDeUso {
+  +comportamiento deseado
+  +requisitos funcionales
+}
+class Requisito
+class Analisis
+class Diseño
+class Implementacion
+class Pruebas
+class Arquitectura
+
+Usuario --> CasoDeUso : define
+CasoDeUso --> Requisito : captura
+CasoDeUso --> Analisis : primera entrada
+CasoDeUso --> Diseño : primera entrada
+CasoDeUso --> Implementacion : primera entrada
+CasoDeUso --> Pruebas : verifica
+CasoDeUso --> Arquitectura : crea/verifica/valida
+
+note top of CasoDeUso
+Artefacto primordial para:
+- Establecer comportamiento
+- Comunicar entre implicados
+- Capturar requisitos funcionales
+- Facilitar trazabilidad
+end note
+
+@enduml

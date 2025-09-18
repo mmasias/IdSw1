@@ -1,0 +1,32 @@
+@startuml rupCaracteristica1
+
+hide circle
+hide stereotype
+hide empty members
+
+class Sistema
+class Componente {
+  +interfaces bien definidas
+  +reutilizable
+  +encapsulado
+  +manejable
+  +modular
+}
+class Interfaz {
+  +especificacion
+  +contrato
+}
+
+Sistema *--> "*" Componente
+Componente --> "*" Interfaz
+Componente ..> Componente : reutiliza
+
+note right of Componente
+Pieza de software pequeña y manejable
+- Reutilización
+- Gestión de la complejidad
+- Modularidad
+- Encapsulación
+end note
+
+@enduml

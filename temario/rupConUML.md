@@ -8,9 +8,9 @@
 
 |![](/images/modelosUML/proceso.svg)
 
-## Las disciplinas
+## Disciplinas y actividades
 
-![](/images/modelosUML/RUPdisciplinas.svg)
+![](/images/modelosUML/RUPdisciplinasActividades.svg)
 
 ## Los roles
 

@@ -41,7 +41,7 @@ class RolImplementacion as "Rol de\nImplementación"
 class RolPruebas as "Rol de\nPruebas"
 }
 
-Fase *--> Iteracion
+Fase *-r-> Iteracion
 Fase <|-- Inicio
 Inicio --> Elaboracion : siguiente
 Fase <|-- Elaboracion

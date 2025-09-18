@@ -1,0 +1,84 @@
+@startuml RUPdisciplinasActividades
+
+hide empty members
+hide circle
+
+class Inicio
+class Fin
+
+package "Disciplina de Requisitos" {
+  class "Encontrar Actores\n y Casos de Uso" as Encontrar
+  class "Priorizar \nCasos de Uso" as Priorizar
+  class "Detallar\n de  Caso de Uso" as Especificar
+  class "Prototipar la\n Interfaz de Usuario" as Prototipar
+  class "Estructurar \n Casos de Uso" as Estructurar
+}
+
+package "Disciplina de Análisis" {
+  class "Análisis de la\n Arquitectura" as Analisis
+  class "Análisis de\n Caso de Uso" as AnalisisCasoUso
+  class "Análisis \nde Clase" as AnalisisClase
+  class "Análisis \nde Paquete" as AnalisisPaquete
+}
+
+package "Disciplina de Diseño" {
+  class "Diseño de la\n Arquitectura" as DiseñoArquitectura
+  class "Diseño de\n Caso de Uso" as DiseñoCasoUso
+  class "Diseño \nde Clase" as DiseñoClase
+  class "Diseñar\n Subsistema" as DiseñarSubsistema
+}
+
+package "Disciplina de Implementación" {
+  class "Implementar\n la Arquitectura" as ImplementarArquitectura
+  class "Integrar\n Sistemas" as IntegrarSistemas
+  class "Implementar \nSubsistema" as ImplementarSubsistema
+  class "Implementar\n Clase" as ImplementarClase
+  class "Implementar\n Prueba Unitaria" as ImplementarPruebaUnitaria
+}
+
+package "Disciplina de Pruebas" {
+  class "Planificar\n Pruebas" as PlanificarPruebas
+  class "Diseñar \npruebas" as DiseñarPruebas
+  class "Implementar\n Pruebas" as ImplementarPruebas
+  class "Realizar Pruebas\n de Integración" as RealizarPruebasIntegracion
+  class "Realizar \nPruebas de Sistemas" as RealizarPruebasSistemas
+  class "Evaluar\n Pruebas" as EvaluarPruebas
+}
+
+Inicio --> Encontrar
+Encontrar --> Priorizar
+Priorizar --> Especificar
+Especificar --> Prototipar
+Especificar --> Estructurar
+Priorizar --> Analisis
+Analisis --> AnalisisCasoUso
+Prototipar --> AnalisisCasoUso
+Estructurar --> AnalisisCasoUso
+Estructurar --> PlanificarPruebas
+Analisis --> DiseñoArquitectura
+DiseñoArquitectura --> DiseñoCasoUso
+AnalisisCasoUso --> DiseñoCasoUso
+AnalisisCasoUso --> AnalisisClase
+DiseñoCasoUso --> DiseñoClase
+AnalisisClase --> DiseñoClase
+AnalisisClase --> AnalisisPaquete
+DiseñoArquitectura --> ImplementarArquitectura
+ImplementarArquitectura --> IntegrarSistemas
+DiseñoClase --> DiseñarSubsistema
+DiseñoClase --> IntegrarSistemas
+AnalisisPaquete --> DiseñarSubsistema
+PlanificarPruebas --> DiseñarPruebas
+DiseñarSubsistema --> IntegrarSistemas
+IntegrarSistemas -->ImplementarSubsistema
+ImplementarSubsistema --> ImplementarClase
+ImplementarClase --> ImplementarPruebaUnitaria
+ImplementarPruebaUnitaria --> RealizarPruebasIntegracion
+ImplementarPruebaUnitaria --> RealizarPruebasSistemas
+DiseñarPruebas --> ImplementarPruebas
+ImplementarPruebas --> RealizarPruebasSistemas
+ImplementarPruebas --> RealizarPruebasIntegracion
+RealizarPruebasIntegracion --> EvaluarPruebas
+RealizarPruebasSistemas --> EvaluarPruebas
+EvaluarPruebas --> Fin
+
+@enduml

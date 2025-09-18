@@ -132,11 +132,30 @@ Pruebas.|
 
 <div align=center>
 
-![](/images/modelosUML/RUProles.svg)
+||Requerimientos|Diseño|Análisis|Implementación|Pruebas
+|-|:-:|:-:|:-:|:-:|:-:|
+|Analista de sistemas|*
+|Especificador de casos de uso|*
+|Diseñador de interfaces|*
+|Arquitecto|*|*|*|*|
+|Ingeniero de casos de uso||*|*
+|Ingeniero de componentes||*|*|*|*
+|Integrador de sistemas||||*
+|Ingeniero de pruebas|||||*
+|Ingeniero de sistemas|||||*
+|Probador de integración|||||*
 
 </div>
 
 ### Fases
+
+<div align=center>
+
+|Inicio|Elaboración|Construcción|Transición|
+|-|-|-|-|
+Donde la idea inicial se llevará hasta el punto de ser suficientemente fundada.|Donde se define la arquitectura.|Donde el software se lleva su completitud.|Donde el software se pone en manos de la comunidad de usuarios.|
+
+</div>
 
 #### Inicio
 
@@ -148,7 +167,7 @@ Pruebas.|
 
 #### Elaboración
 
-* Donde se define la arquitectura
+* Donde se define la arquitectura.
   * Identifica los riesgos significativos, lo que significa riesgos que podrían alterar los planes, costos y horarios de las fases posteriores
   * Crea una línea de base arquitectónica que cubre la funcionalidad significativa del sistema y las características importantes para los implicados
   * Especifica los niveles que deben alcanzar los atributos de calidad
@@ -157,7 +176,7 @@ Pruebas.|
 
 #### Construcción
 
-* Donde el software se lleva su completitud
+* Donde el software se lleva su completitud.
   * Extiende la identificación de casos de uso, la descripción y realización a todo el cuerpo de casos de uso
   * Acaba el análisis, diseño, implementación y pruebas
   * Mantiene la integridad de la arquitectura, modificando cuando sea necesario
@@ -165,7 +184,7 @@ Pruebas.|
 
 #### Transición
 
-* Donde el software se pone en manos de la comunidad de usuarios
+* Donde el software se pone en manos de la comunidad de usuarios.
   * Actividades de preparación, como el sitio web
   * Asesorar al cliente sobre la actualización del entorno en el que el software operará
   * Elaboración de manuales y otros documentos para la entrega a producción
@@ -184,14 +203,6 @@ Pruebas.|
 |:-:
 |Desarrollo iterativo
 |![](/imagenes/porOrganizar/desarrolloIterativo.gif)
-
-</div>
-
-### Iteraciones
-
-<div align=center>
-
-![](/images/modelosUML/RUPiteraciones.svg)
 
 </div>
 
@@ -230,8 +241,6 @@ Disciplina de Pruebas
 ||22. Realizar Pruebas de Integración
 ||23. Realizar Pruebas de Sistemas
 ||24. Evaluar Pruebas
-
-![](/images/modelosUML/RUPdisciplinas.svg)
 
 </div>
 

@@ -3,92 +3,92 @@
 hide circle
 hide stereotype
 
-package phases <<phases>> {
-class Phase <<phases>>
-class Inception as "Inception\nPhase" <<phases>>
-class Elaboration as "Elaboration\nPhase" <<phases>>
-class Construction as "Construction\nPhase" <<phases>>
-class Transition as "Transition\nPhase" <<phases>>
+package fases {
+class Fase
+class Inicio as "Fase de\nInicio"
+class Elaboracion as "Fase de\nElaboración"
+class Construccion as "Fase de\nConstrucción"
+class Transicion as "Fase de\nTransición"
 }
 
-class Iteration <<iteration>>
+class Iteracion
 
-package disciplines <<disciplines>> {
-class Discipline <<disciplines>>
-class RequirementDiscipline as "Requirement\nDiscipline" <<disciplines>>
-class AnalysisDiscipline as "Analysis\nDiscipline"  <<disciplines>>
-class DesignDiscipline as "Design\nDiscipline" <<disciplines>>
-class ImplementationDiscipline as "Implementation\nDiscipline" <<disciplines>>
-class TestDiscipline as "Test\nDiscipline" <<disciplines>>
+package disciplinas {
+class Disciplina
+class DisciplinaRequisitos as "Disciplina de\nRequisitos"
+class DisciplinaAnalisis as "Disciplina de\nAnálisis"
+class DisciplinaDiseño as "Disciplina de\nDiseño"
+class DisciplinaImplementacion as "Disciplina de\nImplementación"
+class DisciplinaPruebas as "Disciplina de\nPruebas"
 }
 
-package activities <<activities>> {
-class Activity <<activities>>
-class RequirementActivity as "Requirement\nActivity" <<activities>>
-class AnalysisActivity as "Analysis\nActivity" <<activities>>
-class DesignActivity as "Design\nActivity" <<activities>>
-class ImplementationActivity as "Implementation\nActivity" <<activities>>
-class TestActivity as "Test\nActivity" <<activities>>
+package actividades {
+class Actividad
+class ActividadRequisitos as "Actividad de\nRequisitos"
+class ActividadAnalisis as "Actividad de\nAnálisis"
+class ActividadDiseño as "Actividad de\nDiseño"
+class ActividadImplementacion as "Actividad de\nImplementación"
+class ActividadPruebas as "Actividad de\nPruebas"
 }
 
-package team <<team>> {
-class Member  <<team>>
-class Role  <<team>>
-class RequirementRole as "Requirement\nRole" <<team>>
-class AnalysisRole as "Analysis\nRole"  <<team>>
-class DesignRole as "Design\nRole" <<team>>
-class ImplementRole as "Implement\nRole" <<team>>
-class TestRole as "Test\nRole" <<team>>
+package equipo {
+class Miembro
+class Rol
+class RolRequisitos as "Rol de\nRequisitos"
+class RolAnalisis as "Rol de\nAnálisis"
+class RolDiseño as "Rol de\nDiseño"
+class RolImplementacion as "Rol de\nImplementación"
+class RolPruebas as "Rol de\nPruebas"
 }
 
-Phase *--> Iteration
-Phase <|-- Inception
-Inception --> Elaboration : next
-Phase <|-- Elaboration
-Elaboration  --> Construction :next
-Phase <|-- Construction
-Construction  -->  Transition :next
-Phase <|-- Transition
+Fase *--> Iteracion
+Fase <|-- Inicio
+Inicio --> Elaboracion : siguiente
+Fase <|-- Elaboracion
+Elaboracion  --> Construccion :siguiente
+Fase <|-- Construccion
+Construccion  -->  Transicion :siguiente
+Fase <|-- Transicion
 
-Iteration *--> Discipline
-Iteration --> Iteration :next
+Iteracion *--> Disciplina
+Iteracion --> Iteracion :siguiente
 
-Discipline *--> Activity
-Discipline <|-- RequirementDiscipline
-RequirementDiscipline *--> "*" RequirementActivity
-RequirementDiscipline --> AnalysisDiscipline :next
-Discipline <|-- AnalysisDiscipline
-AnalysisDiscipline *--> "*" AnalysisActivity
-AnalysisDiscipline --> DesignDiscipline :next
-Discipline <|-- DesignDiscipline
-DesignDiscipline *--> "*" DesignActivity
-DesignDiscipline --> ImplementationDiscipline :next
-Discipline <|-- ImplementationDiscipline
-ImplementationDiscipline *--> "*" ImplementationActivity
-ImplementationDiscipline --> TestDiscipline :next
-Discipline <|-- TestDiscipline
-TestDiscipline *--> "*" TestActivity
+Disciplina *--> Actividad
+Disciplina <|-- DisciplinaRequisitos
+DisciplinaRequisitos *--> "*" ActividadRequisitos
+DisciplinaRequisitos --> DisciplinaAnalisis :siguiente
+Disciplina <|-- DisciplinaAnalisis
+DisciplinaAnalisis *--> "*" ActividadAnalisis
+DisciplinaAnalisis --> DisciplinaDiseño :siguiente
+Disciplina <|-- DisciplinaDiseño
+DisciplinaDiseño *--> "*" ActividadDiseño
+DisciplinaDiseño --> DisciplinaImplementacion :siguiente
+Disciplina <|-- DisciplinaImplementacion
+DisciplinaImplementacion *--> "*" ActividadImplementacion
+DisciplinaImplementacion --> DisciplinaPruebas :siguiente
+Disciplina <|-- DisciplinaPruebas
+DisciplinaPruebas *--> "*" ActividadPruebas
 
-Activity <|-- RequirementActivity
-RequirementActivity --> AnalysisActivity :next
-Activity <|-- AnalysisActivity
-AnalysisActivity --> DesignActivity :next
-Activity <|-- DesignActivity
-DesignActivity --> ImplementationActivity :next
-Activity <|-- ImplementationActivity
-ImplementationActivity --> TestActivity :next
-Activity <|-- TestActivity
+Actividad <|-- ActividadRequisitos
+ActividadRequisitos --> ActividadAnalisis :siguiente
+Actividad <|-- ActividadAnalisis
+ActividadAnalisis --> ActividadDiseño :siguiente
+Actividad <|-- ActividadDiseño
+ActividadDiseño --> ActividadImplementacion :siguiente
+Actividad <|-- ActividadImplementacion
+ActividadImplementacion --> ActividadPruebas :siguiente
+Actividad <|-- ActividadPruebas
 
-Activity --> Member
-Member *--> Role
-Role <|-- RequirementRole
-Role <|-- AnalysisRole
-Role <|-- DesignRole
-Role <|-- ImplementRole
-Role <|-- TestRole
+Actividad --> Miembro
+Miembro *--> Rol
+Rol <|-- RolRequisitos
+Rol <|-- RolAnalisis
+Rol <|-- RolDiseño
+Rol <|-- RolImplementacion
+Rol <|-- RolPruebas
 
-RequirementActivity --> "*" RequirementRole
-AnalysisActivity --> "*" AnalysisRole
-DesignActivity --> "*" DesignRole
-ImplementationActivity --> "*" ImplementRole
-TestActivity --> "*" TestRole
+ActividadRequisitos --> "*" RolRequisitos
+ActividadAnalisis --> "*" RolAnalisis
+ActividadDiseño --> "*" RolDiseño
+ActividadImplementacion --> "*" RolImplementacion
+ActividadPruebas --> "*" RolPruebas

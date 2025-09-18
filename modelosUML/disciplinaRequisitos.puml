@@ -3,63 +3,63 @@
 hide circle
 hide stereotype
 
-package disciplines <<disciplines>> {
-class Discipline <<disciplines>>
-class RequirementDiscipline as "Requirement\nDiscipline" <<disciplines>>
+package disciplinas {
+class Disciplina
+class DisciplinaRequisitos as "Disciplina de\nRequisitos"
 }
 
-package activities <<activities>> {
-class Activity  <<activities>>
-class RequirementActivity as "Requirement\nActivity" <<activities>>
-class FindActorUseCases as "Find Actor\nand Use Cases"  <<activities>>
-class PriorizeUseCases as "Priorize\nUse Cases"  <<activities>>
-class DetailUseCase as "Detail\nUse Case"  <<activities>>
-class StructureUseCaseModel as "Structure\nUse Case Model"  <<activities>>
-class PrototypeInterface as "Prototype\nInterface"  <<activities>>
+package actividades {
+class Actividad
+class ActividadRequisitos as "Actividad de\nRequisitos"
+class EncontrarActoresCasosUso as "Encontrar Actores\ny Casos de Uso"
+class PriorizarCasosUso as "Priorizar\nCasos de Uso"
+class DetallarCasoUso as "Detallar\nCaso de Uso"
+class EstructurarModeloCasosUso as "Estructurar Modelo\nde Casos de Uso"
+class PrototiparInterfaz as "Prototipar\nInterfaz"
 }
 
-package team <<team>> {
-class Member <<team>>
-class Role <<team>>
-class RequirementRole as "Requirement\nRole" <<team>>
-class SystemsAnalyst as "Systems\nAnalyst" <<team>>
-class UseCaseSpecifier as "Use Case\nSpecifier" <<team>>
-class Architect <<team>>
-class InterfaceDesigner as "Interface\nDesigner" <<team>>
+package equipo {
+class Miembro
+class Rol
+class RolRequisitos as "Rol de\nRequisitos"
+class AnalistaSistemas as "Analista de\nSistemas"
+class EspecificadorCasosUso as "Especificador de\nCasos de Uso"
+class Arquitecto
+class DiseñadorInterfaz as "Diseñador de\nInterfaz"
 }
 
-Discipline *--> Activity
+Disciplina *--> Actividad
 
-Discipline <|-- RequirementDiscipline
-RequirementDiscipline *--> "*" RequirementActivity
+Disciplina <|-- DisciplinaRequisitos
+DisciplinaRequisitos *--> "*" ActividadRequisitos
 
-Activity <|-- RequirementActivity
-RequirementActivity *--> Member
+Actividad <|-- ActividadRequisitos
+ActividadRequisitos *--> Miembro
 
-Member *--> Role
+Miembro *--> Rol
 
-Role <|-- RequirementRole
+Rol <|-- RolRequisitos
 
-RequirementActivity <|-- FindActorUseCases
-FindActorUseCases --> SystemsAnalyst
-FindActorUseCases  --> PriorizeUseCases :next
+ActividadRequisitos <|-- EncontrarActoresCasosUso
+EncontrarActoresCasosUso --> AnalistaSistemas
+EncontrarActoresCasosUso  --> PriorizarCasosUso :siguiente
 
-RequirementActivity <|-- PriorizeUseCases
-PriorizeUseCases --> Architect
-PriorizeUseCases  --> DetailUseCase :next
+ActividadRequisitos <|-- PriorizarCasosUso
+PriorizarCasosUso --> Arquitecto
+PriorizarCasosUso  --> DetallarCasoUso :siguiente
 
-RequirementActivity <|-- DetailUseCase
-DetailUseCase --> UseCaseSpecifier
-DetailUseCase  --> StructureUseCaseModel :next
-DetailUseCase  --> PrototypeInterface :next
+ActividadRequisitos <|-- DetallarCasoUso
+DetallarCasoUso --> EspecificadorCasosUso
+DetallarCasoUso  --> EstructurarModeloCasosUso :siguiente
+DetallarCasoUso  --> PrototiparInterfaz :siguiente
 
-RequirementActivity <|-- StructureUseCaseModel
-StructureUseCaseModel --> SystemsAnalyst
+ActividadRequisitos <|-- EstructurarModeloCasosUso
+EstructurarModeloCasosUso --> AnalistaSistemas
 
-RequirementActivity <|-- PrototypeInterface
-PrototypeInterface --> InterfaceDesigner
+ActividadRequisitos <|-- PrototiparInterfaz
+PrototiparInterfaz --> DiseñadorInterfaz
 
-RequirementRole <|-- SystemsAnalyst
-RequirementRole <|-- UseCaseSpecifier
-RequirementRole <|-- Architect
-RequirementRole <|-- InterfaceDesigner
+RolRequisitos <|-- AnalistaSistemas
+RolRequisitos <|-- EspecificadorCasosUso
+RolRequisitos <|-- Arquitecto
+RolRequisitos <|-- DiseñadorInterfaz

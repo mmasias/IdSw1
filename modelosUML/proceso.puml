@@ -1,0 +1,54 @@
+@startuml
+
+hide circle
+hide stereotype
+hide empty members
+
+class Proyecto {
+inicio: Fecha
+fin: Fecha
+}
+
+package alcance {
+class Requerimientos
+class CasoDeUso
+}
+
+package tiempo{
+class Fase {
+inicio: Fecha
+fin: Fecha
+}
+class Iteracion {
+inicio: Fecha
+fin: Fecha
+}
+class Disciplina
+class Actividad {
+inicio: Hora
+fin: Hora
+}
+}
+
+package costos {
+class Equipo
+class Miembro
+class Rol
+}
+
+Proyecto *--> Requerimientos
+Proyecto *--> "4" Fase
+Proyecto *--> Equipo
+
+Requerimientos *--> "*" CasoDeUso
+
+Fase *--> "+" Iteracion
+Iteracion *--> "6" Disciplina
+Disciplina *--> "4..7" Actividad
+
+Equipo *--> "*" Miembro
+Miembro --> Rol
+Actividad --> Miembro
+Actividad --> CasoDeUso
+
+@enduml

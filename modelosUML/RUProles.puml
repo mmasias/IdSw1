@@ -3,48 +3,48 @@
 hide circle
 hide stereotype
 
-class Role
-class RequirementRole as "Requirement\nRole" <<requirement>>
-class AnalysisRole as "Analysis\nRole" <<analysis>>
-class DesignRole as "Design\nRole" <<design>>
-class ImplementRole as "Implementation\nRole" <<implementation>>
-class TestRole as "Test\nRole" <<test>>
+class Rol as "Rol"
+class RolRequisitos as "Rol de\nRequisitos"
+class RolAnalisis as "Rol de\nAnálisis"
+class RolDiseño as "Rol de\nDiseño"
+class RolImplementacion as "Rol de\nImplementación"
+class RolPruebas as "Rol de\nPruebas"
 
-class SystemsAnalyst as "Systems\nAnalyst" <<requirement>>
-class UseCaseSpecifier as "Use Case\nSpecifier" <<requirement>>
-class InterfaceDesigner as "Interface\nDesigner" <<requirement>>
-class UseCaseEngineer as "Use Case\nEngineer" <<several>>
-class Architect <<several>>
-class ComponentEngineer as "Component\nEngineer" <<several>>
-class SystemIntegrator as "System\nIntegrator" <<implementation>>
-class TestEngineer as "Test\nEngineer" <<test>>
-class SystemTester as "System\nEngineer" <<test>>
-class IntegrationTester as "Integration\nTester" <<test>>
+class AnalistaSistemas as "Analista de\nSistemas"
+class EspecificadorCasosUso as "Especificador de\nCasos de Uso"
+class DiseñadorInterfaz as "Diseñador de\nInterfaz"
+class IngenieuroCasosUso as "Ingeniero de\nCasos de Uso"
+class Arquitecto
+class IngenieroComponentes as "Ingeniero de\nComponentes"
+class IntegradorSistemas as "Integrador de\nSistemas"
+class IngenieuroPruebas as "Ingeniero de\nPruebas"
+class ProbadorSistemas as "Probador de\nSistemas"
+class ProbadorIntegracion as "Probador de\nIntegración"
 
-Role <|-- RequirementRole
-Role <|-- AnalysisRole
-Role <|-- DesignRole
-Role <|-- ImplementRole
-Role <|-- TestRole
+Rol <|-- RolRequisitos
+Rol <|-- RolAnalisis
+Rol <|-- RolDiseño
+Rol <|-- RolImplementacion
+Rol <|-- RolPruebas
 
-RequirementRole <|-- SystemsAnalyst
-RequirementRole <|-- UseCaseSpecifier
-RequirementRole <|-- Architect
-RequirementRole <|-- InterfaceDesigner
+RolRequisitos <|-- AnalistaSistemas
+RolRequisitos <|-- EspecificadorCasosUso
+RolRequisitos <|-- Arquitecto
+RolRequisitos <|-- DiseñadorInterfaz
 
-AnalysisRole <|-- Architect
-AnalysisRole <|-- UseCaseEngineer
-AnalysisRole <|-- ComponentEngineer
+RolAnalisis <|-- Arquitecto
+RolAnalisis <|-- IngenieuroCasosUso
+RolAnalisis <|-- IngenieroComponentes
 
-ImplementRole <|-- Architect
-ImplementRole <|-- SystemIntegrator
-ImplementRole <|-- ComponentEngineer
+RolImplementacion <|-- Arquitecto
+RolImplementacion <|-- IntegradorSistemas
+RolImplementacion <|-- IngenieroComponentes
 
-TestRole <|-- TestEngineer
-TestRole <|-- SystemTester
-TestRole <|-- IntegrationTester
-TestRole <|-- ComponentEngineer
+RolPruebas <|-- IngenieuroPruebas
+RolPruebas <|-- ProbadorSistemas
+RolPruebas <|-- ProbadorIntegracion
+RolPruebas <|-- IngenieroComponentes
 
-DesignRole <|-- Architect
-DesignRole <|-- UseCaseEngineer
-DesignRole <|-- ComponentEngineer
+RolDiseño <|-- Arquitecto
+RolDiseño <|-- IngenieuroCasosUso
+RolDiseño <|-- IngenieroComponentes

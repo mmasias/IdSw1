@@ -34,11 +34,11 @@ Disciplina de Requisitos es el flujo de trabajo (realización de casos de uso qu
 
 ## ¿Cómo?
 
-- [Encontrar actores y casos de uso](/temario/contenidos/CdU.eAyCdU.md)
-- [Priorizar casos de uso](/temario/contenidos/CdU.PCdU.md)
-- [Detallar casos de uso](/temario/contenidos/Cdu.dCdU.md)
-- [Prototipar casos de uso](/temario/contenidos/CdU.ICdU.md)
-- [Estructurar el modelo de casos de uso](/temario/contenidos/eCdU.md)
+- [Encontrar actores y casos de uso](/temario/contenidos/00006-CdU.eAyCdU.md)
+- [Priorizar casos de uso](/temario/contenidos/00007-CdU.PCdU.md)
+- [Detallar casos de uso](/temario/contenidos/00008-Cdu.dCdU.md)
+- [Prototipar casos de uso](/temario/contenidos/00009-CdU.ICdU.md)
+- [Estructurar el modelo de casos de uso](/temario/contenidos/00010-eCdU.md)
 
 <div align=center>
 

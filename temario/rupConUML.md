@@ -40,6 +40,6 @@
 
 <div align=center>
 
-![](/images/modelosUML/RUPiteraciones.svg)|
+![](/images/modelosUML/RUPiteraciones.svg)
 
 </div>

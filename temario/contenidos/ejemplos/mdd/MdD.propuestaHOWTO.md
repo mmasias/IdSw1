@@ -79,7 +79,7 @@ El proceso de construcción del modelo del dominio siguiendo este enfoque se est
         </td>
         <td valign=top width=50%>
         
-        <img src="../../images/modelosUML/MdD.propuestaHOWTO.svg">
+        <img src="../../../../images/modelosUML/MdD.propuestaHOWTO.svg">
         
         </td>
     </tr>

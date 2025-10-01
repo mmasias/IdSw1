@@ -1,0 +1,24 @@
+```plantuml
+@startuml
+class Horario
+
+class CampusUniversitario
+class Edificio  
+class Aula
+class Profesor
+class Recurso
+class Curso
+class Programa
+class BloqueHorario
+
+CampusUniversitario *-- Edificio : contiene
+Edificio *-- Aula : contiene
+Horario *-- BloqueHorario : compuesto por
+Horario -- Aula : asignado a
+Horario -- Profesor : impartido por  
+Horario -- Curso : corresponde a
+Profesor -- Recurso : prefiere >
+Profesor -- Recurso : < ofrece
+Curso -- Programa : pertenece a
+@enduml
+```

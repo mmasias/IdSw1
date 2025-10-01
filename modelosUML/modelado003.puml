@@ -1,0 +1,17 @@
+@startuml
+class Horario {
+}
+
+class Aula {
+}
+
+class Profesor {
+}
+
+class Curso {
+}
+
+Horario -- Aula : asignado a
+Horario -- Profesor : impartido por
+Horario -- Curso : corresponde a
+@enduml

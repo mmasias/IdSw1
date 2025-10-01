@@ -1,0 +1,15 @@
+@startuml
+
+class Horario
+
+Horario -- CampusUniversitario
+Horario -- Aula
+Horario -- Profesor
+Horario -- Curso
+Horario -- Programa
+Horario -- BloqueHorario
+Aula -- Edificio
+Curso -- Programa
+Profesor -- Recurso
+
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+class CampusUniversitario {
+}
+
+class Edificio {
+}
+
+class Aula {
+}
+
+CampusUniversitario *-- Edificio : contiene
+Edificio *-- Aula : contiene
+@enduml

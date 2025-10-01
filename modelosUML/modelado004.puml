@@ -1,0 +1,10 @@
+@startuml
+class Profesor {
+}
+
+class Recurso {
+}
+
+Profesor -- Recurso : prefiere >
+Profesor -- Recurso : < ofrece
+@enduml

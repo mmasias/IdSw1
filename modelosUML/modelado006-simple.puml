@@ -1,0 +1,33 @@
+@startuml
+
+hide empty members
+skinparam linetype polyline
+
+Juego *-- Laberinto : contiene
+Juego *-- Pacman : gestiona
+Juego *-- Fantasma : gestiona >
+Laberinto *-- Casilla : compuesto por
+Casilla -- Pacman : ocupa
+Casilla -- Fantasma : ocupa
+Casilla o-d- Punto : puede contener
+Casilla o-- PastillaEspecial : puede contener
+Casilla o-- Fruta : puede contener
+Pacman -u- Punto : recolecta >
+Pacman -- PastillaEspecial : recolecta >
+Pacman -u- Fruta : recolecta >
+Fantasma -- Pacman : persigue >
+
+enum EstadoJuego 
+enum TipoCasilla 
+enum EstadoPacman 
+enum ModoFantasma 
+enum Direccion 
+
+Juego .r. EstadoJuego
+Casilla .. TipoCasilla
+Pacman .. EstadoPacman
+Pacman .l. Direccion
+Fantasma .. ModoFantasma
+Fantasma .d. Direccion
+
+@enduml

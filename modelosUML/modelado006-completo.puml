@@ -1,0 +1,101 @@
+@startuml
+
+class Juego {
+    puntaje
+    vidas
+    nivel
+    estado
+}
+
+class Laberinto {
+    ancho
+    alto
+}
+
+class Casilla {
+    posición
+    tipo
+    transitable
+}
+
+class Pacman {
+    dirección
+    velocidad
+    estado
+}
+
+class Fantasma {
+    nombre
+    color
+    dirección
+    velocidad
+    modo
+}
+
+class Punto {
+    valor
+}
+
+class PastillaEspecial {
+    valor
+    duración del efecto
+}
+
+class Fruta {
+    tipo
+    valor
+}
+
+enum EstadoJuego {
+    EN_CURSO
+    PAUSADO
+    TERMINADO
+}
+
+enum TipoCasilla {
+    VACIA
+    MURO
+    TUNEL
+}
+
+enum EstadoPacman {
+    NORMAL
+    INVENCIBLE
+    MUERTO
+}
+
+enum ModoFantasma {
+    PERSEGUIR
+    VULNERABLE
+    HUYENDO
+}
+
+enum Dirección {
+    ARRIBA
+    ABAJO
+    IZQUIERDA
+    DERECHA
+}
+
+Juego *-- Laberinto
+Juego *-- Pacman
+Juego *-- Fantasma
+Laberinto *-- Casilla
+Casilla -- Pacman
+Casilla -- Fantasma
+Casilla o-- Punto
+Casilla o-- PastillaEspecial
+Casilla o-- Fruta
+Pacman -- Punto
+Pacman -- PastillaEspecial
+Pacman -- Fruta
+Fantasma -- Pacman
+
+Juego .. EstadoJuego
+Casilla .. TipoCasilla
+Pacman .. EstadoPacman
+Pacman .. Dirección
+Fantasma .. ModoFantasma
+Fantasma .. Dirección
+
+@enduml

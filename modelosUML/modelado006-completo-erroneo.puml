@@ -1,0 +1,104 @@
+@startuml
+
+class Juego {
+    -puntaje: int
+    -vidas: int
+    -nivel: int
+    -estado: EstadoJuego
+}
+
+class Laberinto {
+    -ancho: int
+    -alto: int
+}
+
+class Casilla {
+    -x: int
+    -y: int
+    -tipo: TipoCasilla
+    -transitable: boolean
+}
+
+class Pacman {
+    -direccion: Direccion
+    -velocidad: int
+    -estado: EstadoPacman
+}
+
+class Fantasma {
+    -nombre: String
+    -color: Color
+    -direccion: Direccion
+    -velocidad: int
+    -modo: ModoFantasma
+}
+
+class Punto {
+    -valor: int
+}
+
+class PastillaEspecial {
+    -valor: int
+    -duracionEfecto: int
+}
+
+class Fruta {
+    -tipo: TipoFruta
+    -valor: int
+}
+
+enum EstadoJuego {
+    EN_CURSO
+    PAUSADO
+    TERMINADO
+}
+
+enum TipoCasilla {
+    VACIA
+    MURO
+    TUNEL
+}
+
+enum EstadoPacman {
+    NORMAL
+    INVENCIBLE
+    MUERTO
+}
+
+enum ModoFantasma {
+    PERSEGUIR
+    VULNERABLE
+    HUYENDO
+}
+
+enum Direccion {
+    ARRIBA
+    ABAJO
+    IZQUIERDA
+    DERECHA
+}
+
+' Relaciones
+Juego *-- Laberinto : contiene
+Juego *-- Pacman : gestiona
+Juego *-- Fantasma : gestiona >
+Laberinto *-- Casilla : compuesto por
+Casilla -- Pacman : ocupa
+Casilla -- Fantasma : ocupa
+Casilla o-d- Punto : puede contener
+Casilla o-- PastillaEspecial : puede contener
+Casilla o-- Fruta : puede contener
+Pacman -u- Punto : recolecta >
+Pacman -- PastillaEspecial : recolecta >
+Pacman -u- Fruta : recolecta >
+Fantasma -- Pacman : persigue >
+
+' Relaciones con enums
+Juego .r. EstadoJuego
+Casilla .. TipoCasilla
+Pacman .. EstadoPacman
+Pacman .l. Direccion
+Fantasma .. ModoFantasma
+Fantasma .d. Direccion
+
+@enduml

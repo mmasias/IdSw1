@@ -1,0 +1,104 @@
+@startuml
+actor Solicitante
+participant Sistema
+participant ValidadorFormato
+participant ValidadorContenido  
+participant ValidadorAutorizacion
+participant Supervisor
+participant Gerencia
+participant Timer
+
+Solicitante -> Sistema: Enviar solicitud
+
+loop hasta 3 intentos formato
+    Sistema -> ValidadorFormato: Validar formato
+    alt formato válido
+        ValidadorFormato -> Sistema: OK
+    else formato inválido < 3 intentos
+        ValidadorFormato -> Sistema: Error
+        Sistema -> Solicitante: Notificar error
+        Solicitante -> Sistema: Corregir y reenviar
+    else formato inválido = 3 intentos
+        ValidadorFormato -> Sistema: Error final
+    end
+end
+
+alt formato válido
+    loop hasta 3 intentos contenido
+        Sistema -> ValidadorContenido: Validar contenido
+        alt contenido válido
+            ValidadorContenido -> Sistema: OK
+        else contenido inválido < 3 intentos
+            ValidadorContenido -> Sistema: Error
+            Sistema -> Solicitante: Notificar error
+            Solicitante -> Sistema: Corregir y reenviar
+        else contenido inválido = 3 intentos
+            ValidadorContenido -> Sistema: Error final
+        end
+    end
+    
+    alt contenido válido
+        loop hasta 3 intentos autorización
+            Sistema -> ValidadorAutorizacion: Validar autorización
+            alt autorización válida
+                ValidadorAutorizacion -> Sistema: OK
+            else autorización inválida < 3 intentos
+                ValidadorAutorizacion -> Sistema: Error
+                Sistema -> Solicitante: Notificar error
+                Solicitante -> Sistema: Corregir y reenviar
+            else autorización inválida = 3 intentos
+                ValidadorAutorizacion -> Sistema: Error final
+            end
+        end
+        
+        alt autorización válida
+            Sistema -> Supervisor: Solicitar aprobación
+            Sistema -> Timer: Iniciar temporizador 24h
+            
+            loop mientras no responde supervisor
+                alt timeout 24h
+                    Timer -> Sistema: Timeout
+                    Sistema -> Supervisor: Recordatorio
+                    Sistema -> Timer: Reiniciar
+                end
+            end
+            
+            alt supervisor aprueba
+                Supervisor -> Sistema: Aprobado
+                
+                alt monto > 10000
+                    Sistema -> Gerencia: Solicitar aprobación
+                    Sistema -> Timer: Iniciar temporizador 24h
+                    
+                    loop mientras no responde gerencia
+                        alt timeout 24h
+                            Timer -> Sistema: Timeout
+                            Sistema -> Gerencia: Recordatorio
+                            Sistema -> Timer: Reiniciar
+                        end
+                    end
+                    
+                    alt gerencia aprueba
+                        Gerencia -> Sistema: Aprobado
+                        Sistema -> Solicitante: Solicitud aprobada
+                    else gerencia rechaza
+                        Gerencia -> Sistema: Rechazado
+                        Sistema -> Solicitante: Rechazado por gerencia
+                    end
+                else monto <= 10000
+                    Sistema -> Solicitante: Solicitud aprobada
+                end
+            else supervisor rechaza
+                Supervisor -> Sistema: Rechazado
+                Sistema -> Solicitante: Rechazado por supervisor
+            end
+        else autorización inválida final
+            Sistema -> Solicitante: Rechazado por autorización
+        end
+    else contenido inválido final
+        Sistema -> Solicitante: Rechazado por contenido
+    end
+else formato inválido final
+    Sistema -> Solicitante: Rechazado por formato
+end
+@enduml

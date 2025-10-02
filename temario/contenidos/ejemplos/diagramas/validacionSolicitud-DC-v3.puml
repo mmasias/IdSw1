@@ -1,0 +1,49 @@
+@startuml
+object Solicitante
+object Sistema
+object ValidadorFormato
+object ValidadorContenido
+object ValidadorAutorizacion
+object Supervisor
+object Gerencia
+object Timer
+
+left to right direction
+
+Solicitante --> Sistema : Enviar solicitud
+
+Sistema --> ValidadorFormato : Validar formato [loop hasta 3]
+ValidadorFormato --> Sistema : OK
+ValidadorFormato --> Sistema : Error
+Sistema --> Solicitante : Notificar error [si error y intentos<3]
+Solicitante --> Sistema : Reenviar [si error y intentos<3]
+
+Sistema --> ValidadorContenido : Validar contenido [loop hasta 3]
+ValidadorContenido --> Sistema : OK
+ValidadorContenido --> Sistema : Error
+Sistema --> Solicitante : Notificar error [si error y intentos<3]
+Solicitante --> Sistema : Reenviar [si error y intentos<3]
+
+Sistema --> ValidadorAutorizacion : Validar autorización [loop hasta 3]
+ValidadorAutorizacion --> Sistema : OK
+ValidadorAutorizacion --> Sistema : Error
+Sistema --> Solicitante : Notificar error [si error y intentos<3]
+Solicitante --> Sistema : Reenviar [si error y intentos<3]
+
+Sistema --> Supervisor : Solicitar aprobación [si válido]
+Sistema --> Timer : Iniciar 24h
+Timer --> Sistema : Timeout [cada 24h]
+Sistema --> Supervisor : Recordatorio [cada timeout]
+Supervisor --> Sistema : Aprobar
+Supervisor --> Sistema : Rechazar
+
+Sistema --> Gerencia : Solicitar aprobación [si monto>10000]
+Sistema --> Timer : Iniciar 24h
+Timer --> Sistema : Timeout [cada 24h]
+Sistema --> Gerencia : Recordatorio [cada timeout]
+Gerencia --> Sistema : Aprobar
+Gerencia --> Sistema : Rechazar
+
+Sistema --> Solicitante : Aprobada
+Sistema --> Solicitante : Rechazada [múltiples razones]
+@enduml

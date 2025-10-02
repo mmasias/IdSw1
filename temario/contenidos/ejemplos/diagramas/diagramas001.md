@@ -64,3 +64,31 @@ Juego del 3 en raya
 |**Diagrama de actividad**|**Diagrama de estados**|**Diagrama de secuencia**|**Diagrama de colaboración**|
 
 </div>
+
+### A nada que pidan más cosas (que tampoco son tantas...)
+
+- Validación en tres niveles: formato, contenido técnico, autorización presupuestal.
+- Posibilidad de corrección y reenvío en cada nivel (máximo 3 intentos por nivel).
+- Aprobación requiere firma de supervisor (puede tardar días).
+- Si solicitud > $10,000: requiere aprobación adicional de gerencia.
+- Sistema debe recordar en qué punto quedó cada solicitud.
+- Notificaciones automáticas cada 24h si está en espera.
+
+![](/images/temario/contenidos/ejemplos/diagramas/validacionSolicitud-DA-v3.svg)|![](/images/temario/contenidos/ejemplos/diagramas/validacionSolicitud-DE-v3.svg)|![](/images/temario/contenidos/ejemplos/diagramas/validacionSolicitud-DS-v3.svg)|![](/images/temario/contenidos/ejemplos/diagramas/validacionSolicitud-DC-v3.svg)
+|:-:|:-:|:-:|:-:|
+|**Diagrama de actividad**|**Diagrama de estados**|**Diagrama de secuencia**|**Diagrama de colaboración**|
+
+### Comparación de complejidad
+
+<div align=center>
+
+|Aspecto|Actividad|Estados|Secuencia|Colaboración|
+|-|:-:|:-:|:-:|:-:|
+|**Líneas/nodos**|~80|~15|~100|~25|
+|**Anidación**|5 niveles|0 niveles|6 niveles|0 niveles|
+|**Legibilidad al crecer**|Se vuelve ilegible|Mantiene claridad|Se vuelve ilegible|Pierde contexto temporal|
+|**Manejo de estados asíncronos**|Muy difícil|Natural|Complejo|No se representa bien|
+|**Modificaciones**|Requiere rehacer secciones|Cambios localizados|Afecta múltiples secciones|Requiere renumeración|
+|**Trazabilidad**|Se pierde en bucles|Clara|Se pierde en alternativas|Difícil seguimiento|
+
+</div>

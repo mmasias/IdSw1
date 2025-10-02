@@ -1,0 +1,33 @@
+@startuml
+[*] --> Recibida
+
+Recibida --> ValidandoFormato : recibir / intentosFormato=0
+
+ValidandoFormato --> ValidandoFormato : formato_invalido [intentos<3] / intentos++, notificar
+ValidandoFormato --> ValidandoContenido : formato_valido
+ValidandoFormato --> RechazadaFormato : formato_invalido [intentos=3]
+
+ValidandoContenido --> ValidandoContenido : contenido_invalido [intentos<3] / intentos++, notificar
+ValidandoContenido --> ValidandoAutorizacion : contenido_valido
+ValidandoContenido --> RechazadaContenido : contenido_invalido [intentos=3]
+
+ValidandoAutorizacion --> ValidandoAutorizacion : autorizacion_invalida [intentos<3] / intentos++, notificar
+ValidandoAutorizacion --> EsperandoSupervisor : autorizacion_valida / iniciar_timer
+ValidandoAutorizacion --> RechazadaAutorizacion : autorizacion_invalida [intentos=3]
+
+EsperandoSupervisor --> EsperandoSupervisor : timeout_24h / enviar_recordatorio, reiniciar_timer
+EsperandoSupervisor --> EsperandoGerencia : supervisor_aprueba [monto>10000] / iniciar_timer
+EsperandoSupervisor --> Aprobada : supervisor_aprueba [monto<=10000]
+EsperandoSupervisor --> RechazadaSupervisor : supervisor_rechaza
+
+EsperandoGerencia --> EsperandoGerencia : timeout_24h / enviar_recordatorio, reiniciar_timer
+EsperandoGerencia --> Aprobada : gerencia_aprueba
+EsperandoGerencia --> RechazadaGerencia : gerencia_rechaza
+
+Aprobada --> [*]
+RechazadaFormato --> [*]
+RechazadaContenido --> [*]
+RechazadaAutorizacion --> [*]
+RechazadaSupervisor --> [*]
+RechazadaGerencia --> [*]
+@enduml

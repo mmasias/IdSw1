@@ -1,0 +1,89 @@
+@startuml
+start
+:Recibir solicitud;
+:intentosFormato = 0;
+
+repeat
+  :Validar formato;
+  :intentosFormato++;
+  if (¿Formato válido?) then (no)
+    if (intentosFormato < 3) then (sí)
+      :Notificar error formato;
+    endif
+  endif
+repeat while (¿Formato válido? O intentosFormato = 3?) is (no)
+
+if (¿Formato válido?) then (sí)
+  :intentosContenido = 0;
+  
+  repeat
+    :Validar contenido técnico;
+    :intentosContenido++;
+    if (¿Contenido válido?) then (no)
+      if (intentosContenido < 3) then (sí)
+        :Notificar error contenido;
+      endif
+    endif
+  repeat while (¿Contenido válido? O intentosContenido = 3?) is (no)
+  
+  if (¿Contenido válido?) then (sí)
+    :intentosAutorizacion = 0;
+    
+    repeat
+      :Validar autorización presupuestal;
+      :intentosAutorizacion++;
+      if (¿Autorización válida?) then (no)
+        if (intentosAutorizacion < 3) then (sí)
+          :Notificar error autorización;
+        endif
+      endif
+    repeat while (¿Autorización válida? O intentosAutorizacion = 3?) is (no)
+    
+    if (¿Autorización válida?) then (sí)
+      :Enviar a supervisor;
+      :Iniciar temporizador 24h;
+      
+      repeat
+        :Esperar respuesta supervisor;
+        if (¿Han pasado 24h?) then (sí)
+          :Enviar recordatorio;
+          :Reiniciar temporizador;
+        endif
+      repeat while (¿Supervisor respondió?) is (no)
+      
+      if (¿Supervisor aprueba?) then (sí)
+        if (¿Monto > $10,000?) then (sí)
+          :Enviar a gerencia;
+          :Iniciar temporizador 24h;
+          
+          repeat
+            :Esperar respuesta gerencia;
+            if (¿Han pasado 24h?) then (sí)
+              :Enviar recordatorio;
+              :Reiniciar temporizador;
+            endif
+          repeat while (¿Gerencia respondió?) is (no)
+          
+          if (¿Gerencia aprueba?) then (sí)
+            :Aprobar solicitud;
+          else (no)
+            :Rechazar solicitud;
+          endif
+        else (no)
+          :Aprobar solicitud;
+        endif
+      else (no)
+        :Rechazar solicitud;
+      endif
+    else (no)
+      :Rechazar por falta autorización;
+    endif
+  else (no)
+    :Rechazar por contenido inválido;
+  endif
+else (no)
+  :Rechazar por formato inválido;
+endif
+
+stop
+@enduml

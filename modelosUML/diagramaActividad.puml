@@ -1,15 +1,13 @@
+@startuml
 start
-
-:int i=0;
-
-while (i<=t.length && t[i]!=k)
-    :i++;
-endwhile
-
-if (t[i]==k) then (YES)
-    :A();
-else (NO)
-    :B();
+:Inicializar i = 0;
+while (i < t.length && t[i] != k?) is (sí)
+  :i++;
+endwhile (no)
+if (i < t.length && t[i] == k?) then (sí)
+  :A();
+else (no)
+  :B();
 endif
-
 stop
+@enduml

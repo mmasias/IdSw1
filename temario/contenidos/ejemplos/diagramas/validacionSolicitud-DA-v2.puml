@@ -1,0 +1,20 @@
+@startuml
+start
+:Recibir solicitud;
+:Inicializar contador intentos = 0;
+repeat
+  :Validar formato;
+  :Incrementar contador;
+repeat while (¿Formato válido?) is (no y contador < 3) not (sí o contador = 3)
+if (¿Formato válido?) then (sí)
+  :Verificar disponibilidad;
+  if (¿Hay disponibilidad?) then (sí)
+    :Aprobar solicitud;
+  else (no)
+    :Rechazar solicitud;
+  endif
+else (no)
+  :Rechazar solicitud por intentos agotados;
+endif
+stop
+@enduml

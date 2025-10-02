@@ -1,0 +1,12 @@
+@startuml
+[*] --> Recibida
+Recibida --> EnValidación : recibir solicitud / intentos = 0
+EnValidación --> EnValidación : validar formato (inválido, intentos < 3) / intentos++
+EnValidación --> EnVerificación : validar formato (válido)
+EnValidación --> RechazadaPorIntentos : validar formato (inválido, intentos = 3)
+EnVerificación --> Aprobada : verificar disponibilidad (disponible)
+EnVerificación --> Rechazada : verificar disponibilidad (no disponible)
+Aprobada --> [*]
+Rechazada --> [*]
+RechazadaPorIntentos --> [*]
+@enduml

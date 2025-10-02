@@ -1,11 +1,23 @@
-Code --> VirtualMachine : int i=0
-activate Code
-activate VirtualMachine
-loop i<t.length && t[i]!=k
-    Code --> VirtualMachine : i++
+@startuml
+participant "Llamador" as C
+participant "searchAndProcess" as S
+participant "Array t" as T
+participant "A" as PA
+participant "B" as PB
+
+C -> S: searchAndProcess(t, k)
+S -> S: i = 0
+loop mientras i < t.length && t[i] != k
+    S -> T: leer t[i]
+    T -> S: valor
+    S -> S: i++
 end
-alt t[i]==k
-    Code --> VirtualMachine : A
-else i==t.length && t[i]!=k
-    Code --> VirtualMachine : B
+alt i < t.length && t[i] == k
+    S -> PA: A()
+    PA -> S: retorno
+else i >= t.length
+    S -> PB: B()
+    PB -> S: retorno
 end
+S -> C: retorno
+@enduml

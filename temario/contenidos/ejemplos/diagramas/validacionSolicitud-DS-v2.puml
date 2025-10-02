@@ -1,0 +1,32 @@
+@startuml
+actor Solicitante
+participant "Sistema" as S
+participant "Validador" as V
+participant "Verificador" as VF
+
+Solicitante -> S: Enviar solicitud
+loop hasta 3 intentos
+    S -> V: Validar formato
+    alt Formato válido
+        V -> S: Formato OK
+    else Formato inválido e intentos < 3
+        V -> S: Formato incorrecto
+        S -> Solicitante: Solicitar corrección
+        Solicitante -> S: Reenviar solicitud
+    else Formato inválido e intentos = 3
+        V -> S: Formato incorrecto
+    end
+end
+alt Formato finalmente válido
+    S -> VF: Verificar disponibilidad
+    alt Hay disponibilidad
+        VF -> S: Disponible
+        S -> Solicitante: Solicitud aprobada
+    else No hay disponibilidad
+        VF -> S: No disponible
+        S -> Solicitante: Solicitud rechazada
+    end
+else Intentos agotados
+    S -> Solicitante: Solicitud rechazada por intentos agotados
+end
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+object Llamador
+object searchAndProcess
+object "Array t" as T
+object A
+object B
+
+Llamador --> searchAndProcess : searchAndProcess(t, k)
+searchAndProcess --> T : leer t[i] [mientras i < t.length && t[i] != k]
+T --> searchAndProcess : valor
+searchAndProcess --> A : A() [encontrado]
+searchAndProcess --> B : B() [no encontrado]
+searchAndProcess --> Llamador : retorno
+@enduml

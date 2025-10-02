@@ -1,0 +1,17 @@
+@startuml
+object Solicitante
+object Sistema
+object Validador
+object Verificador
+
+Solicitante --> Sistema : Enviar solicitud
+Sistema --> Validador : Validar formato
+Validador --> Sistema : Formato OK
+Validador --> Sistema : Formato incorrecto
+Sistema --> Verificador : Verificar disponibilidad
+Verificador --> Sistema : Disponible
+Verificador --> Sistema : No disponible
+Sistema --> Solicitante : Solicitud aprobada
+Sistema --> Solicitante : Solicitud rechazada
+
+@enduml

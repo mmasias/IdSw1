@@ -1,0 +1,16 @@
+@startuml
+start
+:Recibir solicitud;
+:Validar formato;
+if (¿Formato válido?) then (sí)
+  :Verificar disponibilidad;
+  if (¿Hay disponibilidad?) then (sí)
+    :Aprobar solicitud;
+  else (no)
+    :Rechazar solicitud;
+  endif
+else (no)
+  :Rechazar solicitud;
+endif
+stop
+@enduml

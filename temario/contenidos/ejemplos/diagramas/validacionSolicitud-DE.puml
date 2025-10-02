@@ -1,0 +1,10 @@
+@startuml
+[*] --> Recibida
+Recibida --> EnValidación : recibir solicitud
+EnValidación --> EnVerificación : validar formato (válido)
+EnValidación --> Rechazada : validar formato (inválido)
+EnVerificación --> Aprobada : verificar disponibilidad (disponible)
+EnVerificación --> Rechazada : verificar disponibilidad (no disponible)
+Aprobada --> [*]
+Rechazada --> [*]
+@enduml

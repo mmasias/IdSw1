@@ -1,0 +1,23 @@
+@startuml
+actor Solicitante
+participant "Sistema" as S
+participant "Validador" as V
+participant "Verificador" as VF
+
+Solicitante -> S: Enviar solicitud
+S -> V: Validar formato
+alt Formato válido
+    V -> S: Formato OK
+    S -> VF: Verificar disponibilidad
+    alt Hay disponibilidad
+        VF -> S: Disponible
+        S -> Solicitante: Solicitud aprobada
+    else No hay disponibilidad
+        VF -> S: No disponible
+        S -> Solicitante: Solicitud rechazada
+    end
+else Formato inválido
+    V -> S: Formato incorrecto
+    S -> Solicitante: Solicitud rechazada
+end
+@enduml

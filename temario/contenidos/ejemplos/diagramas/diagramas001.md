@@ -92,3 +92,8 @@ Juego del 3 en raya
 |**Trazabilidad**|Se pierde en bucles|Clara|Se pierde en alternativas|Difícil seguimiento|
 
 </div>
+
+
+### 2Think
+
+Cómo escala cada diagrama si ahora nos pidieran agregar el siguiente requisito: ***Las solicitudes pueden pausarse y reanudarse por el solicitante en cualquier momento***.

@@ -116,6 +116,8 @@ Este modelo demuestra cómo un dominio aparentemente simple requiere múltiples 
 
 </div>
 
+### Antipatrones
+
 Lo que sí recomiendo es evitar "contaminar" con notaciones técnicas el modelo del dominio. Los tipos de datos, modificadores de visibilidad y detalles de implementación distraen del propósito central: describir y debatir el escenario que se analiza. La contaminación técnica prematura desvía la discusión desde las decisiones de modelado del dominio hacia consideraciones de implementación que corresponden a fases posteriores.
 
 <div align=center>
@@ -123,3 +125,12 @@ Lo que sí recomiendo es evitar "contaminar" con notaciones técnicas el modelo 
 ![](/images/modelosUML/modelado006-completo-erroneo.svg)
 
 </div>
+
+En esta línea, se proponen los siguientes antipatrones:
+
+|Concreción prematura|Sobre·especificación del dominio|Confusión de capas|Modelo genérico|Validación diferida
+|-|-|-|-|-
+|Introducir detalles técnicos (tipos de datos, modificadores de visibilidad) antes de comprender el dominio.|Intentar capturar cada detalle antes de entender lo básico.|Tratar el modelo conceptual como tabla de base de datos.|Crear abstracciones "universales" ignorando particularidades organizacionales.|Construir modelos sin contrastar con expertos del dominio.
+|Desvía discusión desde conceptos hacia implementación.|Produce "HistorialCambiosDireccionClienteConValidacion" antes de tener "Cliente".|Genera "VentaID" en lugar de "Venta" con atributos conceptuales.|Produce "EmpleadoGenerico" cuando existen roles específicos del contexto.|Modela "Hospital" sin consultar médicos, administradores o usuarios reales.
+
+¿Qué tienen en común?: todos representan **decisiones válidas ejecutadas en fase, nivel o contexto incorrectos**.

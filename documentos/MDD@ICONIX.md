@@ -16,3 +16,5 @@
 3| Hacer primero el modelo del dominio.
 2| No buscar la correspondencia uno a uno entre el diagrama de clases final y el modelo del dominio.
 1| No poner elementos de interfaz en el modelo del dominio.
+
+> Para leer y relacionar con los [antipatrones](modelado.md#antipatrones)

@@ -10,7 +10,7 @@
 * [x] [Elementos fundamentales en la producción de software](https://github.com/mmasias/PRG1/blob/main/temario/00000-introduccion.md)
 * [x] [RUP como proceso de desarrollo de software](temario/00002-rup.md)
 * [x] [Disciplina de Requisitos](temario/00003-disciplinaDeRequisitos.md)
-  * [x] [Modelo del dominio](temario/contenidos/00004-MdD.md)
+  * [x] [Modelo del dominio](temario/contenidos/00004-MdD.md) > [En conclusión!](/temario/contenidos/00004-01-EC.md)
   * [x] [Casos de Uso](temario/contenidos/00005-CdU.md) - Actividades:
     * [x] [Encontrar actores y casos de uso](temario/contenidos/00006-CdU.eAyCdU.md)
     * [x] [Priorizar casos de uso](temario/contenidos/00007-CdU.PCdU.md)

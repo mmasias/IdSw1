@@ -22,6 +22,8 @@
 
 ## Proceso de creación
 
+<div align=center>
+
 ||[Gestión de tareas](https://github.com/mmasias/mmasias/blob/main/UNEATLANTICO/idsw1/sgt/README.md)|[Visual Studio Code](https://github.com/mmasias/mmasias/blob/main/UNEATLANTICO/idsw1/vscode/README.md)|[AppTest](https://github.com/mmasias/mmasias/blob/main/UNEATLANTICO/idsw1/test/README.md)|
 |-|:-:|:-:|:-:|
 MdD          |✅|🔲|✅
@@ -30,6 +32,8 @@ DdR - PrioCdU|🔲|🔲|🔲
 DdR - DCdU   |🔲|🔲|✅
 DdR - ProtCdU|🔲|🔲|🔲
 DdR - ECdU   |🔲|✅|✅
+
+</div>
 
 ## Lecturas recomendadas
 

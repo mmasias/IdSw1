@@ -1,0 +1,58 @@
+@startuml editarRecurso
+skinparam linetype polyline
+
+state editarRecurso as "editarRecurso()" {
+    state " " as PresentingData
+    state " " as ModifyingData
+    state c1 <<choice>>
+    state c2 <<choice>>
+    
+    [*] -[#green]-> PresentingData
+    note on link
+    <b>Administrador</b> solicita editar recurso
+    end note
+    
+    PresentingData -[#green]-> ModifyingData
+    note on link
+    <b>Sistema</b> presenta
+    • código del recurso
+    • nombre del recurso
+    • descripción del recurso
+    end note
+    
+    ModifyingData -[#green]-> c1
+    note on link
+    <b>Administrador</b> introduce
+    modificaciones (opcional)
+    end note
+    
+    c1 -[#green]-> c2
+    note on link
+    <b>Administrador</b> solicita guardar
+    end note
+    
+    c2 -[#red]-> PresentingData
+    note on link
+    código del recurso
+    ya existe
+    end note
+    
+    c2 -[#green]-> PresentingData
+    note on link
+    recurso actualizado
+    continuar editando
+    end note
+    
+    c1 -[#green]-> [*]
+    note on link
+    <b>Administrador</b> solicita finalizar
+    transferir a abrirRecursos()
+    end note
+}
+
+editarRecurso -[#green]-> RECURSOS_ABIERTO
+note on link
+abrirRecursos()
+end note
+
+@enduml

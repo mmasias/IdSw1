@@ -1,0 +1,57 @@
+@startuml abrirCursos
+
+skinparam linetype polyline
+
+state abrirCursos as "abrirCursos()" {
+
+    state " " as MostrandoLista
+    state " " as FiltrandoLista
+
+    [*] -[#green]-> MostrandoLista 
+    note on link
+    <b>Administrador</b> solicita abrir cursos
+    end note    
+    
+    MostrandoLista -[#green]-> FiltrandoLista
+    note on link
+    <b>Sistema</b> presenta lista de cursos
+    • Código, nombre, descripción de cada curso
+    • Permite solicitar filtrar lista
+    • Permite solicitar crear curso nuevo
+    • Permite solicitar eliminar curso
+    • Permite solicitar editar curso
+    end note
+    
+    FiltrandoLista -[#green]-> FiltrandoLista
+    note on link
+    <b>Administrador</b> solicita filtrar lista
+    <b>Sistema</b> presenta lista filtrada
+    end note
+    
+    FiltrandoLista -[#green]-> [*]
+    note on link
+    <b>Administrador</b> solicita una de las opciones
+    end note
+}
+
+abrirCursos -[#green]-> CURSO_ABIERTO
+note on link
+editarCurso()
+end note
+
+abrirCursos -[#green]-> CURSO_ABIERTO
+note on link
+crearCurso()
+end note
+
+abrirCursos -[#green]-> CURSOS_ABIERTO
+note on link
+eliminarCurso()
+end note
+
+abrirCursos -[#green]-> SISTEMA_DISPONIBLE
+note on link
+completarGestion()
+end note
+
+@enduml

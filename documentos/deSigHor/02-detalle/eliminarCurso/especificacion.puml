@@ -1,0 +1,44 @@
+@startuml eliminarCurso
+
+skinparam linetype polyline
+
+state eliminarCurso as "eliminarCurso()" {
+
+    state " " as ConfirmandoEliminacion
+    state " " as EliminandoCurso
+
+    [*] -[#green]-> ConfirmandoEliminacion 
+    note on link
+    <b>Administrador</b> solicita eliminar curso
+    end note    
+    
+    ConfirmandoEliminacion -[#green]-> EliminandoCurso
+    note on link
+    <b>Sistema</b> presenta información del curso a eliminar
+    • Código, nombre, descripción del curso
+    • Créditos, horas teóricas, horas prácticas
+    • Programa académico asociado
+    • Presenta advertencia de eliminación
+    • Permite solicitar confirmar eliminación
+    • Permite solicitar cancelar eliminación
+    end note
+    
+    EliminandoCurso -[#green]-> [*]
+    note on link
+    <b>Administrador</b> solicita confirmación de eliminación
+    <b>Sistema</b> permite solicitar confirmar eliminación
+    <b>Administrador</b> solicita confirmar eliminación
+    end note
+}
+
+eliminarCurso -[#green]-> CURSOS_ABIERTO
+note on link
+<<include>> abrirCursos() - lista actualizada
+end note
+
+eliminarCurso -[#blue]-> CURSOS_ABIERTO
+note on link
+<<include>> abrirCursos() - cancelar eliminación
+end note
+
+@enduml

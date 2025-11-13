@@ -1,0 +1,68 @@
+@startsalt generarHorario-wireframe-confirmation
+{
+    <b>GENERAR HORARIO</b>
+    ====
+    <color:orange><b>⚠ ATENCIÓN: Horario existente será reemplazado</b></color>
+    ====
+    <b>Horario actual:</b>
+    • Generado: 15/07/2025 14:30
+    • Cursos programados: 12
+    • Profesores asignados: 8
+    • Aulas utilizadas: 6
+    ====
+    <b>Datos disponibles para nueva generación:</b>
+    • Cursos configurados: 15 cursos
+    • Profesores disponibles: 10 profesores  
+    • Aulas disponibles: 8 aulas
+    • Recursos definidos: 12 recursos
+    ====
+    <color:red><b>¿Confirma generar nuevo horario?</b></color>
+    <color:gray><i>Esta acción reemplazará completamente el horario actual</i></color>
+    ====
+    [ <color:red><b>Generar Nuevo Horario</b></color> ] | [ Cancelar ]
+}
+@endsalt
+
+@startsalt generarHorario-wireframe-insufficient
+{
+    <b>GENERAR HORARIO</b>
+    ====
+    <color:red><b>❌ DATOS INSUFICIENTES</b></color>
+    ====
+    <b>El sistema requiere datos mínimos para generar horario:</b>
+    --
+    <color:red>✗ Cursos: 0 configurados (mínimo: 1)</color>
+    <color:green>✓ Profesores: 3 disponibles (mínimo: 1)</color>
+    <color:green>✓ Aulas: 2 disponibles (mínimo: 1)</color>
+    --
+    <b>Acciones recomendadas:</b>
+    • Configure al menos 1 curso en el sistema
+    • Verifique que el curso tenga profesor asignado
+    • Asegúrese de que hay aulas disponibles
+    ====
+    [ <b>Entendido</b> ]
+    ====
+    <size:9><i>Una vez configurados los datos mínimos,</i></size>
+    <size:9><i>podrá generar el horario desde el menú principal.</i></size>
+}
+@endsalt
+
+@startsalt generarHorario-wireframe-generating
+{
+    <b>GENERANDO HORARIO</b>
+    ====
+    <b>🔄 Generación en progreso...</b>
+    ====
+    <b>Datos procesados:</b>
+    • Cursos: 15
+    • Profesores: 10
+    • Aulas: 8
+    • Recursos: 12
+    ====
+    <b>Algoritmo de optimización ejecutándose</b>
+    <i>Por favor espere...</i>
+    ====
+    <size:9><i>El proceso puede tardar unos momentos</i></size>
+    <size:9><i>dependiendo de la cantidad de datos.</i></size>
+}
+@endsalt

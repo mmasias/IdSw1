@@ -1,0 +1,46 @@
+@startuml consultarHorario
+
+skinparam linetype polyline
+
+state consultarHorario as "consultarHorario()" {
+
+    state " " as RequiringConsultation
+    state " " as ProvidingSchedule
+    state c <<choice>>
+
+    [*] -[#green]-> RequiringConsultation 
+    note on link
+    <b>Administrador</b> solicita consultar horario
+    end note    
+    
+    RequiringConsultation -[#green]-> ProvidingSchedule
+    note on link
+    <b>Sistema</b> presenta
+    • horario generado
+    • mensaje si no hay horario
+    end note
+    
+    ProvidingSchedule -[#green]-> c
+    note on link
+    <b>Administrador</b> solicita
+    • continuar consultando
+    • salir de consulta
+    end note
+    
+    c -[#green]-> ProvidingSchedule
+    note on link
+    continuar navegando
+    end note
+
+    c -[#green]-> [*]
+    note on link
+    salir de consulta
+    end note
+}
+
+consultarHorario -[#green]-> SISTEMA_DISPONIBLE
+note on link
+completarGestion()
+end note
+
+@enduml

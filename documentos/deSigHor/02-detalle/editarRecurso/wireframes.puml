@@ -1,0 +1,25 @@
+@startsalt editarRecurso-wireframe
+{
+    <b>EDITAR RECURSO</b>
+    ====
+    <b>Código del recurso (*):</b>
+    "PROY-001                            "
+    ====
+    <b>Nombre del recurso (*):</b>
+    "Proyector Multimedia                "
+    ====
+    <b>Descripción del recurso:</b>
+    {
+        "Proyector HD 1080p con conexiones"
+        "HDMI, VGA y USB. Incluye control  "
+        "remoto y cables de conexión.      "
+        "Ideal para presentaciones y clases"
+    }
+    ====
+    [ <b>Guardar y Continuar</b> ] | [ <b>Guardar y Finalizar</b> ] | [ Cancelar ]
+    ====
+    <size:9><i>(*) Campos obligatorios</i></size>
+    <size:9><i>Los cambios se guardan automáticamente</i></size>
+    <size:9><i>al presionar "Guardar y Continuar".</i></size>
+}
+@endsalt

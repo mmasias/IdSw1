@@ -1,0 +1,44 @@
+@startuml eliminarProfesor
+
+skinparam linetype polyline
+
+state eliminarProfesor as "eliminarProfesor()" {
+
+    state " " as ConfirmandoEliminacion
+    state " " as EliminandoProfesor
+
+    [*] -[#green]-> ConfirmandoEliminacion 
+    note on link
+    <b>Administrador</b> solicita eliminar profesor
+    end note    
+    
+    ConfirmandoEliminacion -[#green]-> EliminandoProfesor
+    note on link
+    <b>Sistema</b> presenta información del profesor a eliminar
+    • Código, nombres, apellidos del profesor
+    • Correo electrónico, teléfono
+    • Observaciones, cursos asignados
+    • Presenta advertencia de eliminación
+    • Permite solicitar confirmar eliminación
+    • Permite solicitar cancelar eliminación
+    end note
+    
+    EliminandoProfesor -[#green]-> [*]
+    note on link
+    <b>Administrador</b> solicita confirmación de eliminación
+    <b>Sistema</b> permite solicitar confirmar eliminación
+    <b>Administrador</b> solicita confirmar eliminación
+    end note
+}
+
+eliminarProfesor -[#green]-> PROFESORES_ABIERTO
+note on link
+<<include>> abrirProfesores() - lista actualizada
+end note
+
+eliminarProfesor -[#blue]-> PROFESORES_ABIERTO
+note on link
+<<include>> abrirProfesores() - cancelar eliminación
+end note
+
+@enduml

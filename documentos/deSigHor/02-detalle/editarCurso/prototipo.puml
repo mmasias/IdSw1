@@ -1,0 +1,31 @@
+@startsalt editarCurso-wireframe
+{
+    <b>EDITAR CURSO ACADÉMICO</b>
+    ===
+    {
+        <b>Datos del curso:</b>
+        --
+        {
+            {
+            {<b>Código:</b> | "CUR-001                     "
+            <b>Nombre:</b> | "Cálculo Diferencial         "}
+            {<b>Descripción:</b> |
+                {"Curso de matemática fundamental que introduce
+                conceptos de límites, derivadas y aplicaciones
+                del cálculo diferencial                      "}}
+            --
+            {<b>Datos académicos:</b>
+            <b>Créditos:</b> | "4  "
+            <b>Horas teóricas/semana:</b> | "3  "
+            <b>Horas prácticas/semana:</b> | "2  "}
+            --
+            {<b>Programa académico:</b> | ^Ingeniería Industrial y de Sistemas^}
+            }
+        }
+
+        ~~
+
+        {[Guardar cambios] | [Continuar editando] | [Cancelar]}
+    }
+}
+@endsalt

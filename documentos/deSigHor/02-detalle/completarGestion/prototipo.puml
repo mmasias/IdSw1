@@ -1,0 +1,28 @@
+@startsalt completarGestion-wireframe
+{
+    ====
+    SigHor - Sistema Generador de Horarios
+    ====
+    {^" Menú Principal "
+        .
+        **Gestión de Datos Maestros**
+        [Gestionar Programas]
+        [Gestionar Cursos]
+        [Gestionar Profesores]
+        [Gestionar Edificios]
+        [Gestionar Aulas]
+        [Gestionar Recursos]
+        .
+        **Funcionalidades Especiales**
+        [Asignar Profesores]
+        [Generar Horario]
+        [Consultar Horario]
+        .
+        **Sistema**
+        [Cerrar Sesión]
+    }
+    ====
+    Usuario: Administrador
+    ====
+}
+@endsalt

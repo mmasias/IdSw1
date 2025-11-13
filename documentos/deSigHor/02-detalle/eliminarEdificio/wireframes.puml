@@ -1,0 +1,31 @@
+@startsalt eliminarEdificio-wireframe
+{
+    <b>ELIMINAR EDIFICIO</b>
+    ===
+    {
+        <b>¿Está seguro de eliminar este edificio?</b>
+        --
+        {
+            {<b>Código:</b> | EDIF-001
+            <b>Nombre:</b> | Edificio Central}
+            {<b>Ubicación:</b> | Campus Universitario
+            <b>Descripción:</b> | Edificio principal de aulas}
+            {<b>Observaciones:</b> |
+            {
+                Edificio con aulas de gran capacidad
+                para cursos magistrales. Cuenta con
+                equipamiento audiovisual moderno.
+            }}
+            {<b>Aulas asociadas:</b> | 15 aulas registradas
+            <b>Capacidad total:</b> | 850 estudiantes}
+            --
+            <b>⚠️ ADVERTENCIA: Esta acción es irreversible</b>
+            <i>El edificio y toda su información asociada serán eliminados permanentemente</i>
+        }
+
+        ~~
+
+        {[Confirmar eliminación] | [Cancelar]}
+    }
+}
+@endsalt

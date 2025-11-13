@@ -1,0 +1,18 @@
+@startsalt abrirRecursos-wireframe
+{ 
+<b>GESTIÓN DE RECURSOS</b>  
+===
+{+  ID | NOMBRE | DESCRIPCIÓN | ACCIÓN
+  --|--|--|--
+  001 | Proyector | Proyector multimedia estándar | [Editar]
+  002 | Computadora | PC de escritorio para aulas | [Editar]
+  003 | Pizarra Digital | Pizarra interactiva | [Editar]
+  004 | Laboratorio | Equipamiento especializado | [Editar]
+  }
+  ~~
+  {<b>BUSCAR:</b> [                                       ] | [Filtrar]}
+  ~~
+  {[Crear nuevo] | [Borrar seleccionado] | [Salir]}
+}
+
+@endsalt

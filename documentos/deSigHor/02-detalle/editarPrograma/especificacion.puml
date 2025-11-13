@@ -1,0 +1,52 @@
+@startuml editarPrograma
+
+skinparam linetype polyline
+
+state editarPrograma as "editarPrograma()" {
+
+    state " " as EditandoDatos
+    state " " as GuardandoDatos
+
+    [*] -[#green]-> EditandoDatos 
+    note on link
+    <b>Administrador</b> solicita editar programa
+    end note    
+    
+    EditandoDatos -[#green]-> GuardandoDatos
+    note on link
+    <b>Sistema</b> presenta formulario de edición
+    • Código, nombre, descripción del programa
+    • Permite solicitar modificar campos
+    • Permite solicitar guardar programa
+    • Permite solicitar cancelar edición
+    end note
+    
+    GuardandoDatos -[#green]-> EditandoDatos
+    note on link
+    <b>Administrador</b> solicita modificar campos (opcional)
+    <b>Sistema</b> permite modificar información
+    end note
+    
+    GuardandoDatos -[#green]-> [*]
+    note on link
+    <b>Administrador</b> solicita guardar y salir
+    end note
+}
+
+editarPrograma -[#green]-> EditandoDatos
+note on link
+<b>Administrador</b> solicita continuar editando
+<b>Sistema</b> mantiene formulario activo
+end note
+
+editarPrograma -[#green]-> PROGRAMAS_ABIERTO
+note on link
+abrirProgramas()
+end note
+
+editarPrograma -[#blue]-> PROGRAMAS_ABIERTO
+note on link
+cancelar edición
+end note
+
+@enduml

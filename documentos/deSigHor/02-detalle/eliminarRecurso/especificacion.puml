@@ -1,0 +1,55 @@
+@startuml eliminarRecurso
+skinparam linetype polyline
+
+state eliminarRecurso as "eliminarRecurso()" {
+    state " " as PresentingConfirmation
+    state " " as AwaitingDecision
+    state c <<choice>>
+    
+    [*] -[#green]-> PresentingConfirmation
+    note on link
+    <b>Administrador</b> solicita eliminar recurso
+    end note
+    
+    PresentingConfirmation -[#green]-> AwaitingDecision
+    note on link
+    <b>Sistema</b> presenta
+    • código del recurso
+    • nombre del recurso
+    • descripción del recurso
+    • profesores que lo prefieren
+    • aulas que lo ofrecen
+    • advertencia de eliminación
+    end note
+    
+    AwaitingDecision -[#green]-> c
+    note on link
+    <b>Administrador</b> solicita confirmar eliminación
+    end note
+    
+    AwaitingDecision -[#green]-> [*]
+    note on link
+    <b>Administrador</b> solicita cancelar
+    transferir a abrirRecursos()
+    end note
+    
+    c -[#red]-> [*]
+    note on link
+    recurso tiene dependencias críticas
+    no se puede eliminar
+    transferir a abrirRecursos()
+    end note
+    
+    c -[#green]-> [*]
+    note on link
+    recurso eliminado exitosamente
+    transferir a abrirRecursos()
+    end note
+}
+
+eliminarRecurso -[#green]-> RECURSOS_ABIERTO
+note on link
+abrirRecursos()
+end note
+
+@enduml

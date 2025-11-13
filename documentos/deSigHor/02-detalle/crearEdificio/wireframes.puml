@@ -1,0 +1,23 @@
+@startsalt crearEdificio-wireframe
+{
+    <b>CREAR EDIFICIO</b>
+    ===
+    {
+        <b>Datos mínimos del edificio:</b>
+        --
+        {
+            <b>Código del edificio (*):</b>
+            "                                        "
+            <b>Nombre del edificio (*):</b>
+            "                                        "
+            --
+            <i>(*) Campos obligatorios</i>
+            <i>Otros datos se completarán en la edición</i>
+        }
+
+        ~~
+
+        {[Crear edificio] | [Cancelar]}
+    }
+}
+@endsalt

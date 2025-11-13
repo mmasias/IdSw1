@@ -1,0 +1,57 @@
+@startuml abrirProfesores
+
+skinparam linetype polyline
+
+state abrirProfesores as "abrirProfesores()" {
+
+    state " " as MostrandoLista
+    state " " as FiltrandoLista
+
+    [*] -[#green]-> MostrandoLista 
+    note on link
+    <b>Administrador</b> solicita abrir profesores
+    end note    
+    
+    MostrandoLista -[#green]-> FiltrandoLista
+    note on link
+    <b>Sistema</b> presenta lista de profesores
+    • Código, nombre, apellidos de cada profesor
+    • Permite solicitar filtrar lista
+    • Permite solicitar crear profesor nuevo
+    • Permite solicitar eliminar profesor
+    • Permite solicitar editar profesor
+    end note
+    
+    FiltrandoLista -[#green]-> FiltrandoLista
+    note on link
+    <b>Administrador</b> solicita filtrar lista
+    <b>Sistema</b> presenta lista filtrada
+    end note
+    
+    FiltrandoLista -[#green]-> [*]
+    note on link
+    <b>Administrador</b> solicita una de las opciones
+    end note
+}
+
+abrirProfesores -[#green]-> PROFESOR_ABIERTO
+note on link
+editarProfesor()
+end note
+
+abrirProfesores -[#green]-> PROFESOR_ABIERTO
+note on link
+crearProfesor()
+end note
+
+abrirProfesores -[#green]-> PROFESORES_ABIERTO
+note on link
+eliminarProfesor()
+end note
+
+abrirProfesores -[#green]-> SISTEMA_DISPONIBLE
+note on link
+completarGestion()
+end note
+
+@enduml

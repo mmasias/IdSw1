@@ -1,0 +1,44 @@
+@startuml eliminarEdificio
+
+skinparam linetype polyline
+
+state eliminarEdificio as "eliminarEdificio()" {
+
+    state " " as ConfirmandoEliminacion
+    state " " as EliminandoEdificio
+
+    [*] -[#green]-> ConfirmandoEliminacion 
+    note on link
+    <b>Administrador</b> solicita eliminar edificio
+    end note    
+    
+    ConfirmandoEliminacion -[#green]-> EliminandoEdificio
+    note on link
+    <b>Sistema</b> presenta información del edificio a eliminar
+    • Código, nombre del edificio
+    • Ubicación, descripción
+    • Observaciones, aulas asociadas
+    • Presenta advertencia de eliminación
+    • Permite solicitar confirmar eliminación
+    • Permite solicitar cancelar eliminación
+    end note
+    
+    EliminandoEdificio -[#green]-> [*]
+    note on link
+    <b>Administrador</b> solicita confirmación de eliminación
+    <b>Sistema</b> permite solicitar confirmar eliminación
+    <b>Administrador</b> solicita confirmar eliminación
+    end note
+}
+
+eliminarEdificio -[#green]-> EDIFICIOS_ABIERTO
+note on link
+<<include>> abrirEdificios() - lista actualizada
+end note
+
+eliminarEdificio -[#blue]-> EDIFICIOS_ABIERTO
+note on link
+<<include>> abrirEdificios() - cancelar eliminación
+end note
+
+@enduml

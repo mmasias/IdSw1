@@ -1,0 +1,21 @@
+@startsalt editarPrograma-wireframe
+{
+    <b>EDICIÓN DE PROGRAMA ACADÉMICO</b>
+    ===
+    {
+        <b>Código del programa:</b> | [      PRG-001      ]
+        <b>Nombre del programa:</b> | [                                              ]
+        <b>Descripción:</b> | 
+        {
+            [                                                                    ]
+            [                                                                    ]
+            [                                                                    ]
+        }
+    }
+    
+    ~~
+    
+    {[Guardar] | [Guardar y salir] | [Cancelar edición]}
+}
+
+@endsalt

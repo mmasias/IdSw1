@@ -1,0 +1,57 @@
+@startuml abrirProgramas
+
+skinparam linetype polyline
+
+state abrirProgramas as "abrirProgramas()" {
+
+    state " " as MostrandoLista
+    state " " as FiltrandoLista
+
+    [*] -[#green]-> MostrandoLista 
+    note on link
+    <b>Administrador</b> solicita abrir programas
+    end note    
+    
+    MostrandoLista -[#green]-> FiltrandoLista
+    note on link
+    <b>Sistema</b> presenta lista de programas
+    • Código, nombre, descripción de cada programa
+    • Permite solicitar filtrar lista
+    • Permite solicitar crear programa nuevo
+    • Permite solicitar eliminar programa
+    • Permite solicitar editar programa
+    end note
+    
+    FiltrandoLista -[#green]-> FiltrandoLista
+    note on link
+    <b>Administrador</b> solicita filtrar lista
+    <b>Sistema</b> presenta lista filtrada
+    end note
+    
+    FiltrandoLista -[#green]-> [*]
+    note on link
+    <b>Administrador</b> solicita una de las opciones
+    end note
+}
+
+abrirProgramas -[#green]-> PROGRAMA_ABIERTO
+note on link
+editarPrograma()
+end note
+
+abrirProgramas -[#green]-> PROGRAMA_ABIERTO
+note on link
+crearPrograma()
+end note
+
+abrirProgramas -[#green]-> PROGRAMAS_ABIERTO
+note on link
+eliminarPrograma()
+end note
+
+abrirProgramas -[#green]-> SISTEMA_DISPONIBLE
+note on link
+completarGestion()
+end note
+
+@enduml

@@ -1,0 +1,31 @@
+@startsalt eliminarAula-wireframe
+{
+    <b>ELIMINAR AULA</b>
+    ===
+    {
+        <b>¿Está seguro de eliminar esta aula?</b>
+        --
+        {
+            {<b>Código:</b> | AULA-001
+            <b>Nombre:</b> | Aula Magna}
+            {<b>Edificio:</b> | Edificio Central
+            <b>Capacidad:</b> | 120 estudiantes}
+            {<b>Tipo:</b> | Aula magistral
+            <b>Recursos:</b> | Proyector, Audio, AC}
+            {<b>Observaciones:</b> |
+            {
+                Aula de gran capacidad para eventos
+                especiales y conferencias magistrales.
+                Equipamiento audiovisual completo.
+            }}
+            --
+            <b>⚠️ ADVERTENCIA: Esta acción es irreversible</b>
+            <i>El aula y toda su información asociada serán eliminados permanentemente</i>
+        }
+
+        ~~
+
+        {[Confirmar eliminación] | [Cancelar]}
+    }
+}
+@endsalt

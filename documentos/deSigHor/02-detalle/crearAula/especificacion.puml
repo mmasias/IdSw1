@@ -1,0 +1,42 @@
+@startuml crearAula
+
+skinparam linetype polyline
+
+state crearAula as "crearAula()" {
+
+    state " " as SolicitandoDatos
+    state " " as CreandoAula
+
+    [*] -[#green]-> SolicitandoDatos 
+    note on link
+    <b>Administrador</b> solicita crear aula nueva
+    end note    
+    
+    SolicitandoDatos -[#green]-> CreandoAula
+    note on link
+    <b>Sistema</b> presenta solicitud de datos mínimos del aula
+    • Código del aula (obligatorio)
+    • Nombre del aula (obligatorio)
+    • Edificio asociado (obligatorio)
+    • Permite solicitar crear aula
+    • Permite solicitar cancelar creación
+    end note
+    
+    CreandoAula -[#green]-> [*]
+    note on link
+    <b>Administrador</b> proporciona datos mínimos
+    <b>Sistema</b> crea aula y transfiere a edición
+    end note
+}
+
+crearAula -[#green]-> AULA_ABIERTA
+note on link
+editarAula(aulaNueva)
+end note
+
+crearAula -[#blue]-> AULAS_ABIERTO
+note on link
+cancelar creación
+end note
+
+@enduml

@@ -1,0 +1,47 @@
+@startuml iniciarSesion
+
+skinparam linetype polyline
+
+state iniciarSesion as "iniciarSesion()" {
+
+    state " " as SolicitandoAcceso
+    state " " as ProporcionandoCredenciales  
+    state c <<choice>>
+
+    [*] -[#green]-> SolicitandoAcceso 
+    note on link
+    <b>UsuarioNoRegistrado</b> solicita acceder al sistema
+    end note    
+    
+    SolicitandoAcceso -[#green]-> ProporcionandoCredenciales
+    note on link
+    <b>Sistema</b> permite introducir
+    • usuario
+    • contraseña
+    end note
+    
+    ProporcionandoCredenciales -[#green]-> c
+    note on link
+    <b>UsuarioNoRegistrado</b> introduce
+    • usuario
+    • contraseña
+    end note
+    
+    c -[#red]-> SolicitandoAcceso
+    note on link
+    usuario:contraseña no válida
+    end note
+
+    c -[#green]-> [*]
+    note on link
+    usuario:contraseña válida
+    end note
+}
+
+iniciarSesion -[#green]-> SISTEMA_DISPONIBLE
+note on link
+UsuarioNoRegistrado → Administrador
+completarGestion()
+end note
+
+@enduml

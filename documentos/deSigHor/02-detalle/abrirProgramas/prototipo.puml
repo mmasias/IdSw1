@@ -1,0 +1,17 @@
+@startsalt abrirProgramas-wireframe
+{ 
+<b>GESTIÓN DE PROGRAMAS ACADÉMICOS</b>  
+===
+{+  CODIGO | NOMBRE | DESCRIPCION | ACCIÓN
+  --|--|--|--
+  GII | Ingeniería Informática | Grado en Ingeniería Informática | [Editar]
+  GIOI | Ingeniería en Organización Industrial | Grado en Ingeniería en Organización Industrial | [Editar]
+  GXYZ | Nombre del programa | Descripción del programa | [Editar]
+  }
+  ~~
+  {<b>BUSCAR:</b> [                                       ] | [Filtrar]}
+  ~~
+  {[Crear nuevo] | [Borrar seleccionado] | [Salir]}
+}
+
+@endsalt

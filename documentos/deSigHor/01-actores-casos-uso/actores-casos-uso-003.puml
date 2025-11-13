@@ -1,0 +1,39 @@
+@startuml
+
+left to right direction
+
+
+package "Gestión de Campus" {
+actor "Administrador de Horarios" as admin
+    usecase crearEdificio as "crearEdificio()"
+    usecase abrirEdificios as "abrirEdificios()"
+    usecase editarEdificio as "editarEdificio()"
+    usecase eliminarEdificio as "eliminarEdificio()"
+    usecase crearAula as "crearAula()"
+    usecase abrirAulas as "abrirAulas()"
+    usecase editarAula as "editarAula()"
+    usecase eliminarAula as "eliminarAula()"
+    usecase crearRecurso as "crearRecurso()"
+    usecase abrirRecursos as "abrirRecursos()"
+    usecase editarRecurso as "editarRecurso()"
+    usecase eliminarRecurso as "eliminarRecurso()"
+}
+
+admin --> (crearEdificio)
+admin --> (abrirEdificios)
+admin --> (editarEdificio)
+admin --> (eliminarEdificio)
+admin --> (crearAula)
+admin --> (abrirAulas)
+(editarAula) <-- admin
+(eliminarAula) <-- admin
+(crearRecurso) <-- admin
+(abrirRecursos) <-- admin
+(editarRecurso) <-- admin
+(eliminarRecurso) <-- admin
+
+eliminarEdificio .> abrirEdificios : <<include>>
+eliminarAula .> abrirAulas : <<include>>
+eliminarRecurso .> abrirRecursos : <<include>>
+
+@enduml

@@ -1,0 +1,55 @@
+@startuml editarCurso
+
+skinparam linetype polyline
+
+state editarCurso as "editarCurso()" {
+
+    state " " as EditandoDatos
+    state " " as GuardandoDatos 
+
+    [*] -[#green]-> EditandoDatos 
+    note on link
+    <b>Administrador</b> solicita editar curso
+    end note    
+    
+    EditandoDatos -[#green]-> GuardandoDatos
+    note on link
+    <b>Sistema</b> presenta datos de edición
+    • Código, nombre, descripción del curso
+    • Créditos, horas teóricas, horas prácticas
+    • Programa académico asociado
+    
+    <b>Sistema</b> permite solicitar:
+    • modificar campos
+    • guardar curso
+    • cancelar edición
+    end note
+    
+    GuardandoDatos -[#green]-> EditandoDatos
+    note on link
+    <b>Administrador</b> solicita modificar campos
+    end note
+    
+    GuardandoDatos -[#green]-> [*]
+    note on link
+    <b>Administrador</b> solicita guardar y salir
+    end note
+
+    GuardandoDatos -[#red]-> [*]
+    note on link
+    <b>Administrador</b> solicita cancelar edición
+    end note
+
+}
+
+editarCurso -[#green]-> CURSOS_ABIERTO
+note on link
+abrirCursos()
+end note
+
+editarCurso -[#red]-> CURSOS_ABIERTO
+note on link
+cancelar edición
+end note
+
+@enduml

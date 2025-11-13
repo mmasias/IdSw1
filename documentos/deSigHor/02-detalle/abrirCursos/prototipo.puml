@@ -1,0 +1,17 @@
+@startsalt abrirCursos-wireframe
+{ 
+<b>GESTIÓN DE CURSOS ACADÉMICOS</b>  
+===
+{+  CODIGO | NOMBRE | DESCRIPCION | ACCIÓN
+  --|--|--|--
+  MAT101 | Matemática I | Cálculo diferencial e integral | [Editar]
+  FIS201 | Física General | Mecánica y termodinámica | [Editar]
+  CXYZ | Nombre del curso | Descripción del curso | [Editar]
+  }
+  ~~
+  {<b>BUSCAR:</b> [                                       ] | [Filtrar]}
+  ~~
+  {[Crear nuevo] | [Borrar seleccionado] | [Salir]}
+}
+
+@endsalt

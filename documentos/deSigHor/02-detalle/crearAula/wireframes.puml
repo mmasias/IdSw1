@@ -1,0 +1,25 @@
+@startsalt crearAula-wireframe
+{
+    <b>CREAR AULA</b>
+    ===
+    {
+        <b>Datos mínimos del aula:</b>
+        --
+        {
+            <b>Código del aula (*):</b>
+            "                                        "
+            <b>Nombre del aula (*):</b>
+            "                                        "
+            <b>Edificio asociado (*):</b>
+            ^"Seleccionar edificio..."^
+            --
+            <i>(*) Campos obligatorios</i>
+            <i>Otros datos se completarán en la edición</i>
+        }
+
+        ~~
+
+        {[Crear aula] | [Cancelar]}
+    }
+}
+@endsalt

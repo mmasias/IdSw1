@@ -1,0 +1,53 @@
+@startsalt consultarHorario-wireframe-schedule
+{
+    <b>CONSULTAR HORARIO ACADÉMICO</b>
+    ====
+    <b>Horario generado: 25/07/2025 16:45</b>
+    ====
+    {T
+        + | <b>LUNES</b> | <b>MARTES</b> | <b>MIÉRCOLES</b> | <b>JUEVES</b> | <b>VIERNES</b>
+        <b>08:00-09:00</b> | Matemáticas I\nProf. García\nAula 101-A | | Programación I\nProf. López\nAula Lab-01 | Matemáticas I\nProf. García\nAula 101-A | 
+        <b>09:00-10:00</b> | | Base de Datos\nProf. Martín\nAula 203-B | | | Programación I\nProf. López\nAula Lab-01
+        <b>10:00-11:00</b> | | | | Base de Datos\nProf. Martín\nAula 203-B | 
+        <b>11:00-12:00</b> | Algoritmos\nProf. Ruiz\nAula 105-A | | | |
+        <b>12:00-13:00</b> | | | Algoritmos\nProf. Ruiz\nAula 105-A | | 
+    }
+    ====
+    <b>Resumen del horario:</b>
+    • Cursos programados: 4
+    • Profesores asignados: 4  
+    • Aulas utilizadas: 4
+    • Horas académicas: 10
+    ====
+    [ <b>Volver al Menú</b> ]
+    ====
+    <size:9><i>Horario optimizado automáticamente por el sistema</i></size>
+}
+@endsalt
+
+@startsalt consultarHorario-wireframe-noSchedule
+{
+    <b>CONSULTAR HORARIO ACADÉMICO</b>
+    ====
+    <color:orange><b>📅 NO HAY HORARIO DISPONIBLE</b></color>
+    ====
+    <b>El sistema no tiene ningún horario generado.</b>
+    
+    Para generar un horario académico:
+    1. Configure al menos 1 curso en el sistema
+    2. Asigne al menos 1 profesor 
+    3. Defina al menos 1 aula disponible
+    4. Use la opción "Generar Horario" del menú principal
+    ====
+    <b>Estado actual del sistema:</b>
+    • Cursos configurados: 4
+    • Profesores disponibles: 3
+    • Aulas disponibles: 2
+    • Recursos definidos: 8
+    ====
+    [ <b>Volver al Menú</b> ]
+    ====
+    <size:9><i>Una vez generado el horario, podrá consultarlo</i></size>
+    <size:9><i>desde esta misma opción.</i></size>
+}
+@endsalt

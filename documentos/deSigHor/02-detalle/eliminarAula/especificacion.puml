@@ -1,0 +1,44 @@
+@startuml eliminarAula
+
+skinparam linetype polyline
+
+state eliminarAula as "eliminarAula()" {
+
+    state " " as ConfirmandoEliminacion
+    state " " as EliminandoAula
+
+    [*] -[#green]-> ConfirmandoEliminacion 
+    note on link
+    <b>Administrador</b> solicita eliminar aula
+    end note    
+    
+    ConfirmandoEliminacion -[#green]-> EliminandoAula
+    note on link
+    <b>Sistema</b> presenta información del aula a eliminar
+    • Código, nombre del aula
+    • Edificio asociado, capacidad
+    • Tipo, recursos, observaciones
+    • Presenta advertencia de eliminación
+    • Permite solicitar confirmar eliminación
+    • Permite solicitar cancelar eliminación
+    end note
+    
+    EliminandoAula -[#green]-> [*]
+    note on link
+    <b>Administrador</b> solicita confirmación de eliminación
+    <b>Sistema</b> permite solicitar confirmar eliminación
+    <b>Administrador</b> solicita confirmar eliminación
+    end note
+}
+
+eliminarAula -[#green]-> AULAS_ABIERTO
+note on link
+<<include>> abrirAulas() - lista actualizada
+end note
+
+eliminarAula -[#blue]-> AULAS_ABIERTO
+note on link
+<<include>> abrirAulas() - cancelar eliminación
+end note
+
+@enduml

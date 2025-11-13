@@ -1,0 +1,31 @@
+@startsalt eliminarRecurso-wireframe
+{
+    <b>ELIMINAR RECURSO</b>
+    ====
+    <color:red><b>⚠ ADVERTENCIA: Esta acción es irreversible</b></color>
+    ====
+    <b>Información del recurso a eliminar:</b>
+    --
+    <b>Código:</b> PROY-001
+    <b>Nombre:</b> Proyector Multimedia
+    <b>Descripción:</b> Proyector HD 1080p con conexiones HDMI, VGA y USB
+    --
+    <b>Uso actual del recurso:</b>
+    • Preferido por 3 profesores activos
+    • Ofrecido por 5 aulas del sistema
+    • Referenciado en horarios generados
+    --
+    <b>Dependencias encontradas:</b>
+    <color:orange>• Prof. García (preferencia activa)</color>
+    <color:orange>• Prof. López (preferencia activa)</color>
+    <color:orange>• Aula 301-A (recurso ofrecido)</color>
+    <color:red>• Horario Semestre 2025-I (dependencia crítica)</color>
+    ====
+    [] <b>Confirmo que deseo eliminar este recurso permanentemente</b>
+    ====
+    [ <color:red><b>Eliminar Permanentemente</b></color> ] | [ Cancelar ]
+    ====
+    <size:9><i>Nota: Si hay dependencias críticas, la eliminación</i></size>
+    <size:9><i>puede ser bloqueada para preservar la integridad.</i></size>
+}
+@endsalt

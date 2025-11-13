@@ -1,0 +1,86 @@
+@startuml completarGestion
+
+skinparam linetype polyline
+
+state completarGestion as "completarGestion()" {
+
+    state " " as PresentandoMenu
+    state " " as EsperandoSeleccion
+
+    [*] -[#green]-> PresentandoMenu 
+    note on link
+    <b>Administrador</b> solicita disponibilizar sistema
+    end note    
+    
+    PresentandoMenu -[#green]-> EsperandoSeleccion
+    note on link
+    <b>Sistema</b> permite solicitar:
+    • abrirProgramas()
+    • abrirCursos()
+    • abrirProfesores()
+    • abrirEdificios()
+    • abrirAulas()
+    • abrirRecursos()
+    • asignarProfesorACurso()
+    • generarHorario()
+    • consultarHorario()
+    • cerrarSesion()
+    end note
+    
+    EsperandoSeleccion -[#green]-> [*]
+    note on link
+    <b>Administrador</b> solicita una de las opciones
+    end note
+}
+
+completarGestion -[#green]-> PROGRAMAS_ABIERTO
+note on link
+abrirProgramas()
+end note
+
+completarGestion -[#green]-> CURSOS_ABIERTO
+note on link
+abrirCursos()
+end note
+
+completarGestion -[#green]-> PROFESORES_ABIERTO
+note on link
+abrirProfesores()
+end note
+
+completarGestion -[#green]-> EDIFICIOS_ABIERTO
+note on link
+abrirEdificios()
+end note
+
+completarGestion -[#green]-> AULAS_ABIERTO
+note on link
+abrirAulas()
+end note
+
+completarGestion -[#green]-> RECURSOS_ABIERTO
+note on link
+abrirRecursos()
+end note
+
+completarGestion -[#green]-> PROFESOR_ASIGNATURAS_ABIERTO
+note on link
+asignarProfesorACurso()
+end note
+
+completarGestion -[#green]-> HORARIO_GENERADO
+note on link
+generarHorario()
+end note
+
+completarGestion -[#green]-> HORARIO_ABIERTO
+note on link
+consultarHorario()
+end note
+
+completarGestion -[#green]-> SESION_CERRADA
+note on link
+cerrarSesion()
+end note
+
+@enduml

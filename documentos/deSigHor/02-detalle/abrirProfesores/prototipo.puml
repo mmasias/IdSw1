@@ -1,0 +1,17 @@
+@startsalt abrirProfesores-wireframe
+{ 
+<b>GESTIÓN DE PROFESORES</b>  
+===
+{+  CODIGO | NOMBRE | APELLIDOS | ACCIÓN
+  --|--|--|--
+  RC001 | Roberto | Castro Chirinos | [Editar]
+  JM002 | José María | González López | [Editar]  
+  PXYZ | Nombre del profesor | Apellidos del profesor | [Editar]
+  }
+  ~~
+  {<b>BUSCAR:</b> [                                       ] | [Filtrar]}
+  ~~
+  {[Crear nuevo] | [Borrar seleccionado] | [Salir]}
+}
+
+@endsalt

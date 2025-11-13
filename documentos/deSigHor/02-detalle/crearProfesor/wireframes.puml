@@ -1,0 +1,25 @@
+@startsalt crearProfesor-wireframe
+{
+    <b>CREAR PROFESOR</b>
+    ===
+    {
+        <b>Datos mínimos del profesor:</b>
+        --
+        {
+            <b>Código del profesor (*):</b>
+            "                                        "
+            <b>Nombres (*):</b>
+            "                                        "
+            <b>Apellidos (*):</b>
+            "                                        "
+            --
+            <i>(*) Campos obligatorios</i>
+            <i>Otros datos se completarán en la edición</i>
+        }
+
+        ~~
+
+        {[Crear profesor] | [Cancelar]}
+    }
+}
+@endsalt

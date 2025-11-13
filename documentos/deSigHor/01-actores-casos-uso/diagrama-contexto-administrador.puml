@@ -1,0 +1,101 @@
+@startuml diagrama-contexto-administrador
+
+left to right direction
+skinparam linetype polyline
+
+state "SESION_CERRADA" as NoAuth
+state "SISTEMA_DISPONIBLE" as Menu
+
+state "PROGRAMAS_ABIERTO" as ListProgramas
+state "PROGRAMA_ABIERTO" as EditPrograma
+state "CURSOS_ABIERTO" as ListCursos
+state "CURSO_ABIERTO" as EditCurso
+state "PROFESORES_ABIERTO" as ListProfesores
+state "PROFESOR_ABIERTO" as EditProfesor
+state "PROFESOR_PREFERENCIAS_ABIERTO" as EditProfesorPreferencias
+state "EDIFICIOS_ABIERTO" as ListEdificios
+state "EDIFICIO_ABIERTO" as EditEdificio
+state "AULAS_ABIERTO" as ListAulas
+state "AULA_ABIERTA" as EditAula
+state "RECURSOS_ABIERTO" as ListRecursos
+state "RECURSO_ABIERTO" as EditRecurso
+
+state "PROFESOR_ASIGNATURAS_ABIERTO" as Asignaciones
+state "HORARIO_GENERADO" as Generacion
+state "HORARIO_ABIERTO" as Consulta
+
+[*] --> NoAuth
+
+NoAuth --> Menu : iniciarSesion()
+
+Menu --> NoAuth : cerrarSesion()
+Menu --> ListProgramas: abrirProgramas()
+Menu --> ListCursos: abrirCursos()
+Menu --> ListProfesores: abrirProfesores()
+Menu --> ListEdificios: abrirEdificios()
+Menu --> ListAulas: abrirAulas()
+Menu --> ListRecursos: abrirRecursos()
+Menu --> Generacion: generarHorario()
+Menu --> Consulta: consultarHorario()
+
+EditProfesor --> Asignaciones: asignarProfesorACurso()
+
+Asignaciones --> EditProfesor: editarProfesor()
+
+
+ListProgramas --> EditPrograma: crearPrograma()
+ListProgramas --> EditPrograma: editarPrograma()
+ListProgramas --> ListProgramas: eliminarPrograma()
+
+EditPrograma --> EditPrograma: editarPrograma()
+EditPrograma --> ListProgramas: abrirProgramas()
+
+ListCursos --> EditCurso: crearCurso()
+ListCursos --> EditCurso: editarCurso()
+ListCursos --> ListCursos: eliminarCurso()
+
+EditCurso --> EditCurso: editarCurso()
+EditCurso --> ListCursos: abrirCursos()
+
+ListProfesores --> EditProfesor: crearProfesor()
+ListProfesores --> EditProfesor: editarProfesor()
+ListProfesores --> ListProfesores: eliminarProfesor()
+
+EditProfesor --> EditProfesor: editarProfesor()
+EditProfesor --> EditProfesorPreferencias: configurarPreferenciasProfesor()
+EditProfesor --> ListProfesores: abrirProfesores()
+
+EditProfesorPreferencias --> EditProfesor: abrirEdicionProfesor()
+
+
+ListEdificios --> EditEdificio: crearEdificio()
+ListEdificios --> EditEdificio: editarEdificio()
+ListEdificios --> ListEdificios: eliminarEdificio()
+EditEdificio --> EditEdificio: editarEdificio()
+
+EditEdificio --> ListEdificios: abrirEdificios()
+
+ListAulas --> EditAula: crearAula()
+ListAulas --> EditAula: editarAula()
+ListAulas --> ListAulas: eliminarAula()
+
+EditAula --> EditAula: editarAula()
+EditAula --> ListAulas: abrirAulas()
+
+ListRecursos --> EditRecurso: crearRecurso()
+ListRecursos --> EditRecurso: editarRecurso()
+ListRecursos --> ListRecursos: eliminarRecurso()
+
+EditRecurso --> EditRecurso: editarRecurso()
+EditRecurso --> ListRecursos: abrirRecursos()
+
+ListProgramas --> Menu: completarGestion()
+ListCursos --> Menu: completarGestion()
+ListProfesores --> Menu: completarGestion()
+ListEdificios --> Menu: completarGestion()
+ListAulas --> Menu: completarGestion()
+ListRecursos --> Menu: completarGestion()
+Generacion --> Menu: completarProceso()
+Consulta --> Menu: completarConsulta()
+
+@enduml

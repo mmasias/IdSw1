@@ -1,0 +1,18 @@
+@startsalt abrirEdificios-wireframe
+{ 
+<b>GESTIÓN DE EDIFICIOS</b>  
+===
+{+  ID | NOMBRE | ACCIÓN
+  --|--|--
+  001 | Edificio Principal | [Editar]
+  002 | Edificio de Aulas | [Editar]
+  003 | Edificio de Laboratorios | [Editar]
+  004 | Edificio de Administración | [Editar]
+  }
+  ~~
+  {<b>BUSCAR:</b> [                                       ] | [Filtrar]}
+  ~~
+  {[Crear nuevo] | [Borrar seleccionado] | [Salir]}
+}
+
+@endsalt

@@ -1,0 +1,55 @@
+@startuml asignarProfesorACurso
+
+skinparam linetype polyline
+
+state asignarProfesorACurso as "asignarProfesorACurso()" {
+
+    state " " as GestionandoAsignaciones
+    state " " as GuardandoAsignaciones 
+
+    [*] -[#green]-> GestionandoAsignaciones 
+    note on link
+    <b>Administrador</b> solicita asignar cursos al profesor
+    end note    
+    
+    GestionandoAsignaciones -[#green]-> GuardandoAsignaciones
+    note on link
+    <b>Sistema</b> presenta gestión de asignaciones
+    • Lista de cursos disponibles
+    • Lista de cursos ya asignados al profesor
+    
+    <b>Sistema</b> permite solicitar:
+    • asignar curso disponible
+    • desasignar curso asignado
+    • guardar asignaciones
+    • cancelar gestión
+    end note
+    
+    GuardandoAsignaciones -[#green]-> GestionandoAsignaciones
+    note on link
+    <b>Administrador</b> solicita asignar curso disponible
+    end note
+    
+    GuardandoAsignaciones -[#green]-> [*]
+    note on link
+    <b>Administrador</b> solicita guardar y salir
+    end note
+
+    GuardandoAsignaciones -[#red]-> [*]
+    note on link
+    <b>Administrador</b> solicita cancelar gestión
+    end note
+
+}
+
+asignarProfesorACurso -[#green]-> PROFESOR_ABIERTO
+note on link
+editarProfesor()
+end note
+
+asignarProfesorACurso -[#red]-> PROFESOR_ABIERTO
+note on link
+cancelar gestión
+end note
+
+@enduml

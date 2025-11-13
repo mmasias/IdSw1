@@ -1,0 +1,48 @@
+@startsalt asignarProfesorACurso-wireframe
+{
+    <b>ASIGNAR CURSOS AL PROFESOR</b>
+    ===
+    {
+        {
+        <b>Cursos disponibles:</b> | <b>Cursos asignados:</b>
+        --
+        {
+            {
+            "Matemática I              " 
+            "Física I                  "
+            "Química General           "
+            "Programación I            "
+            "Cálculo Diferencial       "
+            "Estadística Básica        "
+            "Historia Universal        "
+            }
+            |
+            {
+            "Matemática II             "
+            "Física II                 "
+            "Algoritmos y Estructuras  "
+            "Base de Datos I           "
+            }
+        }
+        
+        ~~
+        
+        {[Asignar >>] | [<< Desasignar]}
+        
+        ~~
+        
+        <b>Resumen de asignaciones:</b>
+        {
+            "Total cursos disponibles: 7"
+            "Total cursos asignados: 4"
+            "Profesor: Dr. Manuel Masías"
+        }
+        }
+        }
+
+        ~~
+
+        {[Guardar asignaciones] | [Continuar gestionando] | [Cancelar]}
+    }
+}
+@endsalt

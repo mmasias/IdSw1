@@ -1,0 +1,45 @@
+@startuml
+
+left to right direction
+
+actor "Administrador de Horarios" as admin
+actor "Consultor de Horarios" as consultor
+
+consultor <|-up- admin 
+
+
+package "Gestión de Profesores" {
+    usecase crearProfesor as "crearProfesor()"
+    usecase abrirProfesores as "abrirProfesores()"
+    usecase editarProfesor as "editarProfesor()"
+    usecase eliminarProfesor as "eliminarProfesor()"
+    usecase configurarPreferenciasProfesor as "configurarPreferenciasProfesor()"
+}
+
+package "Consulta de Horarios" {
+    usecase consultarHorario as "consultarHorario()"
+}
+
+package "Generación de Horarios" {
+    usecase generarHorario as "generarHorario()"
+}
+
+package "Asignaciones" {
+    usecase asignarProfesorACurso as "asignarProfesorACurso()"
+}
+
+
+(crearProfesor) <-- admin
+(abrirProfesores) <-- admin
+(editarProfesor) <-- admin
+(eliminarProfesor) <-- admin
+(configurarPreferenciasProfesor) <-- admin
+
+consultor --> (consultarHorario)
+
+admin --> (asignarProfesorACurso)
+admin --> (generarHorario)
+
+eliminarProfesor .> abrirProfesores : <<include>>
+
+@enduml

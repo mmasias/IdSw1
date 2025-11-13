@@ -1,0 +1,28 @@
+@startsalt editarAula-wireframe
+{
+    <b>EDITAR AULA</b>
+    ===
+    {
+        <b>Datos del aula:</b>
+        --
+        {
+            {
+            {<b>Código:</b> | "AULA-001                    "
+            <b>Nombre:</b> | "Aula Magna                   "}
+            {<b>Edificio:</b> | ^"Edificio Central"^
+            <b>Capacidad:</b> | "120                          "}
+            {<b>Tipo:</b> | ^"Aula magistral"^
+            <b>Recursos:</b> | "Proyector, Audio, AC         "}
+            {<b>Observaciones:</b> |
+                {"Aula de gran capacidad para eventos
+                especiales y conferencias magistrales.
+                Equipamiento audiovisual completo     "}}
+            }
+        }
+
+        ~~
+
+        {[Guardar cambios] | [Continuar editando] | [Cancelar]}
+    }
+}
+@endsalt

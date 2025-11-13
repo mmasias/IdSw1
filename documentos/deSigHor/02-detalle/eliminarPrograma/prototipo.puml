@@ -1,0 +1,27 @@
+@startsalt eliminarPrograma-wireframe
+{
+    <b>ELIMINAR PROGRAMA ACADÉMICO</b>
+    ===
+    {
+        <b>¿Está seguro de eliminar este programa?</b>
+        --
+        {
+            <b>Código:</b> | PRG-001
+            <b>Nombre:</b> | Ingeniería Industrial y de Sistemas
+            <b>Descripción:</b> |
+            {
+                Programa académico de pregrado orientado
+                a la formación integral de profesionales
+                en ingeniería industrial y de sistemas
+            }}
+            --
+            <b>⚠️ ADVERTENCIA: Esta acción es irreversible</b>
+            <i>El programa y toda su información asociada serán eliminados permanentemente</i>
+        }
+
+        ~~
+
+        {[Confirmar eliminación] | [Cancelar]}
+    }
+
+    @endsalt

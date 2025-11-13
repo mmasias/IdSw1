@@ -1,0 +1,32 @@
+@startsalt iniciarSesion-wireframe
+{
+    ====
+    SigHor - Sistema Generador de Horarios
+    ====
+    {^" Iniciar sesión "
+        Usuario    | "Administrador   "
+        Contraseña | "********        "
+        {
+            [Cancel] | [  OK   ]
+        }
+    }
+}
+@endsalt
+
+
+@startsalt iniciarSesion-credenciales-invalidas-wireframe
+{
+    ====
+    SigHor - Sistema Generador de Horarios
+    ====
+    {^" Iniciar sesión "
+        Usuario    | "Administrador   "
+        Contraseña | "********        "
+        {
+            [Cancel] | [  OK   ]
+        }
+    }
+    **usuario:contraseña no válida!**
+    ====    
+}
+@endsalt

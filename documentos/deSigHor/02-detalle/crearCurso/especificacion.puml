@@ -1,0 +1,40 @@
+@startuml crearCurso
+
+skinparam linetype polyline
+
+state crearCurso as "crearCurso()" {
+
+    state " " as SolicitandoDatos
+    state " " as CreandoCurso
+
+    [*] -[#green]-> SolicitandoDatos 
+    note on link
+    <b>Administrador</b> solicita crear curso nuevo
+    end note    
+    
+    SolicitandoDatos -[#green]-> CreandoCurso
+    note on link
+    <b>Sistema</b> presenta solicitud de datos mínimos del curso
+    • Nombre del curso (obligatorio)
+    • Permite solicitar crear curso
+    • Permite solicitar cancelar creación
+    end note
+    
+    CreandoCurso -[#green]-> [*]
+    note on link
+    <b>Administrador</b> proporciona datos mínimos
+    <b>Sistema</b> crea curso y transfiere a edición
+    end note
+}
+
+crearCurso -[#green]-> CURSO_ABIERTO
+note on link
+editarCurso(cursoNuevo)
+end note
+
+crearCurso -[#blue]-> CURSOS_ABIERTO
+note on link
+cancelar creación
+end note
+
+@enduml

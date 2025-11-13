@@ -1,0 +1,46 @@
+@startuml crearRecurso
+skinparam linetype polyline
+
+state crearRecurso as "crearRecurso()" {
+    state " " as RequiringData
+    state " " as ProvidingData
+    state c <<choice>>
+    
+    [*] -[#green]-> RequiringData
+    note on link
+    <b>Administrador</b> solicita crear recurso
+    end note
+    
+    RequiringData -[#green]-> ProvidingData
+    note on link
+    <b>Sistema</b> permite introducir
+    • código del recurso
+    • nombre del recurso
+    end note
+    
+    ProvidingData -[#green]-> c
+    note on link
+    <b>Administrador</b> introduce
+    • código del recurso
+    • nombre del recurso
+    end note
+    
+    c -[#red]-> RequiringData
+    note on link
+    código del recurso
+    ya existe
+    end note
+    
+    c -[#green]-> [*]
+    note on link
+    recurso creado con datos mínimos
+    transferir a editarRecurso()
+    end note
+}
+
+crearRecurso -[#green]-> RECURSO_ABIERTO
+note on link
+editarRecurso()
+end note
+
+@enduml

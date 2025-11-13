@@ -1,0 +1,54 @@
+@startuml configurarPreferenciasProfesor
+
+skinparam linetype polyline
+
+state configurarPreferenciasProfesor as "configurarPreferenciasProfesor()" {
+
+    state " " as ConfigurandoPreferencias
+    state " " as GuardandoConfiguracion 
+
+    [*] -[#green]-> ConfigurandoPreferencias 
+    note on link
+    <b>Administrador</b> solicita configurar preferencias del profesor
+    end note    
+    
+    ConfigurandoPreferencias -[#green]-> GuardandoConfiguracion
+    note on link
+    <b>Sistema</b> presenta datos de configuración
+    • Lista de recursos disponibles
+    • Orden de prioridad actual del profesor
+    
+    <b>Sistema</b> permite solicitar:
+    • modificar orden
+    • guardar configuración
+    • cancelar configuración
+    end note
+    
+    GuardandoConfiguracion -[#green]-> ConfigurandoPreferencias
+    note on link
+    <b>Administrador</b> solicita modificar orden
+    end note
+    
+    GuardandoConfiguracion -[#green]-> [*]
+    note on link
+    <b>Administrador</b> solicita guardar y salir
+    end note
+
+    GuardandoConfiguracion -[#red]-> [*]
+    note on link
+    <b>Administrador</b> solicita cancelar configuración
+    end note
+
+}
+
+configurarPreferenciasProfesor -[#green]-> PROFESOR_ABIERTO
+note on link
+abrirEdicionProfesor()
+end note
+
+configurarPreferenciasProfesor -[#red]-> PROFESOR_ABIERTO
+note on link
+cancelar configuración
+end note
+
+@enduml

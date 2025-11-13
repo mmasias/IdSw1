@@ -1,0 +1,21 @@
+@startuml
+
+Profesor -d- Curso : imparte
+
+Curso -r-* Programa
+
+package CampusUniversitario {
+    Edificio *-u- Aula
+}
+
+Horario o-- Aula
+Horario o-d- Curso
+Horario o-- Profesor
+
+Profesor ..> Recurso : prefiere
+Aula ..> Recurso : ofrece
+
+Curso .. BloqueHorario
+
+
+@enduml

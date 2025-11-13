@@ -1,0 +1,27 @@
+@startsalt editarProfesor-wireframe
+{
+    <b>EDITAR PROFESOR</b>
+    ===
+    {
+        <b>Datos del profesor:</b>
+        --
+        {
+            {
+            {<b>Código:</b> | "PROF-001                    "
+            <b>Nombres:</b> | "Juan Carlos                  "}
+            {<b>Apellidos:</b> | "García López                 "
+            <b>Correo:</b> | "jgarcia@universidad.edu      "}
+            {<b>Teléfono:</b> | "+51 999 123 456              "
+            <b>Observaciones:</b> |
+                {"Profesor especializado en algoritmos
+                y estructuras de datos. Experiencia
+                en desarrollo de software educativo  "}}
+            }
+        }
+
+        ~~
+
+        {[Guardar cambios] | [Continuar editando] | [Cancelar]}
+    }
+}
+@endsalt

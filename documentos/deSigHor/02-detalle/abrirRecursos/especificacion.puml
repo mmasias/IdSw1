@@ -1,0 +1,57 @@
+@startuml abrirRecursos
+
+skinparam linetype polyline
+
+state abrirRecursos as "abrirRecursos()" {
+
+    state " " as MostrandoLista
+    state " " as FiltrandoLista
+
+    [*] -[#green]-> MostrandoLista 
+    note on link
+    <b>Administrador</b> solicita abrir recursos
+    end note    
+    
+    MostrandoLista -[#green]-> FiltrandoLista
+    note on link
+    <b>Sistema</b> presenta lista de recursos
+    • ID, nombre, descripción de cada recurso
+    • Permite solicitar filtrar lista
+    • Permite solicitar crear recurso nuevo
+    • Permite solicitar eliminar recurso
+    • Permite solicitar editar recurso
+    end note
+    
+    FiltrandoLista -[#green]-> FiltrandoLista
+    note on link
+    <b>Administrador</b> solicita filtrar lista
+    <b>Sistema</b> presenta lista filtrada
+    end note
+    
+    FiltrandoLista -[#green]-> [*]
+    note on link
+    <b>Administrador</b> solicita una de las opciones
+    end note
+}
+
+abrirRecursos -[#green]-> RECURSO_ABIERTO
+note on link
+editarRecurso()
+end note
+
+abrirRecursos -[#green]-> RECURSO_ABIERTO
+note on link
+crearRecurso()
+end note
+
+abrirRecursos -[#green]-> RECURSOS_ABIERTO
+note on link
+eliminarRecurso()
+end note
+
+abrirRecursos -[#green]-> SISTEMA_DISPONIBLE
+note on link
+completarGestion()
+end note
+
+@enduml

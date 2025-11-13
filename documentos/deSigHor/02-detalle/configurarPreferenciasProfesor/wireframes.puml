@@ -1,0 +1,29 @@
+@startsalt configurarPreferenciasProfesor-wireframe
+{
+    <b>CONFIGURAR PREFERENCIAS DEL PROFESOR</b>
+    ===
+    {
+        <b>Orden de prioridad de recursos:</b>
+        --
+        {
+            {
+            {<b>Prioridad 1:</b> | "Proyector Digital             "
+            <b>Prioridad 2:</b> | "Computadora                   "}
+            {<b>Prioridad 3:</b> | "Pizarra Inteligente           "
+            <b>Prioridad 4:</b> | "Equipo de Audio               "}
+            {<b>Prioridad 5:</b> | "Acceso a Internet             "
+            <b>Prioridad 6:</b> | "Aire Acondicionado            "}
+            {<b>Prioridad 7:</b> | "Laboratorio Específico        "
+            <b>Observaciones:</b> |
+                {"Configuración de preferencias para
+                optimización del algoritmo de generación
+                de horarios según recursos del profesor  "}}
+            }
+        }
+
+        ~~
+
+        {[Guardar configuración] | [Continuar configurando] | [Cancelar]}
+    }
+}
+@endsalt

@@ -1,0 +1,57 @@
+@startuml abrirEdificios
+
+skinparam linetype polyline
+
+state abrirEdificios as "abrirEdificios()" {
+
+    state " " as MostrandoLista
+    state " " as FiltrandoLista
+
+    [*] -[#green]-> MostrandoLista 
+    note on link
+    <b>Administrador</b> solicita abrir edificios
+    end note    
+    
+    MostrandoLista -[#green]-> FiltrandoLista
+    note on link
+    <b>Sistema</b> presenta lista de edificios
+    • ID, nombre de cada edificio
+    • Permite solicitar filtrar lista
+    • Permite solicitar crear edificio nuevo
+    • Permite solicitar eliminar edificio
+    • Permite solicitar editar edificio
+    end note
+    
+    FiltrandoLista -[#green]-> FiltrandoLista
+    note on link
+    <b>Administrador</b> solicita filtrar lista
+    <b>Sistema</b> presenta lista filtrada
+    end note
+    
+    FiltrandoLista -[#green]-> [*]
+    note on link
+    <b>Administrador</b> solicita una de las opciones
+    end note
+}
+
+abrirEdificios -[#green]-> EDIFICIO_ABIERTO
+note on link
+editarEdificio()
+end note
+
+abrirEdificios -[#green]-> EDIFICIO_ABIERTO
+note on link
+crearEdificio()
+end note
+
+abrirEdificios -[#green]-> EDIFICIOS_ABIERTO
+note on link
+eliminarEdificio()
+end note
+
+abrirEdificios -[#green]-> SISTEMA_DISPONIBLE
+note on link
+completarGestion()
+end note
+
+@enduml

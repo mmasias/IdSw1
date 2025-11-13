@@ -1,0 +1,31 @@
+@startsalt eliminarProfesor-wireframe
+{
+    <b>ELIMINAR PROFESOR</b>
+    ===
+    {
+        <b>¿Está seguro de eliminar este profesor?</b>
+        --
+        {
+            {<b>Código:</b> | PROF-001
+            <b>Nombre:</b> | Juan Carlos García López}
+            {<b>Correo:</b> | jgarcia@universidad.edu
+            <b>Teléfono:</b> | +51 999 123 456}
+            {<b>Observaciones:</b> |
+            {
+                Profesor especializado en algoritmos
+                y estructuras de datos. Experiencia
+                en desarrollo de software educativo.
+            }}
+            {<b>Cursos asignados:</b> | 3 cursos activos
+            <b>Preferencias:</b> | Configuradas (aulas con proyector)}
+            --
+            <b>⚠️ ADVERTENCIA: Esta acción es irreversible</b>
+            <i>El profesor y toda su información asociada serán eliminados permanentemente</i>
+        }
+
+        ~~
+
+        {[Confirmar eliminación] | [Cancelar]}
+    }
+}
+@endsalt

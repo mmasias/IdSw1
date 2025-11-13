@@ -1,0 +1,42 @@
+@startuml eliminarPrograma
+
+skinparam linetype polyline
+
+state eliminarPrograma as "eliminarPrograma()" {
+
+    state " " as ConfirmandoEliminacion
+    state " " as EliminandoPrograma
+
+    [*] -[#green]-> ConfirmandoEliminacion 
+    note on link
+    <b>Administrador</b> solicita eliminar programa
+    end note    
+    
+    ConfirmandoEliminacion -[#green]-> EliminandoPrograma
+    note on link
+    <b>Sistema</b> presenta información del programa a eliminar
+    • Código, nombre, descripción del programa
+    • Presenta advertencia de eliminación
+    • Permite solicitar confirmar eliminación
+    • Permite solicitar cancelar eliminación
+    end note
+    
+    EliminandoPrograma -[#green]-> [*]
+    note on link
+    <b>Administrador</b> solicita confirmación de eliminación
+    <b>Sistema</b> permite solicitar confirmar eliminación
+    <b>Administrador</b> solicita confirmar eliminación
+    end note
+}
+
+eliminarPrograma -[#green]-> PROGRAMAS_ABIERTO
+note on link
+<<include>> abrirProgramas() - lista actualizada
+end note
+
+eliminarPrograma -[#blue]-> PROGRAMAS_ABIERTO
+note on link
+<<include>> abrirProgramas() - cancelar eliminación
+end note
+
+@enduml

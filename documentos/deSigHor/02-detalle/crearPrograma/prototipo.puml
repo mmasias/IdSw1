@@ -1,0 +1,17 @@
+@startsalt crearPrograma-wireframe
+{
+    <b>CREAR NUEVO PROGRAMA ACADÉMICO</b>
+    ===
+    {
+        <b>Nombre del programa:</b> | [                                              ]
+        --
+        <i>El código se generará automáticamente</i>
+        <i>El programa se creará activo por defecto</i>
+    }
+    
+    ~~
+    
+    {[Crear programa] | [Cancelar]}
+}
+
+@endsalt

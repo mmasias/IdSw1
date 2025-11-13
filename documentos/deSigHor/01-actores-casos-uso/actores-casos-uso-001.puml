@@ -1,0 +1,34 @@
+@startuml
+
+left to right direction
+
+actor "Administrador de Horarios" as admin
+
+package "Gestión de Programas" {
+    usecase crearPrograma as "crearPrograma()"
+    usecase abrirProgramas as "abrirProgramas()"
+    usecase editarPrograma as "editarPrograma()"
+    usecase eliminarPrograma as "eliminarPrograma()"
+}
+
+package "Gestión de Cursos" {
+    usecase crearCurso as "crearCurso()"
+    usecase abrirCursos as "abrirCursos()"
+    usecase editarCurso as "editarCurso()"
+    usecase eliminarCurso as "eliminarCurso()"
+}
+
+admin --> (crearPrograma)
+admin --> (abrirProgramas)
+admin --> (editarPrograma)
+admin --> (eliminarPrograma)
+
+(crearCurso) <-- admin
+(abrirCursos) <-- admin
+(editarCurso) <-- admin
+(eliminarCurso) <-- admin
+
+eliminarCurso .> abrirCursos : <<include>>
+eliminarPrograma .> abrirProgramas : <<include>>
+
+@enduml

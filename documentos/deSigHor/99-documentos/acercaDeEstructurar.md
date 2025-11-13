@@ -49,23 +49,23 @@ Al observar este diagrama, podemos identificar los siguientes escenarios:
     - Cada caso de uso `eliminar<Entidad>()` **incluye (`<<include>>`)** a `solicitarConfirmacion()` antes de proceder con la eliminación final.
 - **Justificación**: Este es un patrón de diseño universal. El comportamiento de "solicitar confirmación y procesar la respuesta" es idéntico en todos los casos. Extraerlo con `<<include>>` evita la redundancia y asegura consistencia.
 
-### Escenario 2: `<<extend>>` y el guardado opcional
+---
 
-- **Relación**: `<<extend>>` (Comportamiento opcional).
-- **Contexto**: El administrador está trabajando con una entidad (ej. en el estado PROFESOR_ABIERTO) y trata de volver al menú (`completarGestion()`) sin haber guardado sus cambios.
-- **Propuesta**:
-    - Se define un caso de uso: **`guardarCambiosAntesDeSalir()`**.
-    - Este caso de uso **extiende (`<<extend>>`)** a `completarGestion()`.
-    - El punto de extensión se activa bajo la condición: `si existen cambios sin guardar`.
-- **Justificación**: El caso de uso `completarGestion()` (volver al menú) es completo por sí mismo. El flujo de "guardar cambios" es un comportamiento adicional y condicional. Modela una interacción realista que no siempre ocurre, propósito ideal de la relación `<<extend>>`.
+### Escenario 2: El Rol Múltiple de `guardarCambiosDePrograma()`
 
-### Escenario 3: `generalization` y la edición de entidades
+Este escenario es más complejo y potente, ya que involucra dos tipos de relaciones (`<<include>>` y `<<extend>>`) para un mismo caso de uso, demostrando un alto nivel de reutilización de la lógica de negocio.
 
-- **Relación**: `generalization` (Especialización).
-- **Contexto**: Los casos de uso `crear<Entidad>()` y `editar<Entidad>()` son muy similares: ambos llevan a la misma pantalla de edición (ej. `EditPrograma`).
-- **Propuesta**:
-    - Se define un caso de uso abstracto y genérico: **`editarEntidadBase()`**, cuyo propósito es "iniciar la edición detallada de una entidad".
-    - Los casos de uso `crear<Entidad>()` y `editar<Entidad>()` se modelan como **especializaciones (`generalization`)** de `editarEntidadBase()`.
-- **Justificación**: Ambos son tipos de "manipulación de datos". El caso de uso padre define la acción común ("iniciar la edición"), y los hijos la especializan:
-    - `crear<Entidad>()`: Especializa `editarEntidadBase()` para el escenario de una entidad **nueva**.
-    - `editar<Entidad>()`: Especializa `editarEntidadBase()` para el escenario de una entidad **existente**.
+- **Relación Principal 1: `<<include>>` (Guardado Explícito)**
+    - **Contexto**: La lógica para persistir los datos de un `Programa` es necesaria en dos momentos: al crear la entidad mínima (filosofía "delgado") y al guardar las modificaciones en el modo de edición (filosofía "gordo").
+    - **Propuesta**:
+        - Se define un caso de uso específico: **`guardarCambiosDePrograma()`**, que encapsula toda la lógica de validación y persistencia de un programa.
+        - Los casos de uso `crearPrograma()` y `editarPrograma()` **incluyen (`<<include>>`)** a `guardarCambiosDePrograma()` para ejecutar la acción de guardado.
+    - **Justificación**: Se centraliza la responsabilidad de guardar un programa en un único lugar, haciéndolo reutilizable y fácil de mantener. `crearPrograma()` y `editarPrograma()` dependen de esta lógica para completar su flujo.
+
+- **Relación Principal 2: `<<extend>>` (Guardado Implícito/Opcional)**
+    - **Contexto**: Cuando el administrador está en el estado de edición (`PROGRAMA_ABIERTO`) y trata de navegar hacia atrás (ej. `abrirProgramas()`) teniendo cambios sin guardar.
+    - **Propuesta**:
+        - El mismo caso de uso, **`guardarCambiosDePrograma()`**, **extiende (`<<extend>>`)** al caso de uso de navegación `abrirProgramas()`.
+    - **Justificación**: El guardado aquí es un flujo opcional, condicionado a que existan cambios. El caso de uso `abrirProgramas()` es completo por sí mismo, pero bajo esta condición, se le "extiende" la funcionalidad de guardar.
+
+- **Conclusión del Escenario**: Este modelo muestra cómo un mismo componente de lógica de negocio (`guardarCambiosDePrograma()`) puede ser invocado de manera **obligatoria** desde los casos de uso que lo necesitan para su flujo principal (`crear` y `editar`), y de manera **opcional y condicional** para extender el comportamiento de otros casos de uso (`abrirProgramas`), demostrando un diseño de requisitos robusto y modular.

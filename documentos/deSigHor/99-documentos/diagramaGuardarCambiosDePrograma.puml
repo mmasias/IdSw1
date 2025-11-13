@@ -1,0 +1,23 @@
+@startuml diagramaGuardarCambiosDePrograma
+
+left to right direction
+
+actor Administrador
+
+rectangle "Gestión de Programas" {
+  usecase "crearPrograma()" as UC_Create
+  usecase "editarPrograma()" as UC_Edit
+  usecase "abrirProgramas()" as UC_Open
+}
+
+usecase "guardarCambiosDePrograma()" as UC_Save
+
+Administrador --> UC_Create
+Administrador --> UC_Edit
+Administrador --> UC_Open
+
+UC_Create ..> UC_Save : <<include>>
+UC_Edit ..> UC_Save : <<include>>
+UC_Save .> UC_Open : <<extend>> (si existen cambios sin guardar)
+
+@enduml

@@ -1,0 +1,11 @@
+@startsalt guardarCambiosAntesDeSalir-wireframe
+{
+    <b>CAMBIOS SIN GUARDAR</b>
+    ===
+    {
+        "Existen cambios sin guardar. ¿Qué desea hacer?"
+        --
+        {[Guardar y Salir] | [Salir sin Guardar] | [Cancelar]}
+    }
+}
+@endsalt

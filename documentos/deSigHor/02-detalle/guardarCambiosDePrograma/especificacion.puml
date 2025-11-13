@@ -1,0 +1,33 @@
+@startuml guardarCambiosDePrograma
+
+skinparam linetype polyline
+
+state guardarCambiosDePrograma as "guardarCambiosDePrograma()" {
+
+    state " " as ValidandoDatos
+    state " " as PersistiendoDatos
+
+    [*] -[#green]-> ValidandoDatos
+    note on link
+    <b>Caso de Uso Invocador</b> solicita guardar cambios de programa
+    end note
+
+    ValidandoDatos -[#green]-> PersistiendoDatos
+    note on link
+    Datos válidos
+    end note
+
+    ValidandoDatos -[#red]-> [*]
+    note on link
+    Datos inválidos
+    <b>Sistema</b> retorna error de validación
+    end note
+
+    PersistiendoDatos -[#green]-> [*]
+    note on link
+    <b>Sistema</b> guarda los datos del programa
+    <b>Sistema</b> retorna éxito
+    end note
+}
+
+@enduml

@@ -1,0 +1,32 @@
+@startuml relacionConfirmacion
+
+left to right direction
+
+actor Administrador
+
+rectangle "Gestión de Entidades" {
+  usecase "eliminarPrograma()" as UC1
+  usecase "eliminarCurso()" as UC2
+  usecase "eliminarProfesor()" as UC3
+  usecase "eliminarEdificio()" as UC4
+  usecase "eliminarAula()" as UC5
+  usecase "eliminarRecurso()" as UC6
+}
+
+usecase "solicitarConfirmacion()" as UC_Include <<abstract>>
+
+Administrador --> UC1
+Administrador --> UC2
+Administrador --> UC3
+Administrador --> UC4
+Administrador --> UC5
+Administrador --> UC6
+
+UC1 ..> UC_Include : <<include>>
+UC2 ..> UC_Include : <<include>>
+UC3 ..> UC_Include : <<include>>
+UC4 ..> UC_Include : <<include>>
+UC5 ..> UC_Include : <<include>>
+UC6 ..> UC_Include : <<include>>
+
+@enduml

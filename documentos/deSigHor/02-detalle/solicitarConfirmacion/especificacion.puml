@@ -1,0 +1,25 @@
+@startuml solicitarConfirmacion
+
+skinparam linetype polyline
+
+state solicitarConfirmacion as "solicitarConfirmacion()" {
+
+    state " " as EsperandoConfirmacion
+
+    [*] -[#green]-> EsperandoConfirmacion
+    note on link
+    <b>Sistema</b> presenta solicitud de confirmación
+    end note
+
+    EsperandoConfirmacion -[#green]-> [*]
+    note on link
+    <b>Actor</b> acepta confirmación
+    end note
+
+    EsperandoConfirmacion -[#red]-> [*]
+    note on link
+    <b>Actor</b> cancela confirmación
+    end note
+}
+
+@enduml

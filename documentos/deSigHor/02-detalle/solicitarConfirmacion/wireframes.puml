@@ -1,0 +1,11 @@
+@startsalt solicitarConfirmacion-wireframe
+{
+    <b>CONFIRMACIÓN</b>
+    ===
+    {
+        "¿Está seguro de que desea realizar esta acción?"
+        --
+        {[Aceptar] | [Cancelar]}
+    }
+}
+@endsalt

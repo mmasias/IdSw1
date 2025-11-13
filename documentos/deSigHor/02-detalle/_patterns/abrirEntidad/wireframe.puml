@@ -1,0 +1,46 @@
+@startuml
+
+skinparam rectangle {
+    BackgroundColor White
+    BorderColor Black
+}
+
+rectangle "pySigHor - Gestión de {TipoEntidad}" {
+
+    rectangle "Búsqueda" #LightGray {
+        rectangle "🔍 Buscar {NombreEntidad}: [__________]" as search
+    }
+
+    rectangle "Lista de {TipoEntidad}" #White {
+        rectangle "┌─────────────────────────────────────────────────┐\n│ {Campo1} │ {Campo2} │ {Campo3} │ ... │ Acciones │\n├─────────────────────────────────────────────────┤\n│ Valor1   │ Valor2   │ Valor3   │ ... │ ✏️ 🗑️   │\n│ Valor1   │ Valor2   │ Valor3   │ ... │ ✏️ 🗑️   │\n│ Valor1   │ Valor2   │ Valor3   │ ... │ ✏️ 🗑️   │\n│ ...      │ ...      │ ...      │ ... │ ...     │\n└─────────────────────────────────────────────────┘" as lista
+
+        note right of lista
+          <b>Campos mostrados:</b>
+          {CamposMostrar}
+
+          <b>Campos filtrables:</b>
+          {CamposFiltrable}
+        end note
+    }
+
+    rectangle "Acciones" #LightBlue {
+        rectangle "[ Crear {NombreEntidad}]  [Volver al Menú]" as actions
+    }
+}
+
+search -[hidden]down-> lista
+lista -[hidden]down-> actions
+
+note bottom of actions
+  <b>Estados del sistema:</b>
+  • MostrandoLista: muestra todos los {TipoEntidad}
+  • FiltrandoLista: muestra {TipoEntidad} filtrados
+
+  <b>Navegación:</b>
+  • Crear → crear{NombreEntidad}()
+  • Editar (✏️) → editar{NombreEntidad}()
+  • Eliminar (🗑️) → eliminar{NombreEntidad}()
+  • Volver → completarGestion()
+end note
+
+@enduml

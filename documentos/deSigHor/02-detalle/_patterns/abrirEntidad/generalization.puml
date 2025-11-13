@@ -1,0 +1,62 @@
+@startuml
+
+left to right direction
+
+actor Administrador as admin
+
+package "Patrón: Gestión de Listas" {
+    usecase "<<abstract>>\nabrir{TipoEntidad}()" as abrirEntidad <<abstract>>
+}
+
+package "Especializaciones: Gestión de Entidades Académicas" {
+    usecase "abrirProgramas()" as abrirProgramas
+    usecase "abrirCursos()" as abrirCursos
+    usecase "abrirProfesores()" as abrirProfesores
+}
+
+package "Especializaciones: Gestión del Campus" {
+    usecase "abrirAulas()" as abrirAulas
+    usecase "abrirEdificios()" as abrirEdificios
+    usecase "abrirRecursos()" as abrirRecursos
+}
+
+' Relaciones de generalización (herencia)
+abrirProgramas -up-|> abrirEntidad : <<generalizes>>
+abrirCursos -up-|> abrirEntidad : <<generalizes>>
+abrirProfesores -up-|> abrirEntidad : <<generalizes>>
+abrirAulas -up-|> abrirEntidad : <<generalizes>>
+abrirEdificios -up-|> abrirEntidad : <<generalizes>>
+abrirRecursos -up-|> abrirEntidad : <<generalizes>>
+
+' Relación con el actor
+admin --> abrirEntidad
+
+note right of abrirEntidad
+  <b>Caso de uso abstracto (patrón)</b>
+
+  Define el comportamiento genérico de:
+  • Presentar lista de entidades
+  • Filtrar por campos parametrizados
+  • Navegar a operaciones CRUD
+
+  <b>No se ejecuta directamente</b>
+  Requiere especialización concreta
+end note
+
+note bottom of abrirProgramas
+  <b>Especialización concreta</b>
+
+  Parámetros:
+  • TipoEntidad: "Programas"
+  • CamposFiltrable: [código, nombre, descripción]
+end note
+
+note bottom of abrirAulas
+  <b>Especialización concreta</b>
+
+  Parámetros:
+  • TipoEntidad: "Aulas"
+  • CamposFiltrable: [ID, nombre, edificio]
+end note
+
+@enduml

@@ -1,0 +1,74 @@
+@startuml
+
+skinparam linetype polyline
+
+state "abrir{TipoEntidad}()" as abrirEntidad {
+
+    state " " as MostrandoLista
+    state " " as FiltrandoLista
+
+    [*] -[#blue]-> MostrandoLista
+    note on link
+    <b>Administrador</b> solicita abrir {TipoEntidad}
+    end note
+
+    MostrandoLista -[#blue]-> FiltrandoLista
+    note on link
+    <b>Sistema</b> presenta lista de {TipoEntidad}
+    • {CamposMostrar} de cada {NombreEntidad}
+    • Permite solicitar filtrar lista
+    • Permite solicitar crear {NombreEntidad} nuevo
+    • Permite solicitar eliminar {NombreEntidad}
+    • Permite solicitar editar {NombreEntidad}
+    end note
+
+    FiltrandoLista -[#blue]-> FiltrandoLista
+    note on link
+    <b>Administrador</b> solicita filtrar lista
+    <b>Sistema</b> presenta lista filtrada por {CamposFiltrable}
+    end note
+
+    FiltrandoLista -[#blue]-> [*]
+    note on link
+    <b>Administrador</b> solicita una de las opciones
+    end note
+}
+
+state "{NombreEntidad}_ABIERTO" as NE
+state "{EstadoDestino}" as ED
+
+abrirEntidad -[#blue]-> NE
+note on link
+editar{NombreEntidad}()
+end note
+
+abrirEntidad -[#blue]-> NE
+note on link
+crear{NombreEntidad}()
+end note
+
+abrirEntidad -[#blue]-> ED
+note on link
+eliminar{NombreEntidad}()
+end note
+
+abrirEntidad -[#blue]-> SISTEMA_DISPONIBLE
+note on link
+completarGestion()
+end note
+
+note right of abrirEntidad
+  <b>Caso de uso abstracto</b>
+
+  Los textos entre llaves {} son
+  <b>parámetros de especialización</b>
+  que cada caso de uso hijo
+  debe definir concretamente.
+
+  Ejemplos:
+  • {TipoEntidad} → "Programas"
+  • {NombreEntidad} → "Programa"
+  • {CamposFiltrable} → [código, nombre, descripción]
+end note
+
+@enduml

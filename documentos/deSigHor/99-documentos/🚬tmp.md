@@ -31,12 +31,39 @@ Diagrama: [eliminarPrograma](/documentos/deSigHor/02-detalle/eliminarPrograma/) 
 
 <details>
 
-#### Estructurar el modelo de casos de uso
+#### Estructurar el modelo de casos de uso - 1
 
 |![](/images/documentos/deSigHor/02-detalle/solicitarConfirmacion/solicitarConfirmacion.svg)|![](/images/documentos/deSigHor/02-detalle/solicitarConfirmacion/solicitarConfirmacion-wireframe.svg)|
 |-|-|
 
 [Solicitar confirmación](/documentos/deSigHor/02-detalle/solicitarConfirmacion/README.md) / [En el proyecto](/documentos/deSigHor/99-documentos/diagramaConfirmacion.md)
+
+</details>
+
+</details>
+
+</details>
+
+#### Estructurar el modelo de casos de uso - 2
+
+|![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/crearProfesor/crearProfesor.svg)|![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/editarProfesor/editarProfesor.svg)|
+|-|-|
+
+<details>
+
+![](/images/documentos/deSigHor/02-detalle/guardarCambiosDePrograma/guardarCambiosDePrograma.svg)
+
+- \<\<include\>\>:
+  - crearPrograma() --> guardarCambiosDePrograma()
+  - editarPrograma() --> guardarCambiosDePrograma()
+
+<details>
+
+##### ¿Y si me voy a abrirPrograma() con cambios pendientes?
+
+<details>
+
+![](https://raw.githubusercontent.com/mmasias/IdSw1/update2025/images/documentos/deSigHor/99-documentos/diagramaGuardarCambiosDePrograma.svg)
 
 </details>
 

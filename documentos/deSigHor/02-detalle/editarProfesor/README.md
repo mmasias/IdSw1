@@ -41,7 +41,7 @@ Especificación detallada del caso de uso `editarProfesor()` mediante diagrama d
 
 <div align=center>
 
-|![Caso de uso: editarProfesor()](/images/RUP/00-casos-uso/02-detalle/editarProfesor/editarProfesor.svg)|
+|![Caso de uso: editarProfesor()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/editarProfesor/editarProfesor.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -59,7 +59,7 @@ Especificación detallada del caso de uso `editarProfesor()` mediante diagrama d
 
 <div align=center>
 
-|![Wireframe: Edición de profesor](/images/RUP/00-casos-uso/02-detalle/editarProfesor/editarProfesor-wireframe.svg)|
+|![Wireframe: Edición de profesor](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/editarProfesor/editarProfesor-wireframe.svg)|
 |-|
 |**Estado**: EditandoDatos / GuardandoDatos|
 

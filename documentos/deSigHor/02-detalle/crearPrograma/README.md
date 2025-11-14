@@ -33,7 +33,7 @@ Especificación detallada del caso de uso `crearPrograma()` mediante diagrama de
 
 <div align=center>
 
-|![Caso de uso: crearPrograma()](/images/RUP/00-casos-uso/02-detalle/crearPrograma/crearPrograma.svg)|
+|![Caso de uso: crearPrograma()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/crearPrograma/crearPrograma.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -51,7 +51,7 @@ Especificación detallada del caso de uso `crearPrograma()` mediante diagrama de
 
 <div align=center>
 
-|![Wireframe: Creación de programa](/images/RUP/00-casos-uso/02-detalle/crearPrograma/crearPrograma-wireframe.svg)|
+|![Wireframe: Creación de programa](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/crearPrograma/crearPrograma-wireframe.svg)|
 |-|
 |**Estado**: SolicitandoDatos / CreandoPrograma|
 

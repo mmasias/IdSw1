@@ -41,7 +41,7 @@ Especificación detallada del caso de uso `crearEdificio()` mediante diagrama de
 
 <div align=center>
 
-|![Caso de uso: crearEdificio()](/images/RUP/00-casos-uso/02-detalle/crearEdificio/crearEdificio.svg)|
+|![Caso de uso: crearEdificio()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/crearEdificio/crearEdificio.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -59,7 +59,7 @@ Especificación detallada del caso de uso `crearEdificio()` mediante diagrama de
 
 <div align=center>
 
-|![Wireframe: Creación de edificio](/images/RUP/00-casos-uso/02-detalle/crearEdificio/crearEdificio-wireframe.svg)|
+|![Wireframe: Creación de edificio](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/crearEdificio/crearEdificio-wireframe.svg)|
 |-|
 |**Estado**: CreandoEdificio|
 

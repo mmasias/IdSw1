@@ -33,7 +33,7 @@ Especificación detallada del caso de uso `editarPrograma()` mediante diagrama d
 
 <div align=center>
 
-|![Caso de uso: editarPrograma()](/images/RUP/00-casos-uso/02-detalle/editarPrograma/editarPrograma.svg)|
+|![Caso de uso: editarPrograma()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/editarPrograma/editarPrograma.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -51,7 +51,7 @@ Especificación detallada del caso de uso `editarPrograma()` mediante diagrama d
 
 <div align=center>
 
-|![Wireframe: Edición de programa](/images/RUP/00-casos-uso/02-detalle/editarPrograma/editarPrograma-wireframe.svg)|
+|![Wireframe: Edición de programa](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/editarPrograma/editarPrograma-wireframe.svg)|
 |-|
 |**Estado**: EditandoDatos / GuardandoDatos|
 

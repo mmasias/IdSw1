@@ -33,7 +33,7 @@ Permitir que el administrador gestione las asignaciones de cursos específicos a
 
 <div align=center>
 
-![asignarProfesorACurso](/images/RUP/00-casos-uso/02-detalle/asignarProfesorACurso/asignarProfesorACurso.svg)
+![asignarProfesorACurso](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/asignarProfesorACurso/asignarProfesorACurso.svg)
 
 </div>
 
@@ -43,7 +43,7 @@ Permitir que el administrador gestione las asignaciones de cursos específicos a
 
 <div align=center>
 
-![asignarProfesorACurso-wireframe](/images/RUP/00-casos-uso/02-detalle/asignarProfesorACurso/asignarProfesorACurso-wireframe.svg)
+![asignarProfesorACurso-wireframe](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/asignarProfesorACurso/asignarProfesorACurso-wireframe.svg)
 
 </div>
 

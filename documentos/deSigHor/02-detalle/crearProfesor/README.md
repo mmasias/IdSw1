@@ -41,7 +41,7 @@ Especificación detallada del caso de uso `crearProfesor()` mediante diagrama de
 
 <div align=center>
 
-|![Caso de uso: crearProfesor()](/images/RUP/00-casos-uso/02-detalle/crearProfesor/crearProfesor.svg)|
+|![Caso de uso: crearProfesor()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/crearProfesor/crearProfesor.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -59,7 +59,7 @@ Especificación detallada del caso de uso `crearProfesor()` mediante diagrama de
 
 <div align=center>
 
-|![Wireframe: Creación de profesor](/images/RUP/00-casos-uso/02-detalle/crearProfesor/crearProfesor-wireframe.svg)|
+|![Wireframe: Creación de profesor](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/crearProfesor/crearProfesor-wireframe.svg)|
 |-|
 |**Estado**: CreandoProfesor|
 

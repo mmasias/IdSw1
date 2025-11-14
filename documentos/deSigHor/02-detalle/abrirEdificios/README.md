@@ -33,7 +33,7 @@ Especificación detallada del caso de uso `abrirEdificios()` mediante diagrama d
 
 <div align=center>
 
-|![Caso de uso: abrirEdificios()](/images/RUP/00-casos-uso/02-detalle/abrirEdificios/abrirEdificios.svg)|
+|![Caso de uso: abrirEdificios()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/abrirEdificios/abrirEdificios.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -49,7 +49,7 @@ Especificación detallada del caso de uso `abrirEdificios()` mediante diagrama d
 #### pantalla 1: gestión de edificios
 <div align=center>
 
-|![Wireframe: Gestión de edificios](/images/RUP/00-casos-uso/02-detalle/abrirEdificios/abrirEdificios-wireframe.svg)|
+|![Wireframe: Gestión de edificios](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/abrirEdificios/abrirEdificios-wireframe.svg)|
 |-|
 |**Estado**: MostrandoLista / FiltrandoLista|
 

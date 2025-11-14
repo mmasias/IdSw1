@@ -33,7 +33,7 @@ Especificación detallada del caso de uso `abrirProgramas()` mediante diagrama d
 
 <div align=center>
 
-|![Caso de uso: abrirProgramas()](/images/RUP/00-casos-uso/02-detalle/abrirProgramas/abrirProgramas.svg)|
+|![Caso de uso: abrirProgramas()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/abrirProgramas/abrirProgramas.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -49,7 +49,7 @@ Especificación detallada del caso de uso `abrirProgramas()` mediante diagrama d
 #### pantalla 1: gestión de programas académicos
 <div align=center>
 
-|![Wireframe: Gestión de programas](/images/RUP/00-casos-uso/02-detalle/abrirProgramas/abrirProgramas-wireframe.svg)|
+|![Wireframe: Gestión de programas](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/abrirProgramas/abrirProgramas-wireframe.svg)|
 |-|
 |**Estado**: MostrandoLista / FiltrandoLista|
 

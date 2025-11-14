@@ -41,7 +41,7 @@ Especificación detallada del caso de uso `consultarHorario()` mediante diagrama
 
 <div align=center>
 
-|![Caso de uso: consultarHorario()](/images/RUP/00-casos-uso/02-detalle/consultarHorario/consultarHorario.svg)|
+|![Caso de uso: consultarHorario()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/consultarHorario/consultarHorario.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -59,7 +59,7 @@ Especificación detallada del caso de uso `consultarHorario()` mediante diagrama
 
 <div align=center>
 
-|![Wireframe: Horario académico](/images/RUP/00-casos-uso/02-detalle/consultarHorario/consultarHorario-wireframe-schedule.svg)|
+|![Wireframe: Horario académico](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/consultarHorario/consultarHorario-wireframe-schedule.svg)|
 |-|
 |**Estado**: ProvidingSchedule|
 
@@ -69,7 +69,7 @@ Especificación detallada del caso de uso `consultarHorario()` mediante diagrama
 
 <div align=center>
 
-|![Wireframe: Sin horario disponible](/images/RUP/00-casos-uso/02-detalle/consultarHorario/consultarHorario-wireframe-noSchedule.svg)|
+|![Wireframe: Sin horario disponible](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/consultarHorario/consultarHorario-wireframe-noSchedule.svg)|
 |-|
 |**Estado**: ProvidingSchedule - sin horario|
 

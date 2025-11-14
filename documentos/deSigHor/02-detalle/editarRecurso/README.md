@@ -41,7 +41,7 @@ Especificación detallada del caso de uso `editarRecurso()` mediante diagrama de
 
 <div align=center>
 
-|![Caso de uso: editarRecurso()](/images/RUP/00-casos-uso/02-detalle/editarRecurso/editarRecurso.svg)|
+|![Caso de uso: editarRecurso()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/editarRecurso/editarRecurso.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -59,7 +59,7 @@ Especificación detallada del caso de uso `editarRecurso()` mediante diagrama de
 
 <div align=center>
 
-|![Wireframe: Edición de recurso](/images/RUP/00-casos-uso/02-detalle/editarRecurso/editarRecurso-wireframe.svg)|
+|![Wireframe: Edición de recurso](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/editarRecurso/editarRecurso-wireframe.svg)|
 |-|
 |**Estado**: PresentingData / ModifyingData|
 

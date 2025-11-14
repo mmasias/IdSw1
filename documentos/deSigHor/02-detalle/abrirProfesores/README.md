@@ -33,7 +33,7 @@ Especificación detallada del caso de uso `abrirProfesores()` mediante diagrama 
 
 <div align=center>
 
-|![Caso de uso: abrirProfesores()](/images/RUP/00-casos-uso/02-detalle/abrirProfesores/abrirProfesores.svg)|
+|![Caso de uso: abrirProfesores()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/abrirProfesores/abrirProfesores.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -49,7 +49,7 @@ Especificación detallada del caso de uso `abrirProfesores()` mediante diagrama 
 #### pantalla 1: gestión de profesores
 <div align=center>
 
-|![Wireframe: Gestión de profesores](/images/RUP/00-casos-uso/02-detalle/abrirProfesores/abrirProfesores-wireframe.svg)|
+|![Wireframe: Gestión de profesores](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/abrirProfesores/abrirProfesores-wireframe.svg)|
 |-|
 |**Estado**: MostrandoLista / FiltrandoLista|
 

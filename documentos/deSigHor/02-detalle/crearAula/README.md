@@ -41,7 +41,7 @@ Especificación detallada del caso de uso `crearAula()` mediante diagrama de est
 
 <div align=center>
 
-|![Caso de uso: crearAula()](/images/RUP/00-casos-uso/02-detalle/crearAula/crearAula.svg)|
+|![Caso de uso: crearAula()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/crearAula/crearAula.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -59,7 +59,7 @@ Especificación detallada del caso de uso `crearAula()` mediante diagrama de est
 
 <div align=center>
 
-|![Wireframe: Creación de aula](/images/RUP/00-casos-uso/02-detalle/crearAula/crearAula-wireframe.svg)|
+|![Wireframe: Creación de aula](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/crearAula/crearAula-wireframe.svg)|
 |-|
 |**Estado**: CreandoAula|
 

@@ -33,7 +33,7 @@ Permitir que el administrador configure el orden de prioridad de recursos para u
 
 <div align=center>
 
-![configurarPreferenciasProfesor](/images/RUP/00-casos-uso/02-detalle/configurarPreferenciasProfesor/configurarPreferenciasProfesor.svg)
+![configurarPreferenciasProfesor](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/configurarPreferenciasProfesor/configurarPreferenciasProfesor.svg)
 
 </div>
 
@@ -43,7 +43,7 @@ Permitir que el administrador configure el orden de prioridad de recursos para u
 
 <div align=center>
 
-![configurarPreferenciasProfesor-wireframe](/images/RUP/00-casos-uso/02-detalle/configurarPreferenciasProfesor/configurarPreferenciasProfesor-wireframe.svg)
+![configurarPreferenciasProfesor-wireframe](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/configurarPreferenciasProfesor/configurarPreferenciasProfesor-wireframe.svg)
 
 </div>
 

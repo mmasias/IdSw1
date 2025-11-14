@@ -33,7 +33,7 @@ Especificación detallada del caso de uso `abrirAulas()` mediante diagrama de es
 
 <div align=center>
 
-|![Caso de uso: abrirAulas()](/images/RUP/00-casos-uso/02-detalle/abrirAulas/abrirAulas.svg)|
+|![Caso de uso: abrirAulas()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/abrirAulas/abrirAulas.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -49,7 +49,7 @@ Especificación detallada del caso de uso `abrirAulas()` mediante diagrama de es
 #### pantalla 1: gestión de aulas
 <div align=center>
 
-|![Wireframe: Gestión de aulas](/images/RUP/00-casos-uso/02-detalle/abrirAulas/abrirAulas-wireframe.svg)|
+|![Wireframe: Gestión de aulas](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/abrirAulas/abrirAulas-wireframe.svg)|
 |-|
 |**Estado**: MostrandoLista / FiltrandoLista|
 

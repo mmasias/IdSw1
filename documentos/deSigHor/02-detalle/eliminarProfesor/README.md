@@ -41,7 +41,7 @@ Especificación detallada del caso de uso `eliminarProfesor()` mediante diagrama
 
 <div align=center>
 
-|![Caso de uso: eliminarProfesor()](/images/RUP/00-casos-uso/02-detalle/eliminarProfesor/eliminarProfesor.svg)|
+|![Caso de uso: eliminarProfesor()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarProfesor/eliminarProfesor.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -59,7 +59,7 @@ Especificación detallada del caso de uso `eliminarProfesor()` mediante diagrama
 
 <div align=center>
 
-|![Wireframe: Eliminación de profesor](/images/RUP/00-casos-uso/02-detalle/eliminarProfesor/eliminarProfesor-wireframe.svg)|
+|![Wireframe: Eliminación de profesor](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarProfesor/eliminarProfesor-wireframe.svg)|
 |-|
 |**Estado**: ConfirmandoEliminacion / EliminandoProfesor|
 

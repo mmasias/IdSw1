@@ -33,7 +33,7 @@ Especificación detallada del caso de uso `editarCurso()` mediante diagrama de e
 
 <div align=center>
 
-|![Caso de uso: editarCurso()](/images/RUP/00-casos-uso/02-detalle/editarCurso/editarCurso.svg)|
+|![Caso de uso: editarCurso()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/editarCurso/editarCurso.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -51,7 +51,7 @@ Especificación detallada del caso de uso `editarCurso()` mediante diagrama de e
 
 <div align=center>
 
-|![Wireframe: Edición de curso](/images/RUP/00-casos-uso/02-detalle/editarCurso/editarCurso-wireframe.svg)|
+|![Wireframe: Edición de curso](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/editarCurso/editarCurso-wireframe.svg)|
 |-|
 |**Estado**: EditandoDatos / GuardandoDatos|
 

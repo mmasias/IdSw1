@@ -33,7 +33,7 @@ Especificación detallada del caso de uso `completarGestion()` mediante diagrama
 
 <div align=center>
 
-|![Caso de uso: completarGestion()](/images/RUP/00-casos-uso/02-detalle/completarGestion/completarGestion.svg)|
+|![Caso de uso: completarGestion()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/completarGestion/completarGestion.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -49,7 +49,7 @@ Especificación detallada del caso de uso `completarGestion()` mediante diagrama
 #### pantalla 1: sistema principal
 <div align=center>
 
-|![Wireframe: Panel principal](/images/RUP/00-casos-uso/02-detalle/completarGestion/completarGestion-wireframe.svg)|
+|![Wireframe: Panel principal](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/completarGestion/completarGestion-wireframe.svg)|
 |-|
 |**Estado**: PresentandoMenu|
 

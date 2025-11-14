@@ -32,7 +32,7 @@ Este documento describe el modelo conceptual del dominio para el Sistema Generad
 
 <div align=center>
 
-|![Modelo del Dominio](/images/RUP/00-casos-uso/00-modelo-del-dominio/modelo-dominio.svg)
+|![Modelo del Dominio](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/00-modelo-del-dominio/modelo-dominio.svg)
 |:-:
 |Código fuente: [modelo-dominio.puml](./modelo-dominio.puml)
 

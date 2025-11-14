@@ -33,7 +33,7 @@ Especificación detallada del caso de uso `crearCurso()` mediante diagrama de es
 
 <div align=center>
 
-|![Caso de uso: crearCurso()](/images/RUP/00-casos-uso/02-detalle/crearCurso/crearCurso.svg)|
+|![Caso de uso: crearCurso()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/crearCurso/crearCurso.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -51,7 +51,7 @@ Especificación detallada del caso de uso `crearCurso()` mediante diagrama de es
 
 <div align=center>
 
-|![Wireframe: Creación de curso](/images/RUP/00-casos-uso/02-detalle/crearCurso/crearCurso-wireframe.svg)|
+|![Wireframe: Creación de curso](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/crearCurso/crearCurso-wireframe.svg)|
 |-|
 |**Estado**: SolicitandoDatos / CreandoCurso|
 

@@ -33,7 +33,7 @@ Especificación detallada del caso de uso `eliminarCurso()` mediante diagrama de
 
 <div align=center>
 
-|![Caso de uso: eliminarCurso()](/images/RUP/00-casos-uso/02-detalle/eliminarCurso/eliminarCurso.svg)|
+|![Caso de uso: eliminarCurso()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarCurso/eliminarCurso.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -51,7 +51,7 @@ Especificación detallada del caso de uso `eliminarCurso()` mediante diagrama de
 
 <div align=center>
 
-|![Wireframe: Eliminación de curso](/images/RUP/00-casos-uso/02-detalle/eliminarCurso/eliminarCurso-wireframe.svg)|
+|![Wireframe: Eliminación de curso](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarCurso/eliminarCurso-wireframe.svg)|
 |-|
 |**Estado**: ConfirmandoEliminacion / EliminandoCurso|
 

@@ -41,7 +41,7 @@ Especificación detallada del caso de uso `editarAula()` mediante diagrama de es
 
 <div align=center>
 
-|![Caso de uso: editarAula()](/images/RUP/00-casos-uso/02-detalle/editarAula/editarAula.svg)|
+|![Caso de uso: editarAula()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/editarAula/editarAula.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -59,7 +59,7 @@ Especificación detallada del caso de uso `editarAula()` mediante diagrama de es
 
 <div align=center>
 
-|![Wireframe: Edición de aula](/images/RUP/00-casos-uso/02-detalle/editarAula/editarAula-wireframe.svg)|
+|![Wireframe: Edición de aula](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/editarAula/editarAula-wireframe.svg)|
 |-|
 |**Estado**: EditandoDatos / GuardandoDatos|
 

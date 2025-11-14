@@ -41,7 +41,7 @@ Especificación detallada del caso de uso `eliminarEdificio()` mediante diagrama
 
 <div align=center>
 
-|![Caso de uso: eliminarEdificio()](/images/RUP/00-casos-uso/02-detalle/eliminarEdificio/eliminarEdificio.svg)|
+|![Caso de uso: eliminarEdificio()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarEdificio/eliminarEdificio.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -59,7 +59,7 @@ Especificación detallada del caso de uso `eliminarEdificio()` mediante diagrama
 
 <div align=center>
 
-|![Wireframe: Eliminación de edificio](/images/RUP/00-casos-uso/02-detalle/eliminarEdificio/eliminarEdificio-wireframe.svg)|
+|![Wireframe: Eliminación de edificio](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarEdificio/eliminarEdificio-wireframe.svg)|
 |-|
 |**Estado**: ConfirmandoEliminacion / EliminandoEdificio|
 

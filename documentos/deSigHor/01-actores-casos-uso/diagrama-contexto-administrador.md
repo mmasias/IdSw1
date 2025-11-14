@@ -34,7 +34,7 @@ Este documento presenta el diagrama de contexto para el actor "Administrador de 
 
 <div align=center>
 
-|![Diagrama de Contexto - Administrador de Horarios](/images/RUP/00-casos-uso/01-actores-casos-uso/diagrama-contexto-administrador.svg)
+|![Diagrama de Contexto - Administrador de Horarios](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/01-actores-casos-uso/diagrama-contexto-administrador.svg)
 |-
 |Código fuente: [diagrama-contexto-administrador.puml](diagrama-contexto-administrador.puml)
 

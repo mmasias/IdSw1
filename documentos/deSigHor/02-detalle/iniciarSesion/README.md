@@ -33,7 +33,7 @@ Especificación detallada del caso de uso `iniciarSesion()` mediante diagrama de
 
 <div align=center>
 
-|![Caso de uso: iniciarSesion()](/images/RUP/00-casos-uso/02-detalle/iniciarSesion/iniciarSesion.svg)|
+|![Caso de uso: iniciarSesion()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/iniciarSesion/iniciarSesion.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -49,7 +49,7 @@ Especificación detallada del caso de uso `iniciarSesion()` mediante diagrama de
 #### pantalla 1: diálogo de inicio de sesión
 <div align=center>
 
-|![Wireframe: Inicio de sesión](/images/RUP/00-casos-uso/02-detalle/iniciarSesion/iniciarSesion-wireframe.svg)|
+|![Wireframe: Inicio de sesión](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/iniciarSesion/iniciarSesion-wireframe.svg)|
 |-|
 |**Estado**: SolicitandoAcceso → ProporcionandoCredenciales|
 
@@ -62,7 +62,7 @@ Especificación detallada del caso de uso `iniciarSesion()` mediante diagrama de
 #### pantalla 2: credenciales inválidas
 <div align=center>
 
-|![Wireframe: Error de credenciales](/images/RUP/00-casos-uso/02-detalle/iniciarSesion/iniciarSesion-credenciales-invalidas-wireframe.svg)|
+|![Wireframe: Error de credenciales](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/iniciarSesion/iniciarSesion-credenciales-invalidas-wireframe.svg)|
 |-|
 |**Estado**: Choice point → regreso a SolicitandoAcceso|
 

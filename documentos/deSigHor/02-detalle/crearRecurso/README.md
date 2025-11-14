@@ -41,7 +41,7 @@ Especificación detallada del caso de uso `crearRecurso()` mediante diagrama de 
 
 <div align=center>
 
-|![Caso de uso: crearRecurso()](/images/RUP/00-casos-uso/02-detalle/crearRecurso/crearRecurso.svg)|
+|![Caso de uso: crearRecurso()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/crearRecurso/crearRecurso.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -59,7 +59,7 @@ Especificación detallada del caso de uso `crearRecurso()` mediante diagrama de 
 
 <div align=center>
 
-|![Wireframe: Creación de recurso](/images/RUP/00-casos-uso/02-detalle/crearRecurso/crearRecurso-wireframe.svg)|
+|![Wireframe: Creación de recurso](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/crearRecurso/crearRecurso-wireframe.svg)|
 |-|
 |**Estado**: RequiringData / ProvidingData|
 

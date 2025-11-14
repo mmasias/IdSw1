@@ -34,7 +34,7 @@ Especificación detallada del caso de uso `abrirCursos()` mediante diagrama de e
 
 <div align=center>
 
-|![Caso de uso: abrirCursos()](/images/RUP/00-casos-uso/02-detalle/abrirCursos/abrirCursos.svg)|
+|![Caso de uso: abrirCursos()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/abrirCursos/abrirCursos.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -50,7 +50,7 @@ Especificación detallada del caso de uso `abrirCursos()` mediante diagrama de e
 #### pantalla 1: gestión de cursos académicos
 <div align=center>
 
-|![Wireframe: Gestión de cursos](/images/RUP/00-casos-uso/02-detalle/abrirCursos/abrirCursos-wireframe.svg)|
+|![Wireframe: Gestión de cursos](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/abrirCursos/abrirCursos-wireframe.svg)|
 |-|
 |**Estado**: MostrandoLista / FiltrandoLista|
 

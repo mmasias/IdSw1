@@ -41,7 +41,7 @@ Especificación detallada del caso de uso `editarEdificio()` mediante diagrama d
 
 <div align=center>
 
-|![Caso de uso: editarEdificio()](/images/RUP/00-casos-uso/02-detalle/editarEdificio/editarEdificio.svg)|
+|![Caso de uso: editarEdificio()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/editarEdificio/editarEdificio.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -59,7 +59,7 @@ Especificación detallada del caso de uso `editarEdificio()` mediante diagrama d
 
 <div align=center>
 
-|![Wireframe: Edición de edificio](/images/RUP/00-casos-uso/02-detalle/editarEdificio/editarEdificio-wireframe.svg)|
+|![Wireframe: Edición de edificio](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/editarEdificio/editarEdificio-wireframe.svg)|
 |-|
 |**Estado**: EditandoDatos / GuardandoDatos|
 

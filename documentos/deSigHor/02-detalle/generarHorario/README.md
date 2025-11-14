@@ -41,7 +41,7 @@ Especificación detallada del caso de uso `generarHorario()` mediante diagrama d
 
 <div align=center>
 
-|![Caso de uso: generarHorario()](/images/RUP/00-casos-uso/02-detalle/generarHorario/generarHorario.svg)|
+|![Caso de uso: generarHorario()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/generarHorario/generarHorario.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -59,7 +59,7 @@ Especificación detallada del caso de uso `generarHorario()` mediante diagrama d
 
 <div align=center>
 
-|![Wireframe: Confirmación de reemplazo de horario](/images/RUP/00-casos-uso/02-detalle/generarHorario/generarHorario-wireframe-confirmation.svg)|
+|![Wireframe: Confirmación de reemplazo de horario](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/generarHorario/generarHorario-wireframe-confirmation.svg)|
 |-|
 |**Estado**: ProvidingConfirmation|
 
@@ -69,7 +69,7 @@ Especificación detallada del caso de uso `generarHorario()` mediante diagrama d
 
 <div align=center>
 
-|![Wireframe: Datos insuficientes](/images/RUP/00-casos-uso/02-detalle/generarHorario/generarHorario-wireframe-insufficient.svg)|
+|![Wireframe: Datos insuficientes](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/generarHorario/generarHorario-wireframe-insufficient.svg)|
 |-|
 |**Estado**: Choice point - datos insuficientes|
 
@@ -79,7 +79,7 @@ Especificación detallada del caso de uso `generarHorario()` mediante diagrama d
 
 <div align=center>
 
-|![Wireframe: Generación en progreso](/images/RUP/00-casos-uso/02-detalle/generarHorario/generarHorario-wireframe-generating.svg)|
+|![Wireframe: Generación en progreso](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/generarHorario/generarHorario-wireframe-generating.svg)|
 |-|
 |**Estado**: Choice point - generación exitosa|
 

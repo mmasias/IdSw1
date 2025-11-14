@@ -33,7 +33,7 @@ Especificación detallada del caso de uso `eliminarPrograma()` mediante diagrama
 
 <div align=center>
 
-|![Caso de uso: eliminarPrograma()](/images/RUP/00-casos-uso/02-detalle/eliminarPrograma/eliminarPrograma.svg)|
+|![Caso de uso: eliminarPrograma()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarPrograma/eliminarPrograma.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -51,7 +51,7 @@ Especificación detallada del caso de uso `eliminarPrograma()` mediante diagrama
 
 <div align=center>
 
-|![Wireframe: Eliminación de programa](/images/RUP/00-casos-uso/02-detalle/eliminarPrograma/eliminarPrograma-wireframe.svg)|
+|![Wireframe: Eliminación de programa](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarPrograma/eliminarPrograma-wireframe.svg)|
 |-|
 |**Estado**: ConfirmandoEliminacion / EliminandoPrograma|
 

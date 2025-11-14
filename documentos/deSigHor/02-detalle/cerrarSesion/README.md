@@ -33,7 +33,7 @@ Especificación detallada del caso de uso `cerrarSesion()` mediante diagrama de 
 
 <div align=center>
 
-|![Caso de uso: cerrarSesion()](/images/RUP/00-casos-uso/02-detalle/cerrarSesion/cerrarSesion.svg)|
+|![Caso de uso: cerrarSesion()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/cerrarSesion/cerrarSesion.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -49,7 +49,7 @@ Especificación detallada del caso de uso `cerrarSesion()` mediante diagrama de 
 #### pantalla 1: confirmación de cierre
 <div align=center>
 
-|![Wireframe: Cerrar sesión](/images/RUP/00-casos-uso/02-detalle/cerrarSesion/cerrarSesion-wireframe.svg)|
+|![Wireframe: Cerrar sesión](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/cerrarSesion/cerrarSesion-wireframe.svg)|
 |-|
 |**Estado**: SolicitandoCierre → ConfirmandoCierre|
 

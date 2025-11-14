@@ -41,7 +41,7 @@ Especificación detallada del caso de uso `eliminarAula()` mediante diagrama de 
 
 <div align=center>
 
-|![Caso de uso: eliminarAula()](/images/RUP/00-casos-uso/02-detalle/eliminarAula/eliminarAula.svg)|
+|![Caso de uso: eliminarAula()](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarAula/eliminarAula.svg)|
 |-|
 |Código fuente: [especificacion.puml](especificacion.puml)|
 
@@ -59,7 +59,7 @@ Especificación detallada del caso de uso `eliminarAula()` mediante diagrama de 
 
 <div align=center>
 
-|![Wireframe: Eliminación de aula](/images/RUP/00-casos-uso/02-detalle/eliminarAula/eliminarAula-wireframe.svg)|
+|![Wireframe: Eliminación de aula](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarAula/eliminarAula-wireframe.svg)|
 |-|
 |**Estado**: ConfirmandoEliminacion / EliminandoAula|
 

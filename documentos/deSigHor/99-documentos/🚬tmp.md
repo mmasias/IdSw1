@@ -25,15 +25,15 @@
 
 <details>
 
-|![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarPrograma/eliminarPrograma.svg)|![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarProfesor/eliminarProfesor.svg)|
-|-|-|
+|![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarPrograma/eliminarPrograma.svg)|![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarProfesor/eliminarProfesor.svg)|![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarEdificio/eliminarEdificio.svg)
+|-|-|-|
 
 <details>
 
 #### Estructurar el modelo de casos de uso - 1
 
-|![](/images/documentos/deSigHor/02-detalle/solicitarConfirmacion/solicitarConfirmacion.svg)|![](/images/documentos/deSigHor/02-detalle/solicitarConfirmacion/solicitarConfirmacion-wireframe.svg)|![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarEdificio/eliminarEdificio.svg)
-|-|-|-|
+|![](/images/documentos/deSigHor/02-detalle/solicitarConfirmacion/solicitarConfirmacion.svg)|![](/images/documentos/deSigHor/02-detalle/solicitarConfirmacion/solicitarConfirmacion-wireframe.svg)
+|-|-|
 
 [Solicitar confirmación](/documentos/deSigHor/02-detalle/solicitarConfirmacion/README.md) / [En el proyecto](/documentos/deSigHor/99-documentos/diagramaConfirmacion.md)
 

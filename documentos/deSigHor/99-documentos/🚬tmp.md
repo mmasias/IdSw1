@@ -17,7 +17,11 @@
 
 <details>
 
+<div align=center>
+
 ![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarPrograma/eliminarPrograma.svg)
+
+</div>
 
 <details>
 
@@ -28,8 +32,8 @@
 
 #### Estructurar el modelo de casos de uso - 1
 
-|![](/images/documentos/deSigHor/02-detalle/solicitarConfirmacion/solicitarConfirmacion.svg)|![](/images/documentos/deSigHor/02-detalle/solicitarConfirmacion/solicitarConfirmacion-wireframe.svg)|
-|-|-|
+|![](/images/documentos/deSigHor/02-detalle/solicitarConfirmacion/solicitarConfirmacion.svg)|![](/images/documentos/deSigHor/02-detalle/solicitarConfirmacion/solicitarConfirmacion-wireframe.svg)|![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarEdificio/eliminarEdificio.svg)
+|-|-|-|
 
 [Solicitar confirmación](/documentos/deSigHor/02-detalle/solicitarConfirmacion/README.md) / [En el proyecto](/documentos/deSigHor/99-documentos/diagramaConfirmacion.md)
 

@@ -29,16 +29,12 @@ Diagrama: [eliminarPrograma](/documentos/deSigHor/02-detalle/eliminarPrograma/) 
 |![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarPrograma/eliminarPrograma.svg)|![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarProfesor/eliminarProfesor.svg)|
 |-|-|
 
-<details>
-
-#### [Solicitar confirmación](/documentos/deSigHor/99-documentos/diagramaConfirmacion.md)
+#### Estructurar el modelo de casos de uso
 
 |![](/images/documentos/deSigHor/02-detalle/solicitarConfirmacion/solicitarConfirmacion.svg)|![](/images/documentos/deSigHor/02-detalle/solicitarConfirmacion/solicitarConfirmacion-wireframe.svg)|
 |-|-|
 
-[Solicitar confirmación](/documentos/deSigHor/02-detalle/solicitarConfirmacion/README.md)
-
-</details>
+[Solicitar confirmación](/documentos/deSigHor/02-detalle/solicitarConfirmacion/README.md) / [En el proyecto](/documentos/deSigHor/99-documentos/diagramaConfirmacion.md)
 
 </details>
 

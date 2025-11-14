@@ -61,3 +61,25 @@
 </div>
 
 Esto justifica tanto los \<\<include>> como los \<\<extends>>
+
+#### Estructurar el modelo de casos de uso - 3
+
+|![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/abrirProgramas/abrirProgramas.svg)|![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/abrirCursos/abrirCursos.svg)|![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/abrirAulas/abrirAulas.svg)
+|-|-|-|
+
+<div align=center>
+
+|![](/images/documentos/deSigHor/02-detalle/_patterns/abrirEntidad/generalization.svg)
+|-|
+
+</div>
+
+- generalización:
+  - abrirProgramas() --|> abrirEntidad()
+  - abrirCursos() --|> abrirEntidad()
+  - abrirProfesores() --|> abrirEntidad()
+  - abrirAulas() --|> abrirEntidad()
+  - abrirEdificios() --|> abrirEntidad()
+  - abrirRecursos() --|> abrirEntidad()
+
+Esto demuestra herencia/especialización en casos de uso.

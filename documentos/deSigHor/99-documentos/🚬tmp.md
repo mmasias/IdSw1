@@ -6,16 +6,15 @@
 
 |||
 |-|-|
-**MdD**|[Diagrama](/documentos/deSigHor/00-modelo-del-dominio/modelo-dominio.md)
-**eAyCdU**|[Diagrama](/documentos/deSigHor/01-actores-casos-uso/actores-casos-uso.md#diagrama) + [**DdC**](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/99-seguimiento/diagrama-contexto-administrador.svg)
-**PCdU**| 🚬
-**dCdU & pCdU**|[crearPrograma](/documentos/deSigHor/02-detalle/crearPrograma/#diagrama-de-especificación) / [editarPrograma](/documentos/deSigHor/02-detalle/editarPrograma/#diagrama-de-especificación)
+**Modelo del Dominio**|[Diagrama](/documentos/deSigHor/00-modelo-del-dominio/modelo-dominio.md)
+**DISCIPLINA DE REQUISITOS**
+**1. Encontrar actores y casos de uso**|[Diagrama](/documentos/deSigHor/01-actores-casos-uso/actores-casos-uso.md#diagrama) + [**DdC**](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/99-seguimiento/diagrama-contexto-administrador.svg)
+**2. Priorizar casos de uso**| 🚬
+**3. y 4. Detallar y prototipar casos de uso**|[crearPrograma](/documentos/deSigHor/02-detalle/crearPrograma/#diagrama-de-especificación) / [editarPrograma](/documentos/deSigHor/02-detalle/editarPrograma/#diagrama-de-especificación)
 
 </div>
 
-### eCdU **🚬**
-
-<details>
+### 5. Estructurar casos de uso **🚬**
 
 <div align=center>
 
@@ -23,54 +22,42 @@
 
 </div>
 
-<details>
-
 |![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarPrograma/eliminarPrograma.svg)|![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarProfesor/eliminarProfesor.svg)|![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/eliminarEdificio/eliminarEdificio.svg)
 |-|-|-|
 
-<details>
-
 #### Estructurar el modelo de casos de uso - 1
+
+<div align=center>
 
 |![](/images/documentos/deSigHor/02-detalle/solicitarConfirmacion/solicitarConfirmacion.svg)|![](/images/documentos/deSigHor/02-detalle/solicitarConfirmacion/solicitarConfirmacion-wireframe.svg)
 |-|-|
 
-[Solicitar confirmación](/documentos/deSigHor/02-detalle/solicitarConfirmacion/README.md) / [En el proyecto](/documentos/deSigHor/99-documentos/diagramaConfirmacion.md)
+[CdU solicitarConfirmación()](/documentos/deSigHor/02-detalle/solicitarConfirmacion/README.md) / [CdU@DiagramaDeCdU](/documentos/deSigHor/99-documentos/diagramaConfirmacion.md)
 
-
-<details>
+</div>
 
 #### Estructurar el modelo de casos de uso - 2
+
+<div align=center>
 
 |![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/crearProfesor/crearProfesor.svg)|![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/editarProfesor/editarProfesor.svg)|
 |-|-|
 
-<details>
-
 ![](/images/documentos/deSigHor/02-detalle/guardarCambiosDePrograma/guardarCambiosDePrograma.svg)
+
+</div>
 
 - \<\<include\>\>:
   - crearPrograma() --> guardarCambiosDePrograma()
   - editarPrograma() --> guardarCambiosDePrograma()
 
-<details>
-
 ##### ¿Y si me voy a abrirPrograma() con cambios pendientes? (ver en [*DdC*](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/99-seguimiento/diagrama-contexto-administrador.svg))
 
-<details>
+<div align=center>
 
-![](https://raw.githubusercontent.com/mmasias/IdSw1/update2025/images/documentos/deSigHor/99-documentos/diagramaGuardarCambiosDePrograma.svg)
+|![](https://raw.githubusercontent.com/mmasias/IdSw1/update2025/images/documentos/deSigHor/99-documentos/diagramaGuardarCambiosDePrograma.svg)
+|-
 
-</details>
+</div>
 
-</details>
-
-</details>
-</details>
-
-</details>
-
-</details>
-
-</details>
-
+Esto justifica tanto los \<\<include>> como los \<\<extends>>

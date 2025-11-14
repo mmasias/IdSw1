@@ -16,7 +16,7 @@
 
 ### dCdU & pCdU
 
-Diagrama: [eliminarPrograma](/documentos/deSigHor/02-detalle/eliminarPrograma/) / [crearPrograma](/documentos/deSigHor/02-detalle/crearPrograma/) / [editarPrograma](/documentos/deSigHor/02-detalle/editarPrograma/)
+Diagrama: [crearPrograma](/documentos/deSigHor/02-detalle/crearPrograma/) / [editarPrograma](/documentos/deSigHor/02-detalle/editarPrograma/)
 
 ### eCdU **🚬**
 

@@ -2,21 +2,16 @@
 
 ## pySighor
 
-### MdD
+<div align=center>
 
-[Diagrama](/documentos/deSigHor/00-modelo-del-dominio/modelo-dominio.md)
+|||
+|-|-|
+**MdD**|[Diagrama](/documentos/deSigHor/00-modelo-del-dominio/modelo-dominio.md)
+**eAyCdU**|[Diagrama](/documentos/deSigHor/01-actores-casos-uso/actores-casos-uso.md) + [**DdC**](/documentos/deSigHor/01-actores-casos-uso/diagrama-contexto-administrador.md)
+**PCdU**| 🚬
+**dCdU & pCdU**|[crearPrograma](/documentos/deSigHor/02-detalle/crearPrograma/#diagrama-de-especificación) / [editarPrograma](/documentos/deSigHor/02-detalle/editarPrograma/#diagrama-de-especificación)
 
-### eAyCdU
-
-[Diagrama](/documentos/deSigHor/01-actores-casos-uso/actores-casos-uso.md) + [DdC](/documentos/deSigHor/01-actores-casos-uso/diagrama-contexto-administrador.md)
-
-### PCdU
-
- 🚬
-
-### dCdU & pCdU
-
-Diagrama: [crearPrograma](/documentos/deSigHor/02-detalle/crearPrograma/#diagrama-de-especificación) / [editarPrograma](/documentos/deSigHor/02-detalle/editarPrograma/#diagrama-de-especificación)
+</div>
 
 ### eCdU **🚬**
 

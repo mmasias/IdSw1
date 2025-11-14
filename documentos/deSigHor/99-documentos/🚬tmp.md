@@ -7,7 +7,7 @@
 |||
 |-|-|
 **MdD**|[Diagrama](/documentos/deSigHor/00-modelo-del-dominio/modelo-dominio.md)
-**eAyCdU**|[Diagrama](/documentos/deSigHor/01-actores-casos-uso/actores-casos-uso.md) + [**DdC**](/documentos/deSigHor/01-actores-casos-uso/diagrama-contexto-administrador.md)
+**eAyCdU**|[Diagrama](/documentos/deSigHor/01-actores-casos-uso/actores-casos-uso.md) + [**DdC**](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/99-seguimiento/diagrama-contexto-administrador.svg)
 **PCdU**| 🚬
 **dCdU & pCdU**|[crearPrograma](/documentos/deSigHor/02-detalle/crearPrograma/#diagrama-de-especificación) / [editarPrograma](/documentos/deSigHor/02-detalle/editarPrograma/#diagrama-de-especificación)
 

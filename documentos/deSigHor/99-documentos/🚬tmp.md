@@ -39,6 +39,7 @@
 
 
 <details>
+
 #### Estructurar el modelo de casos de uso - 2
 
 |![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/crearProfesor/crearProfesor.svg)|![](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/00-casos-uso/02-detalle/editarProfesor/editarProfesor.svg)|
@@ -54,7 +55,7 @@
 
 <details>
 
-##### ¿Y si me voy a abrirPrograma() con cambios pendientes?
+##### ¿Y si me voy a abrirPrograma() con cambios pendientes? (ver en [*DdC*](https://raw.githubusercontent.com/mmasias/pySigHor/main/images/RUP/99-seguimiento/diagrama-contexto-administrador.svg))
 
 <details>
 
